@@ -1,0 +1,160 @@
+{{ define "main" }}
+<style>
+.toc-container {
+    display: flex;
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.main-content {
+    flex: 1;
+    transition: all 0.3s ease;
+}
+.main-content.expanded {
+    flex: 1 1 100%;
+}
+.toc {
+    width: 250px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    transition: all 0.3s ease;
+}
+.toc.collapsed {
+    width: 60px;
+}
+.toc-content {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+.toc.collapsed .toc-content {
+    padding: 0.5rem;
+}
+.toc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease;
+}
+.toc.collapsed .toc-header {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.toc-title {
+    margin: 0;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #333;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.toc.collapsed .toc-title {
+    font-size: 0.7rem;
+}
+.toc-toggle {
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    padding: 0.25rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+.toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+    transition: all 0.3s ease;
+    font-size: 0.8rem;
+    color: #666;
+}
+.toc.collapsed .toc-list {
+    display: none;
+}
+.toc-list-item {
+    margin-bottom: 0.5rem;
+}
+.toc-link {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.8rem;
+}
+/* Style Hugo's generated TOC */
+.toc-list nav#TableOfContents {
+    font-size: 0.8rem;
+    color: #666;
+}
+.toc-list nav#TableOfContents ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.toc-list nav#TableOfContents li {
+    margin-bottom: 0.5rem;
+}
+.toc-list nav#TableOfContents a {
+    color: #666;
+    text-decoration: none;
+    display: block;
+    padding: 0.2rem 0;
+}
+.toc-list nav#TableOfContents a:hover {
+    color: #333;
+}
+</style>
+
+<div class="toc-container">
+    <main id="mainContent" class="main-content">
+        <h1 style="margin-top: 0;">{{ .Title }}</h1>
+        {{ .Content }}
+    </main>
+    <nav id="toc" class="toc">
+        <div class="toc-content">
+            <div class="toc-header">
+                <h3 class="toc-title">TOC</h3>
+                <button onclick="toggleToc()" class="toc-toggle">+</button>
+            </div>
+            <div class="toc-list">
+                {{ .TableOfContents }}
+            </div>
+        </div>
+    </nav>
+</div>
+
+<script>
+function toggleToc() {
+    const toc = document.getElementById('toc');
+    const mainContent = document.getElementById('mainContent');
+    const button = document.querySelector('.toc-toggle');
+    
+    if (toc.classList.contains('collapsed')) {
+        toc.classList.remove('collapsed');
+        mainContent.classList.remove('expanded');
+        button.textContent = '-';
+    } else {
+        toc.classList.add('collapsed');
+        mainContent.classList.add('expanded');
+        button.textContent = '+';
+    }
+}
+
+// Set initial state when page loads
+document.addEventListener('DOMContentLoaded', function() {
+    const toc = document.getElementById('toc');
+    const button = document.querySelector('.toc-toggle');
+    if (!toc.classList.contains('collapsed')) {
+        button.textContent = '-';
+    }
+});
+</script>
+{{ end }} 
