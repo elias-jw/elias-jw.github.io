@@ -7,9 +7,9 @@ url: "https://elias-jw.github.io"
 # baseurl:
 
 # Title of the Site
-title: Elias WILLEMSE
+title: "Elias WILLEMSE"
 # Description of the Site
-description: My personal website :-) still very much a work in progress...
+description: "My personal website :-) still very much a work in progress..."
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
@@ -41,7 +41,7 @@ linkedin_username: eliasjw
 # disqus-shortname: thedevslot
 
 # Name of the Author
-author-name: Elias J. Willemse
+author: "Elias J. Willemse"
 # URL for the Image of the Author
 author-image: /assets/images/Elias_blazer_blw_sml_less1mb.jpg
 # 60 Words About the Author
@@ -56,12 +56,12 @@ sass:
 
 # Build settings
 plugins:
-  - jekyll-admin
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-toc
 
 # Permalink
-permalink: "blog/:title"
+permalink: /:title/
 
 # Compress
 compress_html:
@@ -85,6 +85,94 @@ defaults:
 toc:
   min_level: 2 # default: 1
   max_level: 2 # default: 6
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - test-page.md
+  - about.md
+  - blog.md
+
+# Layout
+show_excerpts: true
+show_frame: true
+show_sidebar: false
+
+# Menu
+navigation:
+  - {file: "index.html", title: "Home"}
+  - {file: "project.md", title: "Projects"}
+  - {file: "about.md", title: "About"}
+
+external:
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/eliasjw"}
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-admin
+  - jekyll-toc
+
+# Build settings
+markdown: kramdown
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+remote_theme: niklasbuschmann/contrast@v2.11
+
+# Site settings
+author: "Elias J. Willemse"
+description: "My personal website :-) still very much a work in progress..."
+url: "https://elias-jw.github.io"
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+# Layout
+show_excerpts: true
+show_frame: true
+show_sidebar: false
+
+# Menu
+navigation:
+  - {file: "index.html", title: "Home"}
+  - {file: "project.md", title: "Projects"}
+  - {file: "about.md", title: "About"}
+
+external:
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/eliasjw"}
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-admin
+  - jekyll-toc
 
 # Exclude
 exclude:

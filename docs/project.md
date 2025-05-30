@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Projects
 permalink: /projects/
 toc: true
@@ -397,7 +397,7 @@ Business improvement project for plant nursery operations
 
 For this project I was responsible for conducting a business process improvement project at a wholesale plant nursery situated in Stellenbosch, South Africa. The aim of the project was to identify and improve processes that would have the greatest impact on the performance of the company. The main Industrial Engineering techniques that I used were business process mapping and data analysis.
 
-I used business process mapping to understand all the operational areas of the company, and to identify areas for improvement. I then applied data mining and business analytics on the company’s sales data by using ABC analysis to identify the top products and customers of the company. Next, I applied business analytics to automatically detect negative customer purchasing behaviours that indicates that a key client was likely to stop purchasing at the company. Through the analysis, order returns were identified as a major concern for the company. I used the same analysis to identify critical customers with high return rates, enabling the company to agree on quality standards with the company, thus reducing product returns.
+I used business process mapping to understand all the operational areas of the company, and to identify areas for improvement. I then applied data mining and business analytics on the company's sales data by using ABC analysis to identify the top products and customers of the company. Next, I applied business analytics to automatically detect negative customer purchasing behaviours that indicates that a key client was likely to stop purchasing at the company. Through the analysis, order returns were identified as a major concern for the company. I used the same analysis to identify critical customers with high return rates, enabling the company to agree on quality standards with the company, thus reducing product returns.
 
 In addition to the data analysis, I also developed plant inventory models to assist the company in better planning its production runs. The ABC product analysis was further used to relocate high demand products to centrally located storage areas. Lastly, the data analysis was used to determine the optimal vehicle delivery fleet size and usage patterns.
 
@@ -415,9 +415,9 @@ Mar 2012 - May 2012
 
 Business Process Re-engineering
 
-The goal of Eskom’s Back-2-Basics program is to enable effective decision making and improving operational performance by simplifying, standardising and optimising processes and systems across Eskom.
+The goal of Eskom's Back-2-Basics program is to enable effective decision making and improving operational performance by simplifying, standardising and optimising processes and systems across Eskom.
 
-My involvement with the project was with the Eskom Engineering department, and within the Perform Technical Management function. The function consisted of ten processes, and all had to be developed by a multidisciplinary team of external consultants in collaboration with Eskom employees. The ten tasks were assigned to ten groups, each consisting of a senior process engineer, senior process modeller, subject matter expert and an Eskom process owner. My involvement was as the senior process engineer for the process Manage Technical Data. Our team’s task was to develop the sub-processes, tasks, activities, key performance Indicators and supporting systems and artefacts for the process. The team further had to identify and establish all the interfaces with other processes.
+My involvement with the project was with the Eskom Engineering department, and within the Perform Technical Management function. The function consisted of ten processes, and all had to be developed by a multidisciplinary team of external consultants in collaboration with Eskom employees. The ten tasks were assigned to ten groups, each consisting of a senior process engineer, senior process modeller, subject matter expert and an Eskom process owner. My involvement was as the senior process engineer for the process Manage Technical Data. Our team's task was to develop the sub-processes, tasks, activities, key performance Indicators and supporting systems and artefacts for the process. The team further had to identify and establish all the interfaces with other processes.
 
 My specific role was to manage the process team, ensuring that the process was developed and approved by Eskom, on time and in line with the overall Back2Basics project objectives. As such I reported directly to the project manager for the Perform Technical Management function. I was further responsible for facilitating the team workshops, and for applying process improvement principles during the development of the process.
 
@@ -449,7 +449,7 @@ For implementation at Ekurhuleni Municipality, the existing waste collection and
 
 AI models for electricity capacity expansion planning
 
-Part of a CSIR research team that assisted ESKOM (South African electricity public utility) in improving their electricity capacity expansion planning. The key activities of the project were to improve the utility’s existing planning efforts, and to identify and evaluate new expansion planning methods. My tasks were, firstly, to identify improvements in the Utility’s existing planning methods, focussing specifically on its planning software, and to conduct workshops to implement the improvements. My second task was to implement and test improved expansion planning optimisation models, identified by the Utility; and then in conjunction with the project team, to evaluate the models and report the results to the customer.
+Part of a CSIR research team that assisted ESKOM (South African electricity public utility) in improving their electricity capacity expansion planning. The key activities of the project were to improve the utility's existing planning efforts, and to identify and evaluate new expansion planning methods. My tasks were, firstly, to identify improvements in the Utility's existing planning methods, focussing specifically on its planning software, and to conduct workshops to implement the improvements. My second task was to implement and test improved expansion planning optimisation models, identified by the Utility; and then in conjunction with the project team, to evaluate the models and report the results to the customer.
 
 ## Integrated renewable energy systems modelling
 
@@ -483,8 +483,8 @@ AI model for security route planning
 
 The objective of the project was to improve the security system of Midfield-Estate, a security estate situated in Gauteng, South Africa, by developing optimisation algorithms capable of generating unpredictable patrol routes for security guards. The resulting routes that the algorithms generated made the patrolling of the estate unpredictable, resulted a significant improvement in the even patrolling of the road network, and resulted in a more balanced work distribution among guards. For the project, the following tasks were performed:
 
-Data gathering and analysis: A Graphical Information System Software package (ArcGIS) was used to capture the estate’s road network, and to analyse the effectiveness of the existing patrolling. The analyses were then used to identify improvement opportunities and to formulate the main objective functions by which to measure the effectiveness of patrol routes.
+Data gathering and analysis: A Graphical Information System Software package (ArcGIS) was used to capture the estate's road network, and to analyse the effectiveness of the existing patrolling. The analyses were then used to identify improvement opportunities and to formulate the main objective functions by which to measure the effectiveness of patrol routes.
 
 Algorithm development: Optimisation algorithms, incorporating elements of artificial intelligence, were developed capable of generating patrol routes for security guards. The algorithms addressed all the objectives identified in the data analysis phase and were benchmarked using international data sets to ensure that they produced high quality routes.
 
-Implementation: For the final phase of the project, multiple routes were developed for the security estate. The efficiencies of the routes were measured using the developed objective functions and compared against the existent routes. Detailed maps and routing instructions were developed and presented to the Estate’s security management for final implementation.
+Implementation: For the final phase of the project, multiple routes were developed for the security estate. The efficiencies of the routes were measured using the developed objective functions and compared against the existent routes. Detailed maps and routing instructions were developed and presented to the Estate's security management for final implementation.
