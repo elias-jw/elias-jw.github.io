@@ -1,6 +1,6 @@
 +++
 title = "About"
-date = "2024-03-19"
+date = "2025-05-30"
 +++
 
 I'm a technical entrepreneur, based in London, with over 15 years of experience in AI, using it to solve problems in traditional industries (logistics, returnable packaging, waste management, urban planning). It has been an interesting journey, with unexpected turns, pleasantly unexpected turns, to list a few:
