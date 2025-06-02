@@ -1,0 +1,10 @@
+{{ $image := .Get "image" }}
+{{ $alt := .Get "alt" }}
+<div class="about-hero">
+    <div class="about-image">
+        <img src="{{ $image }}" alt="{{ $alt }}">
+    </div>
+    <div class="about-text">
+        {{ .Inner }}
+    </div>
+</div> 

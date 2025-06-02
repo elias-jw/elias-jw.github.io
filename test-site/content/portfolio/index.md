@@ -29,11 +29,17 @@ date = "2024-03-19"
 }
 </style>
 
-The following is a summary of projects and products that I completed between 2020 and 2024 at [Waste Labs](wastelabs.co), where I am the co-founder and CTO, and between 2007 and 2019 in different research and consulting capacities. For my full work history, please refer to my [CV](https://drive.google.com/file/d/1MD6y9CAls64zxCIzWVkpJzImzfY4o2Bg/view?usp=sharing).
+The following is a summary of projects and products that I completed between 2020 and 2024 at Waste Labs, where I was the co-founder and CTO, and between 2007 and 2019 in different research and consulting capacities. For my full work history, please refer to my [CV](https://drive.google.com/file/d/1MD6y9CAls64zxCIzWVkpJzImzfY4o2Bg/view?usp=sharing) and LinkedIn [page](https://www.linkedin.com/in/eliasjw/).
+
+<div class="about-image">
+    <img src="/images/alwang-circles-on-circles-bc694c35ca.png" alt="Circles on circles" style="width: 33%">
+</div>
+<span style="color: #666; font-size: 0.8em;"><a href="https://turtletoy.net/turtle/bc694c35ca/">Circles on circles</a>, CC BY-NC-SA 4.0
+<span>
 
 ---
 
-## AI for public waste and recycling planning {#ai-for-public-waste-and-recycling-planning}
+## AI for public waste and recycling tenders {#ai-for-public-waste-and-recycling-planning}
 
 **Date**: Jun 2020 - Oct 2023
 
@@ -41,7 +47,7 @@ The following is a summary of projects and products that I completed between 202
 
 **External client**: ALBA WH (Singapore), ALBA Smart City Logistics (Hong Kong)
 
-**Type**: Technical consulting via internal AI tools
+**Type**: Services via AI tools
 
 **Value add**: Helped client secure £200m in new business
 

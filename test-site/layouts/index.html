@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<h1>Hi!</h1>
+
+I'm Elias and I'm a technical entrepreneur, based in London, with over 15 years of experience in AI, using it to solve problems in traditional industries. See <a href="about/">about</a> and my work <a href="portfolio/">portfolio</a> for more info.
+I mostly <a href="posts/">post</a> technical, startup and business related stuff.
+
+<div class="featured-image" style="width: 100%; margin: 2rem 0; overflow: hidden;">
+    <img src="/images/Asymmetree.svg.png" alt="A fractal-tree with asymmetric leaves" style="width: 25%; height: auto; display: block;">
+</div>
+<span style="color: #666; font-size: 0.8em;">An <a href="https://commons.m.wikimedia.org/wiki/File:Asymmetree.svg/">assymmetree</a> tree, CC-BY-SA.</span>
+
+<h1>Latest posts</h1>
+
+<div class="posts-list">
+{{ with .Site.GetPage "/posts" }}
+    {{ range first 3 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+        <div class="post">
+            <p>
+                <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
+                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                {{ .Summary }}
+            </p>
+        </div>    
+    {{ end }}
+{{ end }}
+</div>
+
+{{ end }} 

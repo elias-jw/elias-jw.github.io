@@ -3,101 +3,40 @@ title = "About"
 date = "2025-05-30"
 +++
 
-I'm a technical entrepreneur, based in London, with over 15 years of experience in AI, using it to solve problems in traditional industries (logistics, returnable packaging, waste management, urban planning). It has been an interesting journey, with unexpected turns, pleasantly unexpected turns, to list a few:
+My name is Elias Willemse<sup style="color: #666; font-size: 0.8em;">1</sup> and I'm a technical entrepreneur, based in London, with over 15 years of experience in AI, using it to solve problems in traditional industries (logistics, returnable packaging, waste management, urban planning). It's a journey with unexpected turns, pleasantly unexpected turns.
+
+<td class="about-image" style="width: 40%;">
+<img src="/images/oxford_circus_station_2014.jpeg" alt="Oxford Circus Station" class="img-spacing">
+</td>
+<span style="color: #666; font-size: 0.8em;">Oxford Circus station, London, 2014, taken during a 1-week holiday.</span>
+<br></br>
+To list but a few:
 
 - a PhD, in optimization algorithms for waste logistics, of all applications; 
-- being a senior lecturer, and having to teach to over 1400 students;
-- research fellowships, more than one, ok twice to be exact; and
-- starting a venture backed AI company, and closing a venture backed AI company. 
+- being a senior lecturer, and having to teach to over 1400 students (I'm never doing that again, thank you);
+- starting a venture backed AI company, and closing a venture backed AI company;
+- get ready to start another AI company, but now more sensibly, given what I've learned  (it's going to be different this time... right?? Right??!!).
+
 
 All of this, while moving from South Africa, to Singapore and now London.
 
-A guarenteed-to-be-outdated version of my CV can be found [here](https://drive.google.com/file/d/1MD6y9CAls64zxCIzWVkpJzImzfY4o2Bg/view). I'm also on [LinkedIn](https://www.linkedin.com/in/eliasjw/); guarenteed to be less outdateded, except for the profile picture, which is guarenteed-to-be-outdated (GTBO?). My work portfolio can be found [here](https://elias-jw.github.io/projects/), also GTBO.
+## More on me, but elsewhere
+
+A guaranteed-to-be-outdated version of my CV can be found [here](https://drive.google.com/file/d/1MD6y9CAls64zxCIzWVkpJzImzfY4o2Bg/view). I'm also on [LinkedIn](https://www.linkedin.com/in/eliasjw/); guaranteed to be less outdated, except for the profile picture, which is guaranteed-to-be-outdated (GTBO?). My work portfolio can be found [here](https://elias-jw.github.io/projects/), also GTBO.
 
 ## Journey
 
 - South Africa → Singapore → London
-- Research → Industry → Academic → Entrepreneurship
+- Research → Industry → Academia → Entrepreneurship
 - 15+ years in AI and Data
 
-## Features
+## Contact
 
-- Clean and minimal design
-- Terminal-inspired interface
-- Responsive layout
-- Fast loading times
+I'm always interested in hearing about new opportunities, collaborations, or just having a chat about AI and technology. Feel free to reach out through any of the following channels:
 
-A minimal and responsive Hugo theme inspired by the system console, crafted for optimal performance with an average page load time of under one second.
+- _Email_: [elias.jw.public@gmail.com](mailto:elias.jw.public@gmail.com)
+- _LinkedIn_: [linkedin.com/in/eliasjw](https://www.linkedin.com/in/eliasjw/)
+- _Location_: Based in London, UK 
 
-Theme is based on a modern and minimal [Terminal CSS](https://terminalcss.xyz/) framework. 
-
-![Console](https://github.com/mrmierzejewski/hugo-theme-console/blob/master/images/preview.png?raw=true)
-
-## Live demo
-
-* [https://mrmierzejewski.com/hugo-theme-console/](https://mrmierzejewski.com/hugo-theme-console/)
-
-## Installation
-
-From the root of your Hugo site, clone the theme into ```themes/hugo-theme-console``` by running :
-
-```
-$ git submodule add https://github.com/mrmierzejewski/hugo-theme-console.git hugo-theme-console
-```
-    
-See the [Hugo documentation](https://gohugo.io/hugo-modules/theme-components/) for more information.
-
-## Configuration
-
-Set theme parameter in your config file:
-
-```
-theme = "hugo-theme-console"
-```
-
-## Quick start
-
-After installation, take a look in the `exampleSite` folder at. This directory contains an example config file and the content for the demo.
-
-```
-  exampleSite
-  ├── config.toml
-  ├── content
-  │   ├── about
-  │   │   └── index.md
-  │   └── photos
-  │   │   └── arizona-us
-  │   │       ├── arizona-us.jpg
-  │   │       └── index.md
-  │   └── posts
-  │       └── introduction
-  │           └── index.md
-  ├── layouts
-  │
-  └── static
-```
-
-Copy at least the `config.toml` in the root directory of your website. Overwrite the existing config file if necessary.
-
-Hugo includes a development server, so you can view your changes as you go -
-very handy. Spin it up with the following command:
-
-```
-hugo serve
-```
-
-Now you can go to [http://localhost:1313](http://localhost:1313) and the theme should be visible.
-
-## Example Site
-
-To run the example site, please type the following command.
-
-```
-make hugo-server
-```
-
-## License
-
-Copyright © 2024 [Marcin Mierzejewski](https://mrmierzejewski.com/)
-
-The theme is released under the MIT License. Check the [original theme license](https://github.com/panr/hugo-theme-terminal/blob/master/LICENSE.md) for additional licensing information.
+---
+<sup style="color: #666; font-size: 0.8em;">1</sup><span style="color: #666; font-size: 0.8em;">My surname is Willemse, a bit tricky to pronounce. The "W" is pronounced the same as "v" in "violin", the "em" is closer to "uhm". So together it sounds like "Vill-uhm-se".</span>

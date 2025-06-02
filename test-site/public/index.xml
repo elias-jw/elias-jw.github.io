@@ -6,21 +6,28 @@
     <description>Recent content on Elias J. Willemse</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Short-blogs</title>
+      <link>http://localhost:1313/posts/short-blogs/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/short-blogs/</guid>
+      <description>&lt;p&gt;A bunch of short blogs and thoughts, in no particular order. Insults are mostly self directed.&lt;/p&gt;&#xA;&lt;div class=&#34;about-image&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/Cicle_inversion.svg.png&#34; alt=&#34;Circle inversion&#34; style=&#34;width: 25%&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;span style=&#34;color: #666; font-size: 0.8em;&#34;&gt;&lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Cicle_inversion.svg/&#34;&gt;Circle inversion&lt;/a&gt; tree, CC-BY-SA&lt;/span&gt;&#xA;&lt;br&gt;&lt;/br&gt;&#xA;&lt;h3 id=&#34;80-20-rule-in-small-vs-big-companies&#34;&gt;80-20 rule in small vs big companies&lt;/h3&gt;&#xA;&lt;p&gt;In a small company, 80% of what you do doesn&amp;rsquo;t really matter. In a large company, there is a 80% chance that nothing you do matters.&lt;/p&gt;&#xA;&lt;p&gt;PS: In a small company, there is also a 95% chance that the company will eventually fail, making all your contributions useless. Unless you learned from it.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a technical entrepreneur, based in London, with over 15 years of experience in AI, using it to solve problems in traditional industries (logistics, returnable packaging, waste management, urban planning). It has been an interesting journey, with unexpected turns, pleasantly unexpected turns, to list a few:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;a PhD, in optimization algorithms for waste logistics, of all applications;&lt;/li&gt;&#xA;&lt;li&gt;being a senior lecturer, and having to teach to over 1400 students;&lt;/li&gt;&#xA;&lt;li&gt;research fellowships, more than one, ok twice to be exact; and&lt;/li&gt;&#xA;&lt;li&gt;starting a venture backed AI company, and closing a venture backed AI company.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;All of this, while moving from South Africa, to Singapore and now London.&lt;/p&gt;</description>
+      <description>&lt;p&gt;My name is Elias Willemse&lt;sup style=&#34;color: #666; font-size: 0.8em;&#34;&gt;1&lt;/sup&gt; and I&amp;rsquo;m a technical entrepreneur, based in London, with over 15 years of experience in AI, using it to solve problems in traditional industries (logistics, returnable packaging, waste management, urban planning). It&amp;rsquo;s a journey with unexpected turns, pleasantly unexpected turns.&lt;/p&gt;&#xA;&lt;td class=&#34;about-image&#34; style=&#34;width: 40%;&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/oxford_circus_station_2014.jpeg&#34; alt=&#34;Oxford Circus Station&#34; class=&#34;img-spacing&#34;&gt;&#xA;&lt;/td&gt;&#xA;&lt;span style=&#34;color: #666; font-size: 0.8em;&#34;&gt;Oxford Circus station, London, 2014, taken during a 1-week holiday.&lt;/span&gt;&#xA;&lt;br&gt;&lt;/br&gt;&#xA;To list but a few:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;a PhD, in optimization algorithms for waste logistics, of all applications;&lt;/li&gt;&#xA;&lt;li&gt;being a senior lecturer, and having to teach to over 1400 students (I&amp;rsquo;m never doing that again, thank you);&lt;/li&gt;&#xA;&lt;li&gt;starting a venture backed AI company, and closing a venture backed AI company;&lt;/li&gt;&#xA;&lt;li&gt;get ready to start another AI company, but now more sensibly, given what I&amp;rsquo;ve learned  (it&amp;rsquo;s going to be different this time&amp;hellip; right?? Right??!!).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;All of this, while moving from South Africa, to Singapore and now London.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Portfolio</title>
       <link>http://localhost:1313/portfolio/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/</guid>
-      <description>&lt;style&gt;&#xA;.video-grid {&#xA;  display: grid;&#xA;  grid-template-columns: repeat(2, 1fr);&#xA;  gap: 20px;&#xA;  margin: 20px 0;&#xA;  max-width: 1200px;&#xA;  margin-left: auto;&#xA;  margin-right: auto;&#xA;}&#xA;.video-grid iframe {&#xA;  width: 100%;&#xA;  height: 315px;&#xA;}&#xA;@media (max-width: 1200px) {&#xA;  .video-grid {&#xA;    grid-template-columns: repeat(2, 1fr);&#xA;  }&#xA;}&#xA;@media (max-width: 768px) {&#xA;  .video-grid {&#xA;    grid-template-columns: 1fr;&#xA;  }&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;p&gt;The following is a summary of projects and products that I completed between 2020 and 2024 at &lt;a href=&#34;wastelabs.co&#34;&gt;Waste Labs&lt;/a&gt;, where I am the co-founder and CTO, and between 2007 and 2019 in different research and consulting capacities. For my full work history, please refer to my &lt;a href=&#34;https://drive.google.com/file/d/1MD6y9CAls64zxCIzWVkpJzImzfY4o2Bg/view?usp=sharing&#34;&gt;CV&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;style&gt;&#xA;.video-grid {&#xA;  display: grid;&#xA;  grid-template-columns: repeat(2, 1fr);&#xA;  gap: 20px;&#xA;  margin: 20px 0;&#xA;  max-width: 1200px;&#xA;  margin-left: auto;&#xA;  margin-right: auto;&#xA;}&#xA;.video-grid iframe {&#xA;  width: 100%;&#xA;  height: 315px;&#xA;}&#xA;@media (max-width: 1200px) {&#xA;  .video-grid {&#xA;    grid-template-columns: repeat(2, 1fr);&#xA;  }&#xA;}&#xA;@media (max-width: 768px) {&#xA;  .video-grid {&#xA;    grid-template-columns: 1fr;&#xA;  }&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;p&gt;The following is a summary of projects and products that I completed between 2020 and 2024 at Waste Labs, where I was the co-founder and CTO, and between 2007 and 2019 in different research and consulting capacities. For my full work history, please refer to my &lt;a href=&#34;https://drive.google.com/file/d/1MD6y9CAls64zxCIzWVkpJzImzfY4o2Bg/view?usp=sharing&#34;&gt;CV&lt;/a&gt; and LinkedIn &lt;a href=&#34;https://www.linkedin.com/in/eliasjw/&#34;&gt;page&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Warsaw, Poland</title>
@@ -63,20 +70,6 @@
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/photos/panaji-india-2/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/w/index.php?title=Panaji&amp;amp;oldid=949879387&#34;&gt;Panaji&lt;/a&gt;, formerly Panjim, is the capital of the Indian state of Goa and the headquarters of North Goa district. It lies on the banks of the Mandovi River estuary in the Ilhas de Goa sub-district (taluka). With a population of 114,759 in the metropolitan area, Panjim is Goa&amp;rsquo;s largest urban agglomeration, ahead of Margão and Vasco da Gama.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>What is Hugo?</title>
-      <link>http://localhost:1313/posts/what-is-hugo/</link>
-      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/what-is-hugo/</guid>
-      <description>&lt;p&gt;Hugo is an open-source project and lives by the work of its contributors. There are plenty of open issues, and we need your help to make Hugo even more awesome. You don&amp;rsquo;t need to be a Go guru to contribute to the project&amp;rsquo;s development.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Introduction</title>
-      <link>http://localhost:1313/posts/introduction/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/introduction/</guid>
-      <description>&lt;p&gt;Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

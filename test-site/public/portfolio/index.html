@@ -25,9 +25,9 @@
 
 <meta name="twitter:title" content="Portfolio"/>
 <meta name="twitter:description" content="
-The following is a summary of projects and products that I completed between 2020 and 2024 at Waste Labs, where I am the co-founder and CTO, and between 2007 and 2019 in different research and consulting capacities. For my full work history, please refer to my CV."/>
+The following is a summary of projects and products that I completed between 2020 and 2024 at Waste Labs, where I was the co-founder and CTO, and between 2007 and 2019 in different research and consulting capacities. For my full work history, please refer to my CV and LinkedIn page."/>
 
-</head>
+<link rel="stylesheet" href="/css/custom.css"> </head>
 <body class="terminal">
     <div class="container">
         <div class="terminal-nav">
@@ -58,12 +58,6 @@ The following is a summary of projects and products that I completed between 202
                     <meta property="position" content="3" />
                 </li>
                 
-                <li property="itemListElement" typeof="ListItem">
-                    <a property="item" typeof="WebPage" href="/contact/">
-                    <span property="name">contact/</span></a>
-                    <meta property="position" content="4" />
-                </li>
-                
             </ul>
           </nav>
         </div>
@@ -75,13 +69,15 @@ The following is a summary of projects and products that I completed between 202
 .toc-container {
     display: flex;
     gap: 2rem;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 1rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .main-content {
     flex: 1;
     transition: all 0.3s ease;
+    max-width: none;
+    margin: 0;
 }
 .main-content.expanded {
     flex: 1 1 100%;
@@ -213,13 +209,18 @@ The following is a summary of projects and products that I completed between 202
   }
 }
 </style>
-<p>The following is a summary of projects and products that I completed between 2020 and 2024 at <a href="wastelabs.co">Waste Labs</a>, where I am the co-founder and CTO, and between 2007 and 2019 in different research and consulting capacities. For my full work history, please refer to my <a href="https://drive.google.com/file/d/1MD6y9CAls64zxCIzWVkpJzImzfY4o2Bg/view?usp=sharing">CV</a>.</p>
+<p>The following is a summary of projects and products that I completed between 2020 and 2024 at Waste Labs, where I was the co-founder and CTO, and between 2007 and 2019 in different research and consulting capacities. For my full work history, please refer to my <a href="https://drive.google.com/file/d/1MD6y9CAls64zxCIzWVkpJzImzfY4o2Bg/view?usp=sharing">CV</a> and LinkedIn <a href="https://www.linkedin.com/in/eliasjw/">page</a>.</p>
+<div class="about-image">
+    <img src="/images/alwang-circles-on-circles-bc694c35ca.png" alt="Circles on circles" style="width: 33%">
+</div>
+<span style="color: #666; font-size: 0.8em;"><a href="https://turtletoy.net/turtle/bc694c35ca/">Circles on circles</a>, CC BY-NC-SA 4.0
+<span>
 <hr>
-<h2 id="ai-for-public-waste-and-recycling-planning">AI for public waste and recycling planning</h2>
+<h2 id="ai-for-public-waste-and-recycling-planning">AI for public waste and recycling tenders</h2>
 <p><strong>Date</strong>: Jun 2020 - Oct 2023</p>
 <p><strong>Company</strong>: Waste Labs</p>
 <p><strong>External client</strong>: ALBA WH (Singapore), ALBA Smart City Logistics (Hong Kong)</p>
-<p><strong>Type</strong>: Technical consulting via internal AI tools</p>
+<p><strong>Type</strong>: Services via AI tools</p>
 <p><strong>Value add</strong>: Helped client secure £200m in new business</p>
 <p>We developed optimisation algorithms to calculate optimal resource requirements for large public waste collection tenders in Singapore and Hong Kong. The calculations were used by ALBA to formulate their bids. We further developed optimisation algorithms to find the optimal placement of electronic waste collection points and reverse vending machines for the general public.</p>
 <p>A big challenge of the project was limited data. To ensure quality results, a wide array of national and international public data sources were scraped, cleaned and merged. These are still being used by the client.</p>
@@ -553,7 +554,7 @@ The following is a summary of projects and products that I completed between 202
             <div class="toc-list">
                 <nav id="TableOfContents">
   <ul>
-    <li><a href="#ai-for-public-waste-and-recycling-planning">AI for public waste and recycling planning</a></li>
+    <li><a href="#ai-for-public-waste-and-recycling-planning">AI for public waste and recycling tenders</a></li>
     <li><a href="#ai-collection-planning-and-next-day-dispatching-system">AI collection planning and next day dispatching system</a></li>
     <li><a href="#circle-design">CIRCLE Design: recycling simulation and financial analysis AI platform</a></li>
     <li><a href="#ai-for-recycling-and-waste-collection-analyses">AI for recycling and waste collection analyses</a></li>
@@ -609,11 +610,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-        <div class="footer">
-    Powered by <a href="https://gohugo.io/">Hugo</a> with
-    <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>. 
-</div>
-
+         
     </div>
   </body>
 </html>
