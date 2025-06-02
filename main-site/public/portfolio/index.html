@@ -571,6 +571,7 @@ The following is a summary of projects and products that I completed between 202
 <p>Implementation: For the final phase of the project, multiple routes were developed for the security estate. The efficiencies of the routes were measured using the developed objective functions and compared against the existent routes. Detailed maps and routing instructions were developed and presented to the Estate&rsquo;s security management for final implementation.</p>
 
     </main>
+    
     <nav id="toc" class="toc">
         <div class="toc-content">
             <div class="toc-header">
@@ -607,6 +608,7 @@ The following is a summary of projects and products that I completed between 202
             </div>
         </div>
     </nav>
+    
 </div>
 
 <script>
@@ -630,7 +632,7 @@ function toggleToc() {
 document.addEventListener('DOMContentLoaded', function() {
     const toc = document.getElementById('toc');
     const button = document.querySelector('.toc-toggle');
-    if (!toc.classList.contains('collapsed')) {
+    if (toc && !toc.classList.contains('collapsed')) {
         button.textContent = '-';
     }
 });

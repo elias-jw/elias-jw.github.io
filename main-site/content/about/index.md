@@ -5,9 +5,9 @@ date = "2025-05-30"
 
 My name is Elias Willemse<sup style="color: #666; font-size: 0.8em;">1</sup> and I'm a technical entrepreneur, based in London, with over 15 years of experience in AI, using it to solve problems in traditional industries (logistics, returnable packaging, waste management, urban planning). It's a journey with unexpected turns, pleasantly unexpected turns.
 
-<td class="about-image" style="width: 40%;">
-<img src="/images/oxford_circus_station_2014.jpeg" alt="Oxford Circus Station" class="img-spacing">
-</td>
+<div class="about-image">
+    <img src="/images/oxford_circus_station_2014.jpeg" alt="Oxford Circus Station" style="width: 55%">
+</div>
 <span style="color: #666; font-size: 0.8em;">Oxford Circus station, London, 2014, taken during a 1-week holiday.</span>
 <br></br>
 To list but a few:
