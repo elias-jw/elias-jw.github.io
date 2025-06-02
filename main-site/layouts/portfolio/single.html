@@ -22,6 +22,7 @@
     top: 0;
     height: 100vh;
     transition: all 0.3s ease;
+    display: block !important; /* Force display */
 }
 .toc.collapsed {
     width: 60px;
@@ -31,6 +32,7 @@
     padding: 1rem;
     border-radius: 4px;
     transition: all 0.3s ease;
+    display: block !important; /* Force display */
 }
 .toc.collapsed .toc-content {
     padding: 0.5rem;
@@ -79,6 +81,7 @@
     transition: all 0.3s ease;
     font-size: 0.8rem;
     color: #666;
+    display: block !important; /* Force display */
 }
 .toc.collapsed .toc-list {
     display: none;
@@ -95,6 +98,7 @@
 .toc-list nav#TableOfContents {
     font-size: 0.8rem;
     color: #666;
+    display: block !important; /* Force display */
 }
 .toc-list nav#TableOfContents ul {
     list-style: none;
@@ -125,7 +129,7 @@
         <div class="toc-content">
             <div class="toc-header">
                 <h3 class="toc-title">TOC</h3>
-                <button onclick="toggleToc()" class="toc-toggle">+</button>
+                <button onclick="toggleToc()" class="toc-toggle">-</button>
             </div>
             <div class="toc-list">
                 {{ .TableOfContents }}
