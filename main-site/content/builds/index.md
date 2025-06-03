@@ -15,4 +15,4 @@ Documentation of completed projects and what I learned from them.
 
 ---
 
-_This page is under construction. More content coming soon._ 
+_This page is under construction. More content coming soon.

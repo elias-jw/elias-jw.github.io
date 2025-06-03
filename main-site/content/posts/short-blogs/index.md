@@ -19,15 +19,25 @@ PS: In a small company, there is also a 95% chance that the company will eventua
 
 ### Discomfort
 
-Heuristic for deciding between being an employee vs a founder: discomfort being an employee >> discomfort being a founder. If not, or if you don't feel any discomfort as an employee, don't become a founder!
+Heuristic for deciding between being an employee vs a founder: 
+
+- discomfort being an employee >> discomfort being a founder. 
+
+If not, or if you don't feel any discomfort as an employee, don't become a founder!
 
 ### Bell-curve pay
 
-It doesn't matter how good you are, if the mean (or median) pay is low, you will never get payed a high wage. The right-tail (really good people) have to compensate for the left-tail (not so good people that still get paid).
+It doesn't matter how good you are, if the mean (or median) pay is low, you will never get a high wage. The right-tail (really good people) have to compensate for the left-tail (not so good people that still get paid).
 
 ### Hiring and false positives
 
-Hiring is about avoiding false-positives, as they are extremely costly: difficulty in firing people, lost cost and time, and now you have to recruit again. The benefit of an amazing candidate over an adequate one is not as much as the cost of false positives. Hence why irrational recruiting practices, with excessive barriers to entry, are actually quite rational.  So recruiting is false positive elimination.
+Hiring is about avoiding false-positives. They are extremely costly: 
+
+- difficulty in firing people, 
+- lost cost and time, and 
+- now you have to recruit again. 
+
+The benefit of an amazing candidate over an adequate one is not as much as the cost of a false positive. Irrational recruiting practices, with excessive barriers to entry, are actually quite rational. Recruiting is false positive elimination.
 
 ### Indecision Ponzi scheme
 
@@ -187,7 +197,7 @@ It's just an upfront investment for later payoff, identical to automation. So ho
 
 ### Outliers
 
-There is a fast difference between being an outlier in a business vs being an outlier with a business.
+There is a vast difference between being an outlier in a business vs being an outlier with a business.
 
 ### "What would you do if you didn't have to worry about money?"
 

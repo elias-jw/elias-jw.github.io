@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Elias J. Willemse</title>
-    <link>//localhost:1313/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Elias J. Willemse</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Short-blogs</title>
-      <link>//localhost:1313/posts/short-blogs/</link>
+      <link>http://localhost:1313/posts/short-blogs/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/short-blogs/</guid>
-      <description>&lt;p&gt;A bunch of short blogs and thoughts, in no particular order. Insults are mostly self directed.&lt;/p&gt;&#xA;&lt;div class=&#34;about-image&#34;&gt;&#xA;    &lt;img src=&#34;//localhost:1313/images/Cicle_inversion.svg.png&#34; alt=&#34;Circle inversion&#34; style=&#34;width: 50%; height: auto; display: block; margin: 0 auto;&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;span style=&#34;color: #666; font-size: 0.8em; text-align: center; display: block;&#34;&gt;&lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Cicle_inversion.svg/&#34;&gt;Circle inversion&lt;/a&gt; tree, CC-BY-SA 3.0&lt;/span&gt;&#xA;&lt;br&gt;&lt;/br&gt;&#xA;&lt;h3 id=&#34;80-20-rule-in-small-vs-big-companies&#34;&gt;80-20 rule in small vs big companies&lt;/h3&gt;&#xA;&lt;p&gt;In a small company, 80% of what you do doesn&amp;rsquo;t really matter. In a large company, there is a 80% chance that nothing you do matters.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/short-blogs/</guid>
+      <description>&lt;p&gt;A bunch of short blogs and thoughts, in no particular order. Insults are mostly self directed.&lt;/p&gt;&#xA;&lt;div class=&#34;about-image&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/Cicle_inversion.svg.png&#34; alt=&#34;Circle inversion&#34; style=&#34;width: 50%; height: auto; display: block; margin: 0 auto;&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;span style=&#34;color: #666; font-size: 0.8em; text-align: center; display: block;&#34;&gt;&lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Cicle_inversion.svg/&#34;&gt;Circle inversion&lt;/a&gt; tree, CC-BY-SA 3.0&lt;/span&gt;&#xA;&lt;br&gt;&lt;/br&gt;&#xA;&lt;h3 id=&#34;80-20-rule-in-small-vs-big-companies&#34;&gt;80-20 rule in small vs big companies&lt;/h3&gt;&#xA;&lt;p&gt;In a small company, 80% of what you do doesn&amp;rsquo;t really matter. In a large company, there is a 80% chance that nothing you do matters.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>//localhost:1313/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;My name is Elias Willemse&lt;sup style=&#34;color: #666; font-size: 0.8em;&#34;&gt;1&lt;/sup&gt; and I&amp;rsquo;m a technical entrepreneur, based in London, with over 15 years of experience in AI, using it to solve problems in traditional industries (logistics, returnable packaging, waste management, urban planning). It&amp;rsquo;s a journey with unexpected turns, pleasantly unexpected turns.&lt;/p&gt;&#xA;&lt;p&gt;To list but a few:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;a PhD, in optimization algorithms for waste logistics, of all applications;&lt;/li&gt;&#xA;&lt;li&gt;being a senior lecturer, and having to teach to over 1400 students (I&amp;rsquo;m never doing that again, thank you);&lt;/li&gt;&#xA;&lt;li&gt;starting a venture backed AI company, and closing a venture backed AI company;&lt;/li&gt;&#xA;&lt;li&gt;get ready to start another AI company, but now more sensibly, given what I&amp;rsquo;ve learned  (it&amp;rsquo;s going to be different this time&amp;hellip; right?? Right??!!).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;All of this, while moving from South Africa, to Singapore and now London.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Builds</title>
-      <link>//localhost:1313/builds/</link>
+      <link>http://localhost:1313/builds/</link>
       <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/builds/</guid>
-      <description>&lt;p&gt;Welcome to my builds section. This is where I document and showcase various projects I&amp;rsquo;m working on or have completed.&lt;/p&gt;&#xA;&lt;h2 id=&#34;current-projects&#34;&gt;Current Projects&lt;/h2&gt;&#xA;&lt;p&gt;This section will feature my ongoing builds and projects.&lt;/p&gt;&#xA;&lt;h2 id=&#34;past-builds&#34;&gt;Past Builds&lt;/h2&gt;&#xA;&lt;p&gt;Documentation of completed projects and what I learned from them.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;This page is under construction. More content coming soon.&lt;/em&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/builds/</guid>
+      <description>&lt;p&gt;Welcome to my builds section. This is where I document and showcase various projects I&amp;rsquo;m working on or have completed.&lt;/p&gt;&#xA;&lt;h2 id=&#34;current-projects&#34;&gt;Current Projects&lt;/h2&gt;&#xA;&lt;p&gt;This section will feature my ongoing builds and projects.&lt;/p&gt;&#xA;&lt;h2 id=&#34;past-builds&#34;&gt;Past Builds&lt;/h2&gt;&#xA;&lt;p&gt;Documentation of completed projects and what I learned from them.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;_This page is under construction. More content coming soon.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Portfolio</title>
-      <link>//localhost:1313/portfolio/</link>
+      <link>http://localhost:1313/portfolio/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/portfolio/</guid>
+      <guid>http://localhost:1313/portfolio/</guid>
       <description>&lt;style&gt;&#xA;.video-grid {&#xA;  display: grid;&#xA;  grid-template-columns: repeat(2, 1fr);&#xA;  gap: 20px;&#xA;  margin: 20px 0;&#xA;  max-width: 1200px;&#xA;  margin-left: auto;&#xA;  margin-right: auto;&#xA;}&#xA;.video-grid iframe {&#xA;  width: 100%;&#xA;  height: 315px;&#xA;}&#xA;@media (max-width: 1200px) {&#xA;  .video-grid {&#xA;    grid-template-columns: repeat(2, 1fr);&#xA;  }&#xA;}&#xA;@media (max-width: 768px) {&#xA;  .video-grid {&#xA;    grid-template-columns: 1fr;&#xA;  }&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;p&gt;The following is a summary of projects and products that I completed between 2020 and 2024 at Waste Labs, where I was the co-founder and CTO, and between 2007 and 2019 in different research and consulting capacities. For my full work history, please refer to my &lt;a href=&#34;https://drive.google.com/file/d/1MD6y9CAls64zxCIzWVkpJzImzfY4o2Bg/view?usp=sharing&#34;&gt;CV&lt;/a&gt; and LinkedIn &lt;a href=&#34;https://www.linkedin.com/in/eliasjw/&#34;&gt;page&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Warsaw, Poland</title>
-      <link>//localhost:1313/photos/warsaw-poland/</link>
+      <link>http://localhost:1313/photos/warsaw-poland/</link>
       <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/photos/warsaw-poland/</guid>
+      <guid>http://localhost:1313/photos/warsaw-poland/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/w/index.php?title=Palace_of_Culture_and_Science&amp;amp;oldid=945815549&#34;&gt;Palace of Culture and Science&lt;/a&gt; (Polish: Pałac Kultury i Nauki), is a notable high-rise building in central Warsaw, Poland. With a total height of 237 metres (778 ft) it is the tallest building in Poland, the 5th-tallest building in the European Union (including spire) and one of the tallest on the European continent.&#xA;Constructed in 1955, it houses various public and cultural institutions such as cinemas, theatres, libraries, sports clubs, university faculties and authorities of the Polish Academy of Sciences.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hel, Poland</title>
-      <link>//localhost:1313/photos/hel-poland-3/</link>
+      <link>http://localhost:1313/photos/hel-poland-3/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/photos/hel-poland-3/</guid>
+      <guid>http://localhost:1313/photos/hel-poland-3/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/w/index.php?title=Hel_Peninsula&amp;amp;oldid=939640541&#34;&gt;Hel Peninsula&lt;/a&gt; (Polish: Mierzeja Helska) is a 35-km-long sand bar peninsula in northern Poland separating the Bay of Puck from the open Baltic Sea.&#xA;The width of the peninsula varies from approximately 300 m near Jurata, through 100 m in the most narrow part to over 3 km at the tip. Since the peninsula was formed entirely of sand, it is frequently turned into an island by winter storms. Until the 17th century the peninsula was a chain of islands that formed a strip of land only during the summer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hel, Poland</title>
-      <link>//localhost:1313/photos/hel-poland-2/</link>
+      <link>http://localhost:1313/photos/hel-poland-2/</link>
       <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/photos/hel-poland-2/</guid>
+      <guid>http://localhost:1313/photos/hel-poland-2/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/w/index.php?title=Hel_Peninsula&amp;amp;oldid=939640541&#34;&gt;Hel Peninsula&lt;/a&gt; (Polish: Mierzeja Helska) is a 35-km-long sand bar peninsula in northern Poland separating the Bay of Puck from the open Baltic Sea.&#xA;The width of the peninsula varies from approximately 300 m near Jurata, through 100 m in the most narrow part to over 3 km at the tip. Since the peninsula was formed entirely of sand, it is frequently turned into an island by winter storms. Until the 17th century the peninsula was a chain of islands that formed a strip of land only during the summer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Arizona, US</title>
-      <link>//localhost:1313/photos/arizona-us/</link>
+      <link>http://localhost:1313/photos/arizona-us/</link>
       <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/photos/arizona-us/</guid>
+      <guid>http://localhost:1313/photos/arizona-us/</guid>
       <description>&lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/w/index.php?title=Grand_Canyon&amp;amp;oldid=952699432&#34;&gt;Grand Canyon&lt;/a&gt;&#xA;is a steep-sided canyon carved by the Colorado River in Arizona, United States.&#xA;The canyon is 277 miles (446 km) long, up to 18 miles (29 km) wide and attains a depth of over a mile (6,093 feet or 1,857 meters).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chicago, US</title>
-      <link>//localhost:1313/photos/chicago-us/</link>
+      <link>http://localhost:1313/photos/chicago-us/</link>
       <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/photos/chicago-us/</guid>
+      <guid>http://localhost:1313/photos/chicago-us/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/w/index.php?title=Chicago&amp;amp;oldid=953376675&#34;&gt;Chicago&lt;/a&gt;, officially the City of Chicago, is the most populous city in the U.S. state of Illinois, and the third-most-populous city in the United States. With an estimated population of 2,705,994 (2018), it is also the most populous city in the Midwestern United States. Chicago is the county seat of Cook County, the second-most-populous county in the US, with a small portion of the northwest side of the city extending into DuPage County near O&amp;rsquo;Hare Airport. Chicago is the principal city of the Chicago metropolitan area, often referred to as Chicagoland. At nearly 10 million people, the metropolitan area is the third most populous in the United States.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Panaji, India</title>
-      <link>//localhost:1313/photos/panaji-india-2/</link>
+      <link>http://localhost:1313/photos/panaji-india-2/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/photos/panaji-india-2/</guid>
+      <guid>http://localhost:1313/photos/panaji-india-2/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/w/index.php?title=Panaji&amp;amp;oldid=949879387&#34;&gt;Panaji&lt;/a&gt;, formerly Panjim, is the capital of the Indian state of Goa and the headquarters of North Goa district. It lies on the banks of the Mandovi River estuary in the Ilhas de Goa sub-district (taluka). With a population of 114,759 in the metropolitan area, Panjim is Goa&amp;rsquo;s largest urban agglomeration, ahead of Margão and Vasco da Gama.&lt;/p&gt;</description>
     </item>
   </channel>
