@@ -2,6 +2,7 @@
 title = "Portfolio"
 date = "2024-03-19"
 toc = true
+layout = "portfolio/single"
 +++
 
 <style>

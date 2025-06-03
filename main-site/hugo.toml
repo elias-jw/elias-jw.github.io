@@ -4,14 +4,13 @@ title = 'Elias J. Willemse'
 theme = 'hugo-theme-console'
 
 [markup]
+  [markup.tableofcontents]
+    enabled = true
+    endLevel = 3
+    ordered = false
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.toc]
-        enabled = true
-        endLevel = 3
-        ordered = false
 
 [params]
   # Theme settings
