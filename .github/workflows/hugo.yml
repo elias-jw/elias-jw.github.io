@@ -36,6 +36,18 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
+          fetch-depth: 0
+
+      - name: Debug Repository Structure
+        run: |
+          echo "=== Repository Structure ==="
+          ls -la
+          echo "=== Main Site Structure ==="
+          ls -la main-site
+          echo "=== Layouts Structure ==="
+          ls -la main-site/layouts
+          echo "=== Theme Structure ==="
+          ls -la main-site/themes/hugo-theme-console/layouts
 
       - name: Setup Pages
         id: pages
@@ -47,7 +59,18 @@ jobs:
       - name: Debug Hugo Configuration
         run: |
           cd main-site
+          echo "=== Hugo Version ==="
+          hugo version
+          echo "=== Hugo Config ==="
           hugo config
+          echo "=== Hugo Environment ==="
+          hugo env
+
+      - name: Debug Layout Resolution
+        run: |
+          cd main-site
+          echo "=== Testing Layout Resolution ==="
+          hugo --verbose --debug
 
       - name: Build with Hugo
         env:
@@ -57,7 +80,15 @@ jobs:
           cd main-site
           hugo \
             --minify \
-            --baseURL "/"
+            --baseURL "/" \
+            --debug
+
+      - name: Debug Build Output
+        run: |
+          echo "=== Build Output Structure ==="
+          ls -la main-site/public
+          echo "=== Portfolio Page Content ==="
+          cat main-site/public/portfolio/index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
