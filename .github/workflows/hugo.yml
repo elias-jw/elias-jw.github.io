@@ -36,18 +36,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
-          fetch-depth: 0
-
-      - name: Debug Repository Structure
-        run: |
-          echo "=== Repository Structure ==="
-          ls -la
-          echo "=== Main Site Structure ==="
-          ls -la main-site
-          echo "=== Layouts Structure ==="
-          ls -la main-site/layouts
-          echo "=== Theme Structure ==="
-          ls -la main-site/themes/hugo-theme-console/layouts
 
       - name: Setup Pages
         id: pages
@@ -72,28 +60,24 @@ jobs:
           echo "=== Testing Layout Resolution ==="
           hugo --verbose --debug
 
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.147.6'
+          extended: true
+
       - name: Build with Hugo
         env:
-          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
         run: |
           cd main-site
-          hugo \
-            --minify \
-            --baseURL "/" \
-            --debug
-
-      - name: Debug Build Output
-        run: |
-          echo "=== Build Output Structure ==="
-          ls -la main-site/public
-          echo "=== Portfolio Page Content ==="
-          cat main-site/public/portfolio/index.html
+          hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: main-site/public
+          path: ./main-site/public
 
   deploy:
     environment:
