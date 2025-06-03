@@ -22,7 +22,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.147.6
+      HUGO_VERSION: 0.128.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -44,6 +44,11 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
+      - name: Debug Hugo Configuration
+        run: |
+          cd main-site
+          hugo config
+
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
@@ -52,10 +57,7 @@ jobs:
           cd main-site
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --enableGitInfo \
-            --buildDrafts=false \
-            --buildFuture=false
+            --baseURL "/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

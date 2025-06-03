@@ -114,7 +114,7 @@ The following is a summary of projects and products that I completed between 202
     top: 0;
     height: 100vh;
     transition: all 0.3s ease;
-    display: block !important;  
+    z-index: 100;
 }
 .toc.collapsed {
     width: 60px;
@@ -124,7 +124,7 @@ The following is a summary of projects and products that I completed between 202
     padding: 1rem;
     border-radius: 4px;
     transition: all 0.3s ease;
-    display: block !important;  
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 .toc.collapsed .toc-content {
     padding: 0.5rem;
@@ -163,6 +163,10 @@ The following is a summary of projects and products that I completed between 202
     padding: 0.25rem;
     font-size: 1.2rem;
     opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+.toc-toggle:hover {
+    opacity: 1;
 }
 .toc-list {
     list-style: none;
@@ -173,7 +177,18 @@ The following is a summary of projects and products that I completed between 202
     transition: all 0.3s ease;
     font-size: 0.8rem;
     color: #666;
-    display: block !important;  
+    scrollbar-width: thin;
+    scrollbar-color: #ccc #f8f8f8;
+}
+.toc-list::-webkit-scrollbar {
+    width: 6px;
+}
+.toc-list::-webkit-scrollbar-track {
+    background: #f8f8f8;
+}
+.toc-list::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 3px;
 }
 .toc.collapsed .toc-list {
     display: none;
@@ -185,12 +200,15 @@ The following is a summary of projects and products that I completed between 202
     text-decoration: none;
     color: #666;
     font-size: 0.8rem;
+    transition: color 0.3s ease;
+}
+.toc-link:hover {
+    color: #333;
 }
  
 .toc-list nav#TableOfContents {
     font-size: 0.8rem;
     color: #666;
-    display: block !important;  
 }
 .toc-list nav#TableOfContents ul {
     list-style: none;
@@ -205,9 +223,26 @@ The following is a summary of projects and products that I completed between 202
     text-decoration: none;
     display: block;
     padding: 0.2rem 0;
+    transition: color 0.3s ease;
 }
 .toc-list nav#TableOfContents a:hover {
     color: #333;
+}
+@media (max-width: 768px) {
+    .toc-container {
+        flex-direction: column;
+    }
+    .toc {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .toc.collapsed {
+        width: 100%;
+    }
+    .toc-list {
+        max-height: 300px;
+    }
 }
 </style>
 
@@ -580,7 +615,7 @@ The following is a summary of projects and products that I completed between 202
         <div class="toc-content">
             <div class="toc-header">
                 <h3 class="toc-title">TOC</h3>
-                <button onclick="toggleToc()" class="toc-toggle">-</button>
+                <button onclick="toggleToc()" class="toc-toggle" aria-label="Toggle Table of Contents">+</button>
             </div>
             <div class="toc-list">
                 <nav id="TableOfContents">
@@ -625,10 +660,12 @@ function toggleToc() {
         toc.classList.remove('collapsed');
         mainContent.classList.remove('expanded');
         button.textContent = '-';
+        button.setAttribute('aria-label', 'Collapse Table of Contents');
     } else {
         toc.classList.add('collapsed');
         mainContent.classList.add('expanded');
         button.textContent = '+';
+        button.setAttribute('aria-label', 'Expand Table of Contents');
     }
 }
 
@@ -638,6 +675,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const button = document.querySelector('.toc-toggle');
     if (toc && !toc.classList.contains('collapsed')) {
         button.textContent = '-';
+        button.setAttribute('aria-label', 'Collapse Table of Contents');
     }
 });
 </script>

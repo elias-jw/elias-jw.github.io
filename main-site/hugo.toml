@@ -1,4 +1,4 @@
-baseURL = 'https://elias-jw.github.io/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Elias J. Willemse'
 theme = 'hugo-theme-console'
