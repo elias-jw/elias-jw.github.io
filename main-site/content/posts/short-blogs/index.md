@@ -6,9 +6,9 @@ date = "2025-06-02"
 A bunch of short blogs and thoughts, in no particular order. Insults are mostly self directed.
 
 <div class="about-image">
-    <img src="/images/Cicle_inversion.svg.png" alt="Circle inversion" style="width: 25%">
+    <img src="/images/Cicle_inversion.svg.png" alt="Circle inversion" style="width: 50%; height: auto; display: block; margin: 0 auto;">
 </div>
-<span style="color: #666; font-size: 0.8em;"><a href="https://commons.wikimedia.org/wiki/File:Cicle_inversion.svg/">Circle inversion</a> tree, CC-BY-SA</span>
+<span style="color: #666; font-size: 0.8em; text-align: center; display: block;"><a href="https://commons.wikimedia.org/wiki/File:Cicle_inversion.svg/">Circle inversion</a> tree, CC-BY-SA 3.0</span>
 <br></br>
 
 ### 80-20 rule in small vs big companies

@@ -4,11 +4,11 @@ date = "2025-05-30"
 +++
 
 My name is Elias Willemse<sup style="color: #666; font-size: 0.8em;">1</sup> and I'm a technical entrepreneur, based in London, with over 15 years of experience in AI, using it to solve problems in traditional industries (logistics, returnable packaging, waste management, urban planning). It's a journey with unexpected turns, pleasantly unexpected turns.
-
+<br></br>
 <div class="about-image">
-    <img src="/images/oxford_circus_station_2014.jpeg" alt="Oxford Circus Station" style="width: 55%">
+    <img src="/images/Lavaurs-12.png" alt="By Adam majewski - own code based on the Lisp code by R Berenguel, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11985522" style="width: 50%; height: auto; display: block; margin: 0 auto;">
 </div>
-<span style="color: #666; font-size: 0.8em;">Oxford Circus station, London, 2014, taken during a 1-week holiday.</span>
+<span style="color: #666; font-size: 0.8em; text-align: center; display: block;"><a href="https://commons.wikimedia.org/wiki/File:Cicle_inversion.svg/">Thurston model</a> by Adam majewski, CC BY-SA 3.0</span>
 <br></br>
 To list but a few:
 

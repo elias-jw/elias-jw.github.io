@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Elias J. Willemse</title>
-    <link>/posts/</link>
+    <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on Elias J. Willemse</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Short-blogs</title>
-      <link>/posts/short-blogs/</link>
+      <link>//localhost:1313/posts/short-blogs/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/short-blogs/</guid>
-      <description>&lt;p&gt;A bunch of short blogs and thoughts, in no particular order. Insults are mostly self directed.&lt;/p&gt;&#xA;&lt;div class=&#34;about-image&#34;&gt;&#xA;    &lt;img src=&#34;/images/Cicle_inversion.svg.png&#34; alt=&#34;Circle inversion&#34; style=&#34;width: 25%&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;span style=&#34;color: #666; font-size: 0.8em;&#34;&gt;&lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Cicle_inversion.svg/&#34;&gt;Circle inversion&lt;/a&gt; tree, CC-BY-SA&lt;/span&gt;&#xA;&lt;br&gt;&lt;/br&gt;&#xA;&lt;h3 id=&#34;80-20-rule-in-small-vs-big-companies&#34;&gt;80-20 rule in small vs big companies&lt;/h3&gt;&#xA;&lt;p&gt;In a small company, 80% of what you do doesn&amp;rsquo;t really matter. In a large company, there is a 80% chance that nothing you do matters.&lt;/p&gt;&#xA;&lt;p&gt;PS: In a small company, there is also a 95% chance that the company will eventually fail, making all your contributions useless. Unless you learned from it.&lt;/p&gt;</description>
+      <guid>//localhost:1313/posts/short-blogs/</guid>
+      <description>&lt;p&gt;A bunch of short blogs and thoughts, in no particular order. Insults are mostly self directed.&lt;/p&gt;&#xA;&lt;div class=&#34;about-image&#34;&gt;&#xA;    &lt;img src=&#34;//localhost:1313/images/Cicle_inversion.svg.png&#34; alt=&#34;Circle inversion&#34; style=&#34;width: 50%; height: auto; display: block; margin: 0 auto;&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;span style=&#34;color: #666; font-size: 0.8em; text-align: center; display: block;&#34;&gt;&lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Cicle_inversion.svg/&#34;&gt;Circle inversion&lt;/a&gt; tree, CC-BY-SA 3.0&lt;/span&gt;&#xA;&lt;br&gt;&lt;/br&gt;&#xA;&lt;h3 id=&#34;80-20-rule-in-small-vs-big-companies&#34;&gt;80-20 rule in small vs big companies&lt;/h3&gt;&#xA;&lt;p&gt;In a small company, 80% of what you do doesn&amp;rsquo;t really matter. In a large company, there is a 80% chance that nothing you do matters.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
