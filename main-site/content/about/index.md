@@ -4,12 +4,7 @@ date = "2025-05-30"
 +++
 
 My name is Elias Willemse<sup style="color: #666; font-size: 0.8em;">1</sup> and I'm a technical entrepreneur, based in London, with over 15 years of experience in AI, using it to solve problems in traditional industries (logistics, returnable packaging, waste management, urban planning). It's a journey with unexpected turns, pleasantly unexpected turns.
-<br></br>
-<div class="about-image">
-    <img src="/images/Lavaurs-12.png" alt="By Adam majewski - own code based on the Lisp code by R Berenguel, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11985522" style="width: 50%; height: auto; display: block; margin: 0 auto;">
-</div>
-<span style="color: #666; font-size: 0.8em; text-align: center; display: block;"><a href="https://commons.wikimedia.org/wiki/File:Cicle_inversion.svg/">Thurston model</a> by Adam majewski, CC BY-SA 3.0</span>
-<br></br>
+
 To list but a few:
 
 - a PhD, in optimization algorithms for waste logistics, of all applications; 
@@ -17,8 +12,13 @@ To list but a few:
 - starting a venture backed AI company, and closing a venture backed AI company;
 - get ready to start another AI company, but now more sensibly, given what I've learned  (it's going to be different this time... right?? Right??!!).
 
-
 All of this, while moving from South Africa, to Singapore and now London.
+
+<div class="about-image">
+    <img src="/images/Lavaurs-12.png" alt="By Adam majewski - own code based on the Lisp code by R Berenguel, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11985522" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+</div>
+<span style="color: #666; font-size: 0.8em; text-align: center; display: block;"><a href="https://commons.wikimedia.org/wiki/File:Cicle_inversion.svg/">Thurston model</a> by Adam majewski, CC BY-SA 3.0</span>
+<br></br>
 
 ## More on me, but elsewhere
 

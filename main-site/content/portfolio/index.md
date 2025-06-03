@@ -35,7 +35,7 @@ type = "portfolio"
 The following is a summary of projects and products that I completed between 2020 and 2024 at Waste Labs, where I was the co-founder and CTO, and between 2007 and 2019 in different research and consulting capacities. For my full work history, please refer to my [CV](https://drive.google.com/file/d/1MD6y9CAls64zxCIzWVkpJzImzfY4o2Bg/view?usp=sharing) and LinkedIn [page](https://www.linkedin.com/in/eliasjw/).
 
 <div class="about-image">
-    <img src="/images/alwang-circles-on-circles-bc694c35ca.png" alt="Circles on circles" style="width: 75%; height: auto; display: block; margin: 0 auto;">
+    <img src="/images/alwang-circles-on-circles-bc694c35ca.png" alt="Circles on circles" style="width: 60%; height: auto; display: block; margin: 0 auto;">
 </div>
 <span style="color: #666; font-size: 0.8em; text-align: center; display: block;"><a href="https://turtletoy.net/turtle/bc694c35ca/">Circles on circles</a>, CC BY-NC-SA 4.0
 </span>

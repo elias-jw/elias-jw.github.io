@@ -21,16 +21,20 @@ theme = 'hugo-theme-console'
   animateStyle = "animated zoomIn fast"
 
   [[params.navlinks]]
-  name = "about/"
-  url = "about/"
-
-  [[params.navlinks]]
   name = "posts/"
   url = "posts/"
 
   [[params.navlinks]]
+  name = "builds/"
+  url = "builds/"
+
+  [[params.navlinks]]
   name = "portfolio/"
   url = "portfolio/"
+
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
 
 [module]
   [[module.mounts]]

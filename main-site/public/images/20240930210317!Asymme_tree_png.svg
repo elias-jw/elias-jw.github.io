@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-9 -17 18 18">
+<path id="a" d="M.3-7c2,2 -1,4 0,7h-1c-1-3 2-5 .3-7" fill="#130"/>
+<g id="b" transform="translate(0-7)scale(.58)" opacity="1" ><use xlink:href="#a" transform="rotate(36)"/><use xlink:href="#a" transform="rotate(108)"/><use xlink:href="#a" transform="rotate(-45)"/><use xlink:href="#a" transform="rotate(-120)"/></g>
+<g id="c" transform="translate(0-7)scale(.58)" opacity=".9"><use xlink:href="#b" transform="rotate(36)"/><use xlink:href="#b" transform="rotate(108)"/><use xlink:href="#b" transform="rotate(-45)"/><use xlink:href="#b" transform="rotate(-120)"/></g>
+<g id="d" transform="translate(0-7)scale(.58)" opacity=".8"><use xlink:href="#c" transform="rotate(36)"/><use xlink:href="#c" transform="rotate(108)"/><use xlink:href="#c" transform="rotate(-45)"/><use xlink:href="#c" transform="rotate(-120)"/></g>
+<g id="e" transform="translate(0-7)scale(.58)" opacity=".7"><use xlink:href="#d" transform="rotate(36)"/><use xlink:href="#d" transform="rotate(108)"/><use xlink:href="#d" transform="rotate(-45)"/><use xlink:href="#d" transform="rotate(-120)"/></g>
+<g id="f" transform="translate(0-7)scale(.58)" opacity=".8"><use xlink:href="#e" transform="rotate(36)"/><use xlink:href="#e" transform="rotate(108)"/><use xlink:href="#e" transform="rotate(-45)"/><use xlink:href="#e" transform="rotate(-120)"/></g>
+<g id="g" transform="translate(0-7)scale(.58)" opacity=".9"><use xlink:href="#f" transform="rotate(36)"/><use xlink:href="#f" transform="rotate(108)"/><use xlink:href="#f" transform="rotate(-45)"/><use xlink:href="#f" transform="rotate(-120)"/></g>
+<g id="h" transform="translate(0-7)scale(.58)" opacity="1" ><use xlink:href="#g" transform="rotate(36)"/><use xlink:href="#g" transform="rotate(108)"/><use xlink:href="#g" transform="rotate(-45)"/><use xlink:href="#g" transform="rotate(-120)"/></g>
+</svg>
