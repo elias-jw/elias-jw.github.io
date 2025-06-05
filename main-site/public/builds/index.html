@@ -10,9 +10,9 @@
     <meta name="googlebot" content="index,follow,snippet,archive">
     
     
-    <link rel="stylesheet" href="http://localhost:1313/hugo-theme-console/css/terminal-0.7.4.min.css">
-    <link rel="stylesheet" href="http://localhost:1313/hugo-theme-console/css/animate-4.1.1.min.css">
-    <link rel="stylesheet" href="http://localhost:1313/hugo-theme-console/css/console.css">
+    <link rel="stylesheet" href="//localhost:1313/hugo-theme-console/css/terminal-0.7.4.min.css">
+    <link rel="stylesheet" href="//localhost:1313/hugo-theme-console/css/animate-4.1.1.min.css">
+    <link rel="stylesheet" href="//localhost:1313/hugo-theme-console/css/console.css">
     
     
     <style>
@@ -45,20 +45,23 @@
        <meta property="og:title" content="Builds" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/builds/" /><meta property="article:published_time" content="2025-01-24T00:00:00+00:00" />
+<meta property="og:url" content="//localhost:1313/builds/" /><meta property="article:published_time" content="2025-01-24T00:00:00+00:00" />
 
 
 
 <meta name="twitter:title" content="Builds"/>
-<meta name="twitter:description" content="Welcome to my builds section. This is where I document and showcase various projects I&rsquo;m working on or have completed.
+<meta name="twitter:description" content="Welcome to my builds section. This is where I document and showcase various projects (mostly pet projects) I&rsquo;m working on or have completed.
+
+    
+
+Da vinci fractal, CC BY-NC-SA 3.0
+
+
 Current Projects
-This section will feature my ongoing builds and projects.
-Past Builds
-Documentation of completed projects and what I learned from them.
+Singapore postcode geocoder
+A simple app that adds lat-lon coordinates to a datafile which has Singapore postcodes in it. Any column can contain postcode info, and it can be part of a longer string. The app finds the best column to use, automatically extracts the postcodes, and then adds the lat-lon coordinates."/>
 
-_This page is under construction. More content coming soon."/>
-
-<link rel="stylesheet" href="http://localhost:1313/css/custom.css"> </head>
+<link rel="stylesheet" href="//localhost:1313/css/custom.css"> </head>
 <body class="terminal">
     <div class="container">
         <div class="terminal-nav">
@@ -66,7 +69,7 @@ _This page is under construction. More content coming soon."/>
             <div class="logo terminal-prompt">
               
               
-              <a href="http://localhost:1313/" class="no-style site-name">Elias J. Willemse</a>:~# 
+              <a href="//localhost:1313/" class="no-style site-name">Elias J. Willemse</a>:~# 
               <a href='/builds'>builds</a>/</div></header>
           <nav class="terminal-menu">
             <ul vocab="https://schema.org/" typeof="BreadcrumbList">
@@ -103,10 +106,29 @@ _This page is under construction. More content coming soon."/>
     <div class="container animated zoomIn fast" >
         
 <h1>Builds</h1>
-<p>Welcome to my builds section. This is where I document and showcase various projects I&rsquo;m working on or have completed.</p>
-<h2 id="current-projects">Current Projects</h2>
-<p>This section will feature my ongoing builds and projects.</p>
-<h2 id="past-builds">Past Builds</h2>
+<p>Welcome to my builds section. This is where I document and showcase various projects (mostly pet projects) I&rsquo;m working on or have completed.</p>
+<div class="about-image">
+    <img src="/images/da_vinci_fractal_by_steto123_dfb82kc.png" alt="Da vinci fractal" style="width: 80%; height: auto; display: block; margin: 0 auto;">
+</div>
+<span style="color: #666; font-size: 0.8em; text-align: center; display: block;"><a href="https://www.deviantart.com/steto123/art/Da-vinci-fractal-925844988">Da vinci fractal</a>, CC BY-NC-SA 3.0
+</span>
+</br><br>
+<h1 id="current-projects">Current Projects</h1>
+<h2 id="singapore-postcode-geocoder">Singapore postcode geocoder</h2>
+<p>A <a href="https://sg-postcode-geocoding.streamlit.app/">simple app</a> that adds lat-lon coordinates to a datafile which has Singapore postcodes in it. Any column can contain postcode info, and it can be part of a longer string. The app finds the best column to use, automatically extracts the postcodes, and then adds the lat-lon coordinates.</p>
+<div class="about-image">
+    <img src="/images/sg-postcode-geocoding-streamlit-screenshot.jpg" alt="Da vinci fractal" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+</div>
+<span style="color: #666; font-size: 0.8em; text-align: center; display: block;"><a href="https://sg-postcode-geocoding.streamlit.app/">Singapore postcode geocoder</a>
+</span>
+</br><br>
+<p>It&rsquo;s an exercise that I&rsquo;ve had to repeat very often when assisting clients with logistics based planning and analysis. For logistics, you need to know where stuff is located.
+Often, this data, specifically the geographical coordinates, are not captured, but there are some address info.
+There are various ways and services to go from address info to coordinates, but they tend to be quite slow, some are expensive, and they usually work one-address or location at a time (not fun if you are dealing with thousands).
+Given that Singapore is really-really-really good at making their data available (check out <a href="https://data.gov.sg/">data.gov.sg</a>, it&rsquo;s possible to custom building something that does this.
+And after getting the lon-lat coordinates, you can apply some pretty cool models, and you can create some pretty maps.</p>
+<p>The app is available at <a href="https://sg-postcode-geocoding.streamlit.app/">https://sg-postcode-geocoding.streamlit.app/</a> and the source code at <a href="https://github.com/second-order-ai/singapore-postcode-geocoding">https://github.com/second-order-ai/singapore-postcode-geocoding</a>. The app code is <a href="https://github.com/second-order-ai/singapore-postcode-geocoding/tree/main/src/singapore_postcode_geocoding/app">here</a> in the repo.</p>
+<h1 id="past-builds">Past Builds</h1>
 <p>Documentation of completed projects and what I learned from them.</p>
 <hr>
 <p>_This page is under construction. More content coming soon.</p>
