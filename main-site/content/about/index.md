@@ -8,11 +8,11 @@ My name is Elias Willemse<sup style="color: #666; font-size: 0.8em;">1</sup> and
 To list but a few:
 
 - a PhD, in optimization algorithms for waste logistics, of all applications; 
-- being a senior lecturer, and having to teach to over 1400 students (I'm never doing that again, thank you);
-- starting a venture backed AI company, and closing a venture backed AI company;
-- get ready to start another AI company, but now more sensibly, given what I've learned  (it's going to be different this time... right?? Right??!!).
+- being a senior lecturer, and having to teach over 1400 students (I'm never doing that again, thank you);
+- starting a venture-backed AI company, and closing a venture-backed AI company;
+- get ready to start another company, but now more sensibly, given what I've learned  (it's going to be different this time... right?? Right??!!).
 
-All of this, while moving from South Africa, to Singapore and now London.
+All of this, while moving from South Africa to Singapore and now London.
 
 <div class="about-image">
     <img src="/images/Lavaurs-12.png" alt="By Adam majewski - own code based on the Lisp code by R Berenguel, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11985522" style="width: 50%; height: auto; display: block; margin: 0 auto;">
@@ -32,7 +32,7 @@ A guaranteed-to-be-outdated version of my CV can be found [here](https://drive.g
 
 ## Contact
 
-I'm always interested in hearing about new opportunities, collaborations, or just having a chat about AI and technology. Feel free to reach out through any of the following channels:
+I'm always interested in hearing about new opportunities, collaborations or just having a chat about AI and technology. Feel free to reach out through any of the following channels:
 
 - _Email_: [elias.jw.public@gmail.com](mailto:elias.jw.public@gmail.com)
 - _LinkedIn_: [linkedin.com/in/eliasjw](https://www.linkedin.com/in/eliasjw/)
