@@ -106,6 +106,23 @@ img {
     }
 }
 
+/* Footnote rendering: override terminal theme's pseudo-element list numbers
+   which break when <li> contains a block <p> element */
+.footnotes ol {
+    list-style: decimal;
+    padding-left: 1.5em;
+    counter-reset: none;
+}
+
+.footnotes ol li {
+    display: list-item;
+    padding-left: 0.25em;
+}
+
+.footnotes ol li::before {
+    content: none;
+}
+
 /* Force link colors */
 body.terminal a {
     color: var(--primary-color) !important;
