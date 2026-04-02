@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" font-family="'Fira Code', 'Courier New', monospace">
   <defs>
     <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M2 1L8 5L2 9" fill="none" stroke="#555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
     <marker id="arr-o" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M2 1L8 5L2 9" fill="none" stroke="#d84315" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -9,100 +9,100 @@
   </defs>
 
   <!-- ===== Section 1: The decision loop ===== -->
-  <text x="40" y="20" fill="#d84315" font-size="12" font-weight="500">the decision loop</text>
+  <text x="40" y="20" fill="#d84315" font-size="13" font-weight="500">the decision loop</text>
 
-  <rect x="40" y="42" width="78" height="30" rx="3" fill="none" stroke="#555" stroke-width="0.5"/>
-  <text x="79" y="61" fill="#444" font-size="10" text-anchor="middle">question</text>
+  <rect x="40" y="42" width="78" height="30" rx="3" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="79" y="61" fill="#222" font-size="11" text-anchor="middle">question</text>
 
-  <line x1="118" y1="57" x2="148" y2="57" stroke="#555" stroke-width="0.5" marker-end="url(#arr)"/>
+  <line x1="118" y1="57" x2="148" y2="57" stroke="#333" stroke-width="0.5" marker-end="url(#arr)"/>
 
-  <rect x="150" y="42" width="78" height="30" rx="3" fill="none" stroke="#555" stroke-width="0.5"/>
-  <text x="189" y="61" fill="#444" font-size="10" text-anchor="middle">explore</text>
+  <rect x="150" y="42" width="78" height="30" rx="3" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="189" y="61" fill="#222" font-size="11" text-anchor="middle">explore</text>
 
-  <line x1="228" y1="57" x2="258" y2="57" stroke="#555" stroke-width="0.5" marker-end="url(#arr)"/>
+  <line x1="228" y1="57" x2="258" y2="57" stroke="#333" stroke-width="0.5" marker-end="url(#arr)"/>
 
-  <rect x="260" y="42" width="78" height="30" rx="3" fill="none" stroke="#555" stroke-width="0.5"/>
-  <text x="299" y="61" fill="#444" font-size="10" text-anchor="middle">answer</text>
+  <rect x="260" y="42" width="78" height="30" rx="3" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="299" y="61" fill="#222" font-size="11" text-anchor="middle">answer</text>
 
-  <line x1="338" y1="57" x2="368" y2="57" stroke="#555" stroke-width="0.5" marker-end="url(#arr)"/>
+  <line x1="338" y1="57" x2="368" y2="57" stroke="#333" stroke-width="0.5" marker-end="url(#arr)"/>
 
-  <text x="386" y="36" fill="#555" font-size="9" text-anchor="middle">confident?</text>
-  <polygon points="386,41 402,57 386,73 370,57" fill="none" stroke="#555" stroke-width="0.5"/>
+  <text x="386" y="36" fill="#333" font-size="11" text-anchor="middle">confident?</text>
+  <polygon points="386,41 402,57 386,73 370,57" fill="none" stroke="#333" stroke-width="1"/>
 
-  <line x1="402" y1="57" x2="444" y2="57" stroke="#555" stroke-width="0.5" marker-end="url(#arr)"/>
-  <text x="424" y="51" fill="#555" font-size="9" text-anchor="middle">yes</text>
+  <line x1="402" y1="57" x2="444" y2="57" stroke="#333" stroke-width="0.5" marker-end="url(#arr)"/>
+  <text x="424" y="51" fill="#333" font-size="11" text-anchor="middle">yes</text>
 
-  <rect x="446" y="42" width="120" height="30" rx="3" fill="none" stroke="#d84315" stroke-width="0.5"/>
-  <text x="506" y="61" fill="#d84315" font-size="10" font-weight="500" text-anchor="middle">decide and act</text>
+  <rect x="446" y="42" width="120" height="30" rx="3" fill="none" stroke="#d84315" stroke-width="1"/>
+  <text x="506" y="61" fill="#d84315" font-size="11" font-weight="500" text-anchor="middle">decide and act</text>
 
-  <path d="M386 73 L386 98 L79 98 L79 74" fill="none" stroke="#d84315" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arr-o)"/>
-  <text x="232" y="94" fill="#d84315" font-size="9" font-weight="500" text-anchor="middle">better question</text>
+  <path d="M386 73 L386 98 L79 98 L79 74" fill="none" stroke="#d84315" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arr-o)"/>
+  <text x="232" y="94" fill="#d84315" font-size="11" font-weight="500" text-anchor="middle">better question</text>
 
 
   <!-- ===== Section 2: When the loop runs ===== -->
-  <text x="40" y="132" fill="#d84315" font-size="12" font-weight="500">when the loop runs</text>
+  <text x="40" y="132" fill="#d84315" font-size="13" font-weight="500">when the loop runs</text>
 
   <!-- Iteration 1 -->
-  <rect x="40" y="148" width="240" height="30" rx="3" fill="none" stroke="#555" stroke-width="0.5"/>
-  <text x="160" y="167" fill="#444" font-size="10" text-anchor="middle">which suppliers deliver in 2 weeks?</text>
-  <line x1="280" y1="163" x2="298" y2="163" stroke="#555" stroke-width="0.5" marker-end="url(#arr)"/>
-  <rect x="300" y="148" width="50" height="30" rx="3" fill="none" stroke="#555" stroke-width="0.5"/>
-  <text x="325" y="167" fill="#555" font-size="10" text-anchor="middle">answer</text>
-  <line x1="350" y1="163" x2="368" y2="163" stroke="#555" stroke-width="0.5" marker-end="url(#arr)"/>
-  <polygon points="386,147 402,163 386,179 370,163" fill="none" stroke="#555" stroke-width="0.5"/>
-  <path d="M386 179 L386 194 L55 194 L55 206" fill="none" stroke="#d84315" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arr-o)"/>
-  <text x="392" y="192" fill="#d84315" font-size="9" font-weight="500">no</text>
+  <rect x="40" y="148" width="240" height="30" rx="3" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="160" y="167" fill="#222" font-size="11" text-anchor="middle">which suppliers deliver in 2 weeks?</text>
+  <line x1="280" y1="163" x2="298" y2="163" stroke="#333" stroke-width="0.5" marker-end="url(#arr)"/>
+  <rect x="300" y="148" width="50" height="30" rx="3" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="325" y="167" fill="#333" font-size="11" text-anchor="middle">answer</text>
+  <line x1="350" y1="163" x2="368" y2="163" stroke="#333" stroke-width="0.5" marker-end="url(#arr)"/>
+  <polygon points="386,147 402,163 386,179 370,163" fill="none" stroke="#333" stroke-width="1"/>
+  <path d="M386 179 L386 194 L55 194 L55 206" fill="none" stroke="#d84315" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arr-o)"/>
+  <text x="392" y="192" fill="#d84315" font-size="11" font-weight="500">no</text>
 
   <!-- Iteration 2 -->
-  <rect x="40" y="208" width="240" height="30" rx="3" fill="none" stroke="#555" stroke-width="0.5"/>
-  <text x="160" y="227" fill="#444" font-size="10" text-anchor="middle">dual-source from the two fastest?</text>
-  <line x1="280" y1="223" x2="298" y2="223" stroke="#555" stroke-width="0.5" marker-end="url(#arr)"/>
-  <rect x="300" y="208" width="50" height="30" rx="3" fill="none" stroke="#555" stroke-width="0.5"/>
-  <text x="325" y="227" fill="#555" font-size="10" text-anchor="middle">answer</text>
-  <line x1="350" y1="223" x2="368" y2="223" stroke="#555" stroke-width="0.5" marker-end="url(#arr)"/>
-  <polygon points="386,207 402,223 386,239 370,223" fill="none" stroke="#555" stroke-width="0.5"/>
-  <path d="M386 239 L386 254 L55 254 L55 266" fill="none" stroke="#d84315" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arr-o)"/>
-  <text x="392" y="252" fill="#d84315" font-size="9" font-weight="500">no</text>
+  <rect x="40" y="208" width="240" height="30" rx="3" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="160" y="227" fill="#222" font-size="11" text-anchor="middle">dual-source from the two fastest?</text>
+  <line x1="280" y1="223" x2="298" y2="223" stroke="#333" stroke-width="0.5" marker-end="url(#arr)"/>
+  <rect x="300" y="208" width="50" height="30" rx="3" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="325" y="227" fill="#333" font-size="11" text-anchor="middle">answer</text>
+  <line x1="350" y1="223" x2="368" y2="223" stroke="#333" stroke-width="0.5" marker-end="url(#arr)"/>
+  <polygon points="386,207 402,223 386,239 370,223" fill="none" stroke="#333" stroke-width="1"/>
+  <path d="M386 239 L386 254 L55 254 L55 266" fill="none" stroke="#d84315" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arr-o)"/>
+  <text x="392" y="252" fill="#d84315" font-size="11" font-weight="500">no</text>
 
   <!-- Iteration 3 -->
-  <rect x="40" y="268" width="240" height="30" rx="3" fill="none" stroke="#555" stroke-width="0.5"/>
-  <text x="160" y="287" fill="#444" font-size="10" text-anchor="middle">same shipping route as our primary?</text>
-  <line x1="280" y1="283" x2="298" y2="283" stroke="#555" stroke-width="0.5" marker-end="url(#arr)"/>
-  <rect x="300" y="268" width="50" height="30" rx="3" fill="none" stroke="#555" stroke-width="0.5"/>
-  <text x="325" y="287" fill="#555" font-size="10" text-anchor="middle">answer</text>
-  <line x1="350" y1="283" x2="368" y2="283" stroke="#555" stroke-width="0.5" marker-end="url(#arr)"/>
-  <polygon points="386,267 402,283 386,299 370,283" fill="none" stroke="#555" stroke-width="0.5"/>
-  <line x1="402" y1="283" x2="444" y2="283" stroke="#555" stroke-width="0.5" marker-end="url(#arr)"/>
-  <text x="424" y="277" fill="#555" font-size="9" text-anchor="middle">yes</text>
-  <rect x="446" y="268" width="120" height="30" rx="3" fill="none" stroke="#d84315" stroke-width="0.5"/>
-  <text x="506" y="287" fill="#d84315" font-size="10" font-weight="500" text-anchor="middle">decide and act</text>
+  <rect x="40" y="268" width="240" height="30" rx="3" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="160" y="287" fill="#222" font-size="11" text-anchor="middle">same shipping route as our primary?</text>
+  <line x1="280" y1="283" x2="298" y2="283" stroke="#333" stroke-width="0.5" marker-end="url(#arr)"/>
+  <rect x="300" y="268" width="50" height="30" rx="3" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="325" y="287" fill="#333" font-size="11" text-anchor="middle">answer</text>
+  <line x1="350" y1="283" x2="368" y2="283" stroke="#333" stroke-width="0.5" marker-end="url(#arr)"/>
+  <polygon points="386,267 402,283 386,299 370,283" fill="none" stroke="#333" stroke-width="1"/>
+  <line x1="402" y1="283" x2="444" y2="283" stroke="#333" stroke-width="0.5" marker-end="url(#arr)"/>
+  <text x="424" y="277" fill="#333" font-size="11" text-anchor="middle">yes</text>
+  <rect x="446" y="268" width="120" height="30" rx="3" fill="none" stroke="#d84315" stroke-width="1"/>
+  <text x="506" y="287" fill="#d84315" font-size="11" font-weight="500" text-anchor="middle">decide and act</text>
 
-  <text x="40" y="328" fill="#555" font-size="10">each answer made the next question sharper.</text>
+  <text x="40" y="328" fill="#333" font-size="11">each answer made the next question sharper.</text>
 
 
   <!-- ===== Section 3: When the loop is skipped ===== -->
-  <text x="40" y="368" fill="#d84315" font-size="12" font-weight="500">when the loop is skipped</text>
+  <text x="40" y="368" fill="#d84315" font-size="13" font-weight="500">when the loop is skipped</text>
 
-  <rect x="40" y="384" width="180" height="30" rx="3" fill="none" stroke="#555" stroke-width="0.5"/>
-  <text x="130" y="403" fill="#444" font-size="10" text-anchor="middle">same starting situation</text>
+  <rect x="40" y="384" width="180" height="30" rx="3" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="130" y="403" fill="#222" font-size="11" text-anchor="middle">same starting situation</text>
 
-  <line x1="220" y1="399" x2="240" y2="399" stroke="#555" stroke-width="0.5" marker-end="url(#arr)"/>
+  <line x1="220" y1="399" x2="240" y2="399" stroke="#333" stroke-width="0.5" marker-end="url(#arr)"/>
 
-  <rect x="242" y="384" width="90" height="30" rx="3" fill="none" stroke="#d84315" stroke-width="0.8" stroke-dasharray="4 2"/>
-  <text x="287" y="403" fill="#d84315" font-size="10" font-weight="500" text-anchor="middle">gut feel</text>
+  <rect x="242" y="384" width="90" height="30" rx="3" fill="none" stroke="#d84315" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <text x="287" y="403" fill="#d84315" font-size="11" font-weight="500" text-anchor="middle">gut feel</text>
 
-  <line x1="332" y1="399" x2="368" y2="399" stroke="#555" stroke-width="0.5" marker-end="url(#arr)"/>
+  <line x1="332" y1="399" x2="368" y2="399" stroke="#333" stroke-width="0.5" marker-end="url(#arr)"/>
 
-  <text x="386" y="378" fill="#555" font-size="9" text-anchor="middle">confident?</text>
-  <polygon points="386,383 402,399 386,415 370,399" fill="none" stroke="#555" stroke-width="0.5"/>
+  <text x="386" y="378" fill="#333" font-size="11" text-anchor="middle">confident?</text>
+  <polygon points="386,383 402,399 386,415 370,399" fill="none" stroke="#333" stroke-width="1"/>
 
-  <line x1="402" y1="399" x2="444" y2="399" stroke="#555" stroke-width="0.5" marker-end="url(#arr)"/>
-  <text x="424" y="393" fill="#d84315" font-size="9" font-weight="500" text-anchor="middle">always</text>
+  <line x1="402" y1="399" x2="444" y2="399" stroke="#333" stroke-width="0.5" marker-end="url(#arr)"/>
+  <text x="424" y="393" fill="#d84315" font-size="11" font-weight="500" text-anchor="middle">always</text>
 
-  <rect x="446" y="384" width="120" height="30" rx="3" fill="none" stroke="#d84315" stroke-width="0.5"/>
-  <text x="506" y="403" fill="#d84315" font-size="10" font-weight="500" text-anchor="middle">decide and act</text>
+  <rect x="446" y="384" width="120" height="30" rx="3" fill="none" stroke="#d84315" stroke-width="1"/>
+  <text x="506" y="403" fill="#d84315" font-size="11" font-weight="500" text-anchor="middle">decide and act</text>
 
-  <text x="40" y="452" fill="#555" font-size="10">no trace of what was considered. no trace of what was rejected.</text>
-  <text x="40" y="468" fill="#555" font-size="10">nobody else can learn from it, build on it, or challenge it.</text>
+  <text x="40" y="452" fill="#333" font-size="11">no trace of what was considered. no trace of what was rejected.</text>
+  <text x="40" y="468" fill="#333" font-size="11">nobody else can learn from it, build on it, or challenge it.</text>
 
 </svg>
