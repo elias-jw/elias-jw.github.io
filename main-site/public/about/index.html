@@ -50,15 +50,142 @@
 
 
 <meta name="twitter:title" content="About"/>
-<meta name="twitter:description" content="My name is Elias Willemse1 and I&rsquo;m a technical entrepreneur, based in London, with over 15 years of experience in AI, using it to solve problems in traditional industries (logistics, returnable packaging, waste management, urban planning). It&rsquo;s a journey with unexpected turns, pleasantly unexpected turns.
-To list but a few:
+<meta name="twitter:description" content="
 
-a PhD, in optimization algorithms for waste logistics, of all applications;
-being a senior lecturer, and having to teach over 1400 students (I&rsquo;m never doing that again, thank you);
-starting a venture-backed AI company, and closing a venture-backed AI company;
-get ready to start another company, but now more sensibly, given what I&rsquo;ve learned  (it&rsquo;s going to be different this time&hellip; right?? Right??!!).
 
-All of this, while moving from South Africa to Singapore and now London."/>
+  career timeline
+
+  
+
+    
+    
+      
+      2025
+      present
+      Founder
+      Second Order AI
+      London
+      
+        tender and bid analytics
+        logistics optimisation modelling (arc routing, street-based)
+        AI Scientist contract: entity resolution for S&P Global (via Terahelix)
+      
+      the reasoning before the movement
+      decision intelligence
+      knowledge graphs
+      Rust
+    
+
+    
+    
+      
+      2024
+      2 yrs · part-time
+      Research Affiliate
+      University of Geneva
+      Remote
+      
+        Applied Complexity Group
+        ML for vertical displacements in high-rise cities
+        combinatorial optimisation algorithms
+      
+      concurrent with Second Order AI
+    
+
+    
+    
+      
+      2020
+      4 yrs
+      CTO & Co-founder
+      Waste Labs
+      Singapore → London
+      
+        16 projects for multi-nationals, C-level engagement
+        £250M&#43; in client tender wins, 50% success rate
+        SaaS platform deployed: Hong Kong, London
+        deadlines: 1 week to 2 months per project
+        3.5x measured value-add over subscription fee
+      
+      graph theory
+      optimisation
+      SaaS
+    
+
+    
+    
+      
+      2020
+      8 mos
+      Founder in Residence
+      Entrepreneur First SG7
+      Singapore
+      
+        &lt;5% acceptance rate
+        formed and funded Waste Labs
+      
+      academic → founder
+    
+
+    
+    
+      
+      2018
+      1 yr 9 mos
+      Research Fellow
+      SUTD · Applied Complexity Group
+      Singapore
+      
+        demographic change microsimulation
+        agent-based residential location choice
+        HDB collaboration (New Urban Kampung)
+      
+      overlap with Pretoria
+      complexity
+      agent-based
+    
+
+    
+    
+      
+      2013
+      6 yrs
+      Senior Lecturer
+      University of Pretoria
+      Pretoria, South Africa
+      
+        transportation modelling and optimisation
+        waste collection optimisation (PhD)
+        teaching ~1500 undergrads &#43; postgrad supervision
+      
+      research
+      arc routing
+      PhD
+    
+
+    
+    
+      
+      2008
+      5 yrs
+      Research Engineer
+      CSIR
+      Pretoria, South Africa
+      
+        simulation, optimisation, waste collection, renewable energy
+      
+      
+        also: postgrad lecturer, University of Pretoria (2009) · Senior Engineer, LTS Health (2012) · independent consulting
+      
+      optimisation
+      simulation
+    
+
+  
+
+
+
+My name is Elias Willemse1 and I&rsquo;m a technical entrepreneur, based in London, with over 15 years of experience in AI, using it to solve problems in traditional industries (logistics, returnable packaging, waste management, urban planning). It&rsquo;s a journey with unexpected turns, pleasantly unexpected turns."/>
 
 <link rel="stylesheet" href="//localhost:1313/css/custom.css"> </head>
 <body class="terminal">
@@ -105,6 +232,314 @@ All of this, while moving from South Africa to Singapore and now London."/>
     <div class="container animated zoomIn fast" >
         
 <h1>About</h1>
+<style>
+  .timeline-wrapper {
+    padding: 40px 0 60px 0;
+    overflow-x: auto;
+  }
+
+  .timeline-wrapper .title {
+    color: #d84315;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
+
+  .timeline {
+    display: flex;
+    gap: 0;
+    align-items: flex-start;
+    min-width: max-content;
+  }
+
+  .milestone {
+    min-width: 190px;
+    max-width: 210px;
+    border-left: 1px solid #e0e0e0;
+    padding: 0 16px;
+    flex-shrink: 0;
+  }
+
+  .milestone.wide {
+    min-width: 220px;
+    max-width: 240px;
+  }
+
+  .milestone.narrow {
+    min-width: 140px;
+    max-width: 160px;
+  }
+
+  .milestone:first-child {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .milestone .bar {
+    height: 4px;
+    background: #ddd;
+    margin-bottom: 16px;
+    border-radius: 1px;
+  }
+
+  .milestone.highlight .bar,
+  .milestone.inflection .bar {
+    background: #d84315;
+  }
+
+  .milestone.inflection .bar {
+    height: 6px;
+  }
+
+  .milestone .year {
+    font-size: 30px;
+    font-weight: 600;
+    color: #222;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .milestone.highlight .year,
+  .milestone.inflection .year {
+    color: #d84315;
+  }
+
+  .milestone .duration {
+    font-size: 10px;
+    color: #888;
+    margin-bottom: 12px;
+  }
+
+  .milestone .role {
+    font-size: 11px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 2px;
+    line-height: 1.3;
+  }
+
+  .milestone .org {
+    font-size: 10px;
+    color: #666;
+    margin-bottom: 2px;
+  }
+
+  .milestone .location {
+    font-size: 10px;
+    color: #999;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+
+  .milestone .desc {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 6px 0;
+  }
+
+  .milestone .desc li {
+    font-size: 10px;
+    color: #555;
+    line-height: 1.5;
+    padding-left: 14px;
+    position: relative;
+    margin-bottom: 4px;
+  }
+
+  .milestone .desc li::before {
+    content: '·';
+    position: absolute;
+    left: 4px;
+    color: #999;
+  }
+
+  .milestone.highlight .desc li::before,
+  .milestone.inflection .desc li::before {
+    color: #d84315;
+  }
+
+  .milestone .tag {
+    display: inline-block;
+    font-size: 9px;
+    color: #999;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 1px 5px;
+    margin-right: 3px;
+    margin-top: 3px;
+  }
+
+  .milestone.highlight .tag,
+  .milestone.inflection .tag {
+    border-color: #d84315;
+    color: #d84315;
+  }
+
+  .milestone .overlap-note {
+    font-size: 9px;
+    color: #d84315;
+    margin-top: 6px;
+    font-style: italic;
+  }
+
+  .milestone .inflection-note {
+    font-size: 10px;
+    color: #d84315;
+    font-weight: 500;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #d84315;
+    line-height: 1.4;
+  }
+
+  .milestone .sub-role {
+    font-size: 9px;
+    color: #888;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #eee;
+    line-height: 1.4;
+  }
+
+  .milestone .sub-role strong {
+    color: #666;
+    font-weight: 500;
+  }
+</style>
+
+<div class="timeline-wrapper">
+  <div class="title">career timeline</div>
+
+  <div class="timeline">
+
+    
+    <div class="milestone inflection wide">
+      <div class="bar"></div>
+      <div class="year">2025</div>
+      <div class="duration">present</div>
+      <div class="role">Founder</div>
+      <div class="org">Second Order AI</div>
+      <div class="location">London</div>
+      <ul class="desc">
+        <li>tender and bid analytics</li>
+        <li>logistics optimisation modelling (arc routing, street-based)</li>
+        <li>AI Scientist contract: entity resolution for S&P Global (via Terahelix)</li>
+      </ul>
+      <div class="inflection-note">the reasoning before the movement</div>
+      <span class="tag">decision intelligence</span>
+      <span class="tag">knowledge graphs</span>
+      <span class="tag">Rust</span>
+    </div>
+
+    
+    <div class="milestone narrow">
+      <div class="bar"></div>
+      <div class="year">2024</div>
+      <div class="duration">2 yrs · part-time</div>
+      <div class="role">Research Affiliate</div>
+      <div class="org">University of Geneva</div>
+      <div class="location">Remote</div>
+      <ul class="desc">
+        <li>Applied Complexity Group</li>
+        <li>ML for vertical displacements in high-rise cities</li>
+        <li>combinatorial optimisation algorithms</li>
+      </ul>
+      <div class="overlap-note">concurrent with Second Order AI</div>
+    </div>
+
+    
+    <div class="milestone highlight wide">
+      <div class="bar"></div>
+      <div class="year">2020</div>
+      <div class="duration">4 yrs</div>
+      <div class="role">CTO & Co-founder</div>
+      <div class="org">Waste Labs</div>
+      <div class="location">Singapore → London</div>
+      <ul class="desc">
+        <li>16 projects for multi-nationals, C-level engagement</li>
+        <li>£250M+ in client tender wins, 50% success rate</li>
+        <li>SaaS platform deployed: Hong Kong, London</li>
+        <li>deadlines: 1 week to 2 months per project</li>
+        <li>3.5x measured value-add over subscription fee</li>
+      </ul>
+      <span class="tag">graph theory</span>
+      <span class="tag">optimisation</span>
+      <span class="tag">SaaS</span>
+    </div>
+
+    
+    <div class="milestone inflection narrow">
+      <div class="bar"></div>
+      <div class="year">2020</div>
+      <div class="duration">8 mos</div>
+      <div class="role">Founder in Residence</div>
+      <div class="org">Entrepreneur First SG7</div>
+      <div class="location">Singapore</div>
+      <ul class="desc">
+        <li>&lt;5% acceptance rate</li>
+        <li>formed and funded Waste Labs</li>
+      </ul>
+      <div class="inflection-note">academic → founder</div>
+    </div>
+
+    
+    <div class="milestone highlight">
+      <div class="bar"></div>
+      <div class="year">2018</div>
+      <div class="duration">1 yr 9 mos</div>
+      <div class="role">Research Fellow</div>
+      <div class="org">SUTD · Applied Complexity Group</div>
+      <div class="location">Singapore</div>
+      <ul class="desc">
+        <li>demographic change microsimulation</li>
+        <li>agent-based residential location choice</li>
+        <li>HDB collaboration (New Urban Kampung)</li>
+      </ul>
+      <div class="overlap-note">overlap with Pretoria</div>
+      <span class="tag">complexity</span>
+      <span class="tag">agent-based</span>
+    </div>
+
+    
+    <div class="milestone">
+      <div class="bar"></div>
+      <div class="year">2013</div>
+      <div class="duration">6 yrs</div>
+      <div class="role">Senior Lecturer</div>
+      <div class="org">University of Pretoria</div>
+      <div class="location">Pretoria, South Africa</div>
+      <ul class="desc">
+        <li>transportation modelling and optimisation</li>
+        <li>waste collection optimisation (PhD)</li>
+        <li>teaching ~1500 undergrads + postgrad supervision</li>
+      </ul>
+      <span class="tag">research</span>
+      <span class="tag">arc routing</span>
+      <span class="tag">PhD</span>
+    </div>
+
+    
+    <div class="milestone narrow">
+      <div class="bar"></div>
+      <div class="year">2008</div>
+      <div class="duration">5 yrs</div>
+      <div class="role">Research Engineer</div>
+      <div class="org">CSIR</div>
+      <div class="location">Pretoria, South Africa</div>
+      <ul class="desc">
+        <li>simulation, optimisation, waste collection, renewable energy</li>
+      </ul>
+      <div class="sub-role">
+        <strong>also:</strong> postgrad lecturer, University of Pretoria (2009) · Senior Engineer, LTS Health (2012) · independent consulting
+      </div>
+      <span class="tag">optimisation</span>
+      <span class="tag">simulation</span>
+    </div>
+
+  </div>
+</div>
+
+
 <p>My name is Elias Willemse<sup style="color: #666; font-size: 0.8em;">1</sup> and I&rsquo;m a technical entrepreneur, based in London, with over 15 years of experience in AI, using it to solve problems in traditional industries (logistics, returnable packaging, waste management, urban planning). It&rsquo;s a journey with unexpected turns, pleasantly unexpected turns.</p>
 <p>To list but a few:</p>
 <ul>

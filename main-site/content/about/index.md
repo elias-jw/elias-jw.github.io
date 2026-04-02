@@ -3,6 +3,8 @@ title = "About"
 date = "2025-05-30"
 +++
 
+{{< careertimeline >}}
+
 My name is Elias Willemse<sup style="color: #666; font-size: 0.8em;">1</sup> and I'm a technical entrepreneur, based in London, with over 15 years of experience in AI, using it to solve problems in traditional industries (logistics, returnable packaging, waste management, urban planning). It's a journey with unexpected turns, pleasantly unexpected turns.
 
 To list but a few:
