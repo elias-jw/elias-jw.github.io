@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" font-family="'Fira Code', 'Courier New', monospace">
+
+  <!-- Title -->
+  <text x="40" y="24" fill="#d84315" font-size="12" font-weight="500">decision validity window</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="260" x2="660" y2="260" stroke="#555" stroke-width="0.5"/>
+  <line x1="80" y1="260" x2="80" y2="50" stroke="#555" stroke-width="0.5"/>
+
+  <!-- Axis labels -->
+  <text x="370" y="284" fill="#555" font-size="9" text-anchor="middle">time</text>
+  <text x="40" y="155" fill="#555" font-size="9" text-anchor="middle" transform="rotate(-90, 40, 155)">value of analysis</text>
+
+  <!-- Minimum useful threshold -->
+  <line x1="80" y1="120" x2="640" y2="120" stroke="#555" stroke-width="0.5" stroke-dasharray="6 4"/>
+  <text x="440" y="134" fill="#555" font-size="8">minimum usefulness</text>
+
+  <!-- S-curve: analysis value building up from zero -->
+  <path d="M80 260 Q140 255 180 230 Q220 200 260 180" fill="none" stroke="#555" stroke-width="1.2"/>
+
+  <!-- First environment change line -->
+  <line x1="130" y1="50" x2="130" y2="270" stroke="#555" stroke-width="0.6" stroke-dasharray="4 3"/>
+  <text x="84" y="46" fill="#555" font-size="8">first environment</text>
+  <text x="84" y="56" fill="#555" font-size="8">change</text>
+
+  <!-- Environment significantly changed line -->
+  <line x1="260" y1="50" x2="260" y2="270" stroke="#d84315" stroke-width="0.8" stroke-dasharray="6 3"/>
+  <text x="266" y="52" fill="#d84315" font-size="8" font-weight="500">environment</text>
+  <text x="266" y="62" fill="#d84315" font-size="8" font-weight="500">significantly changed</text>
+
+  <!-- After turning point: value crashes to zero -->
+  <path d="M260 180 Q280 220 300 250 Q310 258 320 260" fill="none" stroke="#d84315" stroke-width="1.2"/>
+
+  <!-- Counterfactual: dashed continuation if environment stayed stable -->
+  <path d="M260 180 Q320 140 380 105 Q440 82 500 75 Q560 72 640 70" fill="none" stroke="#555" stroke-width="0.8" stroke-dasharray="5 4"/>
+
+  <!-- Decision validity window bracket -->
+  <line x1="130" y1="298" x2="235" y2="298" stroke="#d84315" stroke-width="1.5"/>
+  <line x1="130" y1="294" x2="130" y2="302" stroke="#d84315" stroke-width="1"/>
+  <line x1="235" y1="294" x2="235" y2="302" stroke="#d84315" stroke-width="1"/>
+  <text x="182" y="312" fill="#d84315" font-size="8" text-anchor="middle" font-weight="500">decision validity window</text>
+
+  <!-- Action lead time gap -->
+  <line x1="237" y1="298" x2="258" y2="298" stroke="#555" stroke-width="1"/>
+  <line x1="237" y1="294" x2="237" y2="302" stroke="#555" stroke-width="0.5"/>
+  <line x1="258" y1="294" x2="258" y2="302" stroke="#555" stroke-width="0.5"/>
+  <text x="265" y="312" fill="#555" font-size="8">action lead time</text>
+
+  <!-- Annotation: counterfactual -->
+  <circle cx="500" cy="75" r="2" fill="#555"/>
+  <line x1="502" y1="77" x2="520" y2="100" stroke="#555" stroke-width="0.5"/>
+  <text x="525" y="97" fill="#555" font-size="8">value if environment</text>
+  <text x="525" y="108" fill="#555" font-size="8">had stayed stable</text>
+
+  <!-- Annotation: crash -->
+  <circle cx="295" cy="245" r="2" fill="#d84315"/>
+  <line x1="297" y1="243" x2="340" y2="220" stroke="#d84315" stroke-width="0.5"/>
+  <text x="345" y="216" fill="#d84315" font-size="8">actual value crashes:</text>
+  <text x="345" y="227" fill="#d84315" font-size="8">analysis is for a world</text>
+  <text x="345" y="238" fill="#d84315" font-size="8">that no longer exists</text>
+
+  <!-- Annotation: never crosses threshold -->
+  <text x="155" y="145" fill="#d84315" font-size="8">analysis never reaches</text>
+  <text x="155" y="156" fill="#d84315" font-size="8" font-weight="500">"minimum useful"</text>
+  <text x="155" y="167" fill="#d84315" font-size="8">before disruption</text>
+
+  <!-- Bottom summary -->
+  <text x="40" y="346" fill="#555" font-size="9">the analysis was building toward usefulness. the environment shifted before it got there.</text>
+  <text x="40" y="362" fill="#555" font-size="9">formal methods are abandoned under pressure because the window closes before they deliver.</text>
+
+</svg>
