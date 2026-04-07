@@ -2,25 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Elias J. Willemse</title>
-    <link>/posts/</link>
+    <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on Elias J. Willemse</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>When Deliberation Meets Reality</title>
-      <link>/posts/when-deliberation-meets-reality/</link>
+      <title>Building critical thinking infrastructure</title>
+      <link>//localhost:1313/posts/building-critical-thinking-infrastructure/</link>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/building-critical-thinking-infrastructure/</guid>
+      <description>&lt;p&gt;&lt;em&gt;A companion to &lt;a href=&#34;//localhost:1313/posts/when-deliberation-meets-reality/&#34;&gt;When Deliberation Meets Reality&lt;/a&gt;, which argued that the missing precondition for collective flourishing is critical thinking infrastructure that operates fast enough to survive contact with reality. This post describes what that infrastructure looks like.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;//localhost:1313/posts/when-deliberation-meets-reality/&#34;&gt;previous post&lt;/a&gt; proposed a hypothesis: that analytically superior methods are universally abandoned under pressure, despite their rigour, because they are too slow to fit inside the window where decisions actually get made. If that hypothesis holds, then the binding constraint on decision quality is time rather than analytical sophistication, specifically the time it takes to formulate a question (ttQ) and receive a useful answer (ttA). When those times are large, decision-makers default to gut feel regardless of what tools are available. When they are small enough to permit rapid iteration, decisions improve because each answer opens a better question than the last.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>When deliberation meets reality</title>
+      <link>//localhost:1313/posts/when-deliberation-meets-reality/</link>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>/posts/when-deliberation-meets-reality/</guid>
-      <description>&lt;p&gt;&lt;em&gt;A response to ARIA&amp;rsquo;s Collective Flourishing opportunity space&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;ARIA&amp;rsquo;s Collective Flourishing programme, led by Dr Nicole Wheeler, asks an important question: what if we could build the tools that allow societies to move from reactively correcting the past to consciously creating the future? The &lt;a href=&#34;https://www.aria.org.uk/media/qvhfnuta/aria-collective-flourishing-opportunity-space_accessible.pdf&#34;&gt;opportunity space document&lt;/a&gt; identifies a real problem, that our tools for navigating complexity have not kept pace with the world, and proposes &amp;ldquo;deliberative scaffolding&amp;rdquo; as the solution: tools and protocols that help societies see, reason, and choose together.&lt;/p&gt;</description>
+      <guid>//localhost:1313/posts/when-deliberation-meets-reality/</guid>
+      <description>&lt;p&gt;&lt;em&gt;A response to ARIA&amp;rsquo;s Collective Flourishing opportunity space&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://aria.org.uk/opportunity-spaces/collective-flourishing/&#34;&gt;ARIA&amp;rsquo;s Collective Flourishing programme&lt;/a&gt;, led by Dr Nicole Wheeler, asks an important question: what if we could build the tools that allow societies to move from reactively correcting the past to consciously creating the future? The &lt;a href=&#34;https://www.aria.org.uk/media/qvhfnuta/aria-collective-flourishing-opportunity-space_accessible.pdf&#34;&gt;opportunity space document&lt;/a&gt; identifies a real problem, that our tools for navigating complexity have not kept pace with the world, and proposes &amp;ldquo;deliberative scaffolding&amp;rdquo; as the solution: tools and protocols that help societies see, reason, and choose together.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Short-blogs</title>
-      <link>/posts/short-blogs/</link>
+      <link>//localhost:1313/posts/short-blogs/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/short-blogs/</guid>
-      <description>&lt;p&gt;A bunch of short blogs and thoughts, in no particular order. Insults are mostly self directed.&lt;/p&gt;&#xA;&lt;div class=&#34;about-image&#34;&gt;&#xA;    &lt;img src=&#34;/images/Cicle_inversion.svg.png&#34; alt=&#34;Circle inversion&#34; style=&#34;width: 50%; height: auto; display: block; margin: 0 auto;&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;span style=&#34;color: #666; font-size: 0.8em; text-align: center; display: block;&#34;&gt;&lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Cicle_inversion.svg/&#34;&gt;Circle inversion&lt;/a&gt; tree, CC-BY-SA 3.0&lt;/span&gt;&#xA;&lt;br&gt;&lt;/br&gt;&#xA;&lt;h3 id=&#34;80-20-rule-in-small-vs-big-companies&#34;&gt;80-20 rule in small vs big companies&lt;/h3&gt;&#xA;&lt;p&gt;In a small company, 80% of what you do doesn&amp;rsquo;t really matter. In a large company, there is an 80% chance that nothing you do matters.&lt;/p&gt;</description>
+      <guid>//localhost:1313/posts/short-blogs/</guid>
+      <description>&lt;p&gt;A bunch of short blogs and thoughts, in no particular order. Insults are mostly self directed.&lt;/p&gt;&#xA;&lt;div class=&#34;about-image&#34;&gt;&#xA;    &lt;img src=&#34;//localhost:1313/images/Cicle_inversion.svg.png&#34; alt=&#34;Circle inversion&#34; style=&#34;width: 50%; height: auto; display: block; margin: 0 auto;&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;span style=&#34;color: #666; font-size: 0.8em; text-align: center; display: block;&#34;&gt;&lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Cicle_inversion.svg/&#34;&gt;Circle inversion&lt;/a&gt; tree, CC-BY-SA 3.0&lt;/span&gt;&#xA;&lt;br&gt;&lt;/br&gt;&#xA;&lt;h3 id=&#34;80-20-rule-in-small-vs-big-companies&#34;&gt;80-20 rule in small vs big companies&lt;/h3&gt;&#xA;&lt;p&gt;In a small company, 80% of what you do doesn&amp;rsquo;t really matter. In a large company, there is an 80% chance that nothing you do matters.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

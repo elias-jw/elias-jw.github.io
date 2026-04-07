@@ -1,0 +1,112 @@
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'Fira Code', 'Courier New', monospace; }
+    .title { font-size: 13px; fill: #222; font-weight: 600; }
+    .label { font-size: 10px; fill: #333; }
+    .sub { font-size: 9px; fill: #888; }
+    .caption { font-size: 9px; fill: #d84315; font-style: italic; }
+    .tag { font-size: 9px; fill: #555; }
+    .box { stroke: #333; stroke-width: 1; fill: #fafafa; }
+    .tag-box { stroke: #999; stroke-width: 0.75; fill: #fff; }
+    .graph-bar { stroke: #333; stroke-width: 1; fill: #f0f0f0; }
+    .lib-frame { stroke: #999; stroke-width: 0.75; fill: #fafafa; stroke-dasharray: 4 2; }
+  </style>
+  <defs>
+    <marker id="amic" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,4 L0,8" fill="none" stroke="#333" stroke-width="1" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <text class="title" x="350" y="22" text-anchor="middle">Composable micro-tools</text>
+
+  <!-- Graph bar (slim, just enough to anchor read-only) -->
+  <rect x="80" y="44" width="540" height="36" rx="4" class="graph-bar"/>
+  <text class="label" x="350" y="62" text-anchor="middle" font-weight="600">GRAPH</text>
+  <text class="sub" x="350" y="74" text-anchor="middle">read-only access</text>
+
+  <!-- Read arrows: only from graph to tools that actually read it -->
+  <line x1="290" y1="80" x2="290" y2="116" stroke="#333" stroke-width="0.75" marker-end="url(#amic)"/>
+  <line x1="410" y1="80" x2="410" y2="116" stroke="#333" stroke-width="0.75" marker-end="url(#amic)"/>
+
+  <!-- Tool chain: ingest, explore, analyse, render -->
+  <rect x="125" y="118" width="90" height="44" rx="3" class="box"/>
+  <text class="label" x="170" y="138" text-anchor="middle">ingest</text>
+  <text class="sub" x="170" y="152" text-anchor="middle">client.csv</text>
+
+  <line x1="215" y1="140" x2="243" y2="140" stroke="#333" stroke-width="1" marker-end="url(#amic)"/>
+
+  <rect x="245" y="118" width="90" height="44" rx="3" class="box"/>
+  <text class="label" x="290" y="138" text-anchor="middle">explore</text>
+  <text class="sub" x="290" y="152" text-anchor="middle">h3 filter</text>
+
+  <line x1="335" y1="140" x2="363" y2="140" stroke="#333" stroke-width="1" marker-end="url(#amic)"/>
+
+  <rect x="365" y="118" width="90" height="44" rx="3" class="box"/>
+  <text class="label" x="410" y="138" text-anchor="middle">analyse</text>
+  <text class="sub" x="410" y="152" text-anchor="middle">sensitivity</text>
+
+  <line x1="455" y1="140" x2="483" y2="140" stroke="#333" stroke-width="1" marker-end="url(#amic)"/>
+
+  <rect x="485" y="118" width="90" height="44" rx="3" class="box"/>
+  <text class="label" x="530" y="138" text-anchor="middle">render</text>
+  <text class="sub" x="530" y="152" text-anchor="middle">heatmap</text>
+
+  <text class="caption" x="350" y="180" text-anchor="middle">composed on the fly to answer one question</text>
+
+  <!-- Library frame -->
+  <rect x="60" y="200" width="580" height="86" rx="4" class="lib-frame"/>
+  <text class="sub" x="72" y="216" fill="#666" font-weight="600">library</text>
+
+  <g transform="translate(72, 224)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="80" height="16" rx="2" class="tag-box"/>
+    <text class="tag" x="40" y="11" text-anchor="middle">coverage_heat</text>
+
+    <rect x="86" y="0" width="76" height="16" rx="2" class="tag-box"/>
+    <text class="tag" x="124" y="11" text-anchor="middle">route_overlay</text>
+
+    <rect x="168" y="0" width="80" height="16" rx="2" class="tag-box"/>
+    <text class="tag" x="208" y="11" text-anchor="middle">scenario_diff</text>
+
+    <rect x="254" y="0" width="68" height="16" rx="2" class="tag-box"/>
+    <text class="tag" x="288" y="11" text-anchor="middle">cost_table</text>
+
+    <rect x="328" y="0" width="80" height="16" rx="2" class="tag-box"/>
+    <text class="tag" x="368" y="11" text-anchor="middle">demand_proxy</text>
+
+    <rect x="414" y="0" width="74" height="16" rx="2" class="tag-box"/>
+    <text class="tag" x="451" y="11" text-anchor="middle">fleet_audit</text>
+
+    <rect x="494" y="0" width="62" height="16" rx="2" class="tag-box"/>
+    <text class="tag" x="525" y="11" text-anchor="middle">geocode</text>
+
+    <!-- Row 2 -->
+    <rect x="0" y="22" width="74" height="16" rx="2" class="tag-box"/>
+    <text class="tag" x="37" y="33" text-anchor="middle">lez_overlay</text>
+
+    <rect x="80" y="22" width="84" height="16" rx="2" class="tag-box"/>
+    <text class="tag" x="122" y="33" text-anchor="middle">depot_compare</text>
+
+    <rect x="170" y="22" width="78" height="16" rx="2" class="tag-box"/>
+    <text class="tag" x="209" y="33" text-anchor="middle">vol_summary</text>
+
+    <rect x="254" y="22" width="74" height="16" rx="2" class="tag-box"/>
+    <text class="tag" x="291" y="33" text-anchor="middle">profile_dist</text>
+
+    <rect x="334" y="22" width="80" height="16" rx="2" class="tag-box"/>
+    <text class="tag" x="374" y="33" text-anchor="middle">margin_estim</text>
+
+    <rect x="420" y="22" width="62" height="16" rx="2" class="tag-box"/>
+    <text class="tag" x="451" y="33" text-anchor="middle">pop_join</text>
+
+    <rect x="488" y="22" width="68" height="16" rx="2" class="tag-box"/>
+    <text class="tag" x="522" y="33" text-anchor="middle">+30 more</text>
+
+    <!-- Row 3: small note inside frame -->
+    <text class="sub" x="0" y="58" fill="#888">each tile is minutes to hours to build, often disposable</text>
+  </g>
+
+  <!-- Bottom captions -->
+  <text class="caption" x="350" y="304" text-anchor="middle">when a tool proves useful across projects, promote it to a permanent layer</text>
+  <text class="sub" x="350" y="320" text-anchor="middle">small · composable · read-only against the graph</text>
+</svg>

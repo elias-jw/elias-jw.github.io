@@ -1,0 +1,195 @@
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'Fira Code', 'Courier New', monospace; }
+    .title { font-size: 12px; fill: #222; font-weight: 600; }
+    .cell { font-size: 7px; fill: #555; }
+    .cell-head { font-size: 7px; fill: #333; font-weight: 600; }
+    .vsym { font-size: 11px; fill: #fff; font-weight: 600; font-style: italic; }
+    .esym { font-size: 8px; fill: #666; font-style: italic; }
+    .legend-sym { font-size: 9px; fill: #333; font-style: italic; }
+    .legend-val { font-size: 9px; fill: #888; }
+    .attr { font-size: 7.5px; fill: #aaa; }
+    .sub { font-size: 9px; fill: #aaa; }
+    .arrow-label { font-size: 9px; fill: #d84315; font-weight: 500; }
+  </style>
+  <defs>
+    <marker id="aont" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="8" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,4 L0,8" fill="none" stroke="#d84315" stroke-width="1.2" stroke-linejoin="round"/>
+    </marker>
+    <marker id="ae" viewBox="0 0 8 6" refX="8" refY="3" markerWidth="7" markerHeight="5" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#999"/>
+    </marker>
+  </defs>
+
+  <text class="title" x="350" y="20" text-anchor="middle">Domain Ontology: from jargon to structure</text>
+
+  <!-- ============ LEFT SIDE: spreadsheet fragments ============ -->
+
+  <g transform="translate(16, 44) rotate(-3)">
+    <rect width="200" height="80" rx="2" fill="#fff" stroke="#ccc" stroke-width="0.75"/>
+    <rect width="200" height="14" rx="2" fill="#e8e8e8" stroke="#ccc" stroke-width="0.5"/>
+    <text class="cell-head" x="6" y="10">SITE_ID</text>
+    <line x1="48" y1="0" x2="48" y2="80" stroke="#ddd" stroke-width="0.5"/>
+    <text class="cell-head" x="54" y="10">ADDRESS</text>
+    <line x1="110" y1="0" x2="110" y2="80" stroke="#ddd" stroke-width="0.5"/>
+    <text class="cell-head" x="116" y="10">vol_m3</text>
+    <line x1="150" y1="0" x2="150" y2="80" stroke="#ddd" stroke-width="0.5"/>
+    <text class="cell-head" x="156" y="10">freq</text>
+    <line x1="0" y1="14" x2="200" y2="14" stroke="#eee" stroke-width="0.5"/>
+    <text class="cell" x="6" y="26">SP-0042</text>
+    <text class="cell" x="54" y="26">14 Orchard Rd</text>
+    <text class="cell" x="116" y="26">2.4</text>
+    <text class="cell" x="156" y="26">weekly</text>
+    <line x1="0" y1="30" x2="200" y2="30" stroke="#eee" stroke-width="0.5"/>
+    <text class="cell" x="6" y="42">SP-0043</text>
+    <text class="cell" x="54" y="42">Blk 201 Jurong</text>
+    <text class="cell" x="116" y="42">0.8</text>
+    <text class="cell" x="156" y="42">2x/mth</text>
+    <line x1="0" y1="46" x2="200" y2="46" stroke="#eee" stroke-width="0.5"/>
+    <text class="cell" x="6" y="58">SP-0044</text>
+    <text class="cell" x="54" y="58">Tampines CC</text>
+    <text class="cell" x="116" y="58">5.1</text>
+    <text class="cell" x="156" y="58">daily</text>
+    <line x1="0" y1="62" x2="200" y2="62" stroke="#eee" stroke-width="0.5"/>
+    <text class="cell" x="6" y="74">SP-0045</text>
+    <text class="cell" x="54" y="74">23 Clementi Ave</text>
+    <text class="cell" x="116" y="74">1.2</text>
+    <text class="cell" x="156" y="74">weekly</text>
+  </g>
+
+  <g transform="translate(30, 148) rotate(2)">
+    <rect width="190" height="66" rx="2" fill="#fff" stroke="#ccc" stroke-width="0.75"/>
+    <rect width="190" height="14" rx="2" fill="#e0f0e0" stroke="#ccc" stroke-width="0.5"/>
+    <text class="cell-head" x="6" y="10">Customer</text>
+    <line x1="58" y1="0" x2="58" y2="66" stroke="#ddd" stroke-width="0.5"/>
+    <text class="cell-head" x="64" y="10">Collection Site</text>
+    <line x1="136" y1="0" x2="136" y2="66" stroke="#ddd" stroke-width="0.5"/>
+    <text class="cell-head" x="142" y="10">Tonnage</text>
+    <line x1="0" y1="14" x2="190" y2="14" stroke="#eee" stroke-width="0.5"/>
+    <text class="cell" x="6" y="26">ACME Corp</text>
+    <text class="cell" x="64" y="26">Drop-off A</text>
+    <text class="cell" x="142" y="26">340</text>
+    <line x1="0" y1="30" x2="190" y2="30" stroke="#eee" stroke-width="0.5"/>
+    <text class="cell" x="6" y="42">ACME Corp</text>
+    <text class="cell" x="64" y="42">Drop-off B</text>
+    <text class="cell" x="142" y="42">210</text>
+    <line x1="0" y1="46" x2="190" y2="46" stroke="#eee" stroke-width="0.5"/>
+    <text class="cell" x="6" y="58">GreenCo</text>
+    <text class="cell" x="64" y="58">Main depot</text>
+    <text class="cell" x="142" y="58">890</text>
+  </g>
+
+  <g transform="translate(10, 238) rotate(-1.5)">
+    <rect width="220" height="52" rx="2" fill="#fff" stroke="#ccc" stroke-width="0.75"/>
+    <rect width="220" height="14" rx="2" fill="#f0e0e0" stroke="#ccc" stroke-width="0.5"/>
+    <text class="cell-head" x="6" y="10">Zone Name</text>
+    <line x1="80" y1="0" x2="80" y2="52" stroke="#ddd" stroke-width="0.5"/>
+    <text class="cell-head" x="86" y="10">Type</text>
+    <line x1="140" y1="0" x2="140" y2="52" stroke="#ddd" stroke-width="0.5"/>
+    <text class="cell-head" x="146" y="10">Effective</text>
+    <line x1="0" y1="14" x2="220" y2="14" stroke="#eee" stroke-width="0.5"/>
+    <text class="cell" x="6" y="26">Central LEZ</text>
+    <text class="cell" x="86" y="26">emission zone</text>
+    <text class="cell" x="146" y="26">2027-01-01</text>
+    <line x1="0" y1="30" x2="220" y2="30" stroke="#eee" stroke-width="0.5"/>
+    <text class="cell" x="6" y="42">East Clean Air</text>
+    <text class="cell" x="86" y="42">clean air dist.</text>
+    <text class="cell" x="146" y="42">2026-06-01</text>
+  </g>
+
+  <g transform="translate(140, 300) rotate(4)">
+    <rect width="100" height="48" rx="1" fill="#fff9c4" stroke="#e6d54a" stroke-width="0.5"/>
+    <text class="cell" x="8" y="14" style="fill:#777;">client calls them</text>
+    <text class="cell" x="8" y="26" style="fill:#777;">"rounds" but tender</text>
+    <text class="cell" x="8" y="38" style="fill:#777;">says "routes"??</text>
+  </g>
+  <g transform="translate(42, 308) rotate(-2)">
+    <rect width="86" height="36" rx="1" fill="#fff9c4" stroke="#e6d54a" stroke-width="0.5"/>
+    <text class="cell" x="8" y="14" style="fill:#777;">is "account" =</text>
+    <text class="cell" x="8" y="26" style="fill:#777;">"customer"??</text>
+  </g>
+
+  <!-- ============ ARROW ============ -->
+  <line x1="268" y1="196" x2="348" y2="196" stroke="#d84315" stroke-width="1.5" marker-end="url(#aont)"/>
+  <text class="arrow-label" x="308" y="186" text-anchor="middle">ontology</text>
+
+  <!-- ============ RIGHT SIDE: graph with symbolic labels ============ -->
+
+  <!--
+    Nodes (r=18):
+      v1: 410, 72    (purple)
+      v2: 545, 140   (orange)
+      v3: 410, 218   (green)
+      v4: 645, 248   (blue)
+      v5: 530, 336   (amber)
+
+    Edges computed perpendicular to circle:
+      e1: v1→v2  d=(135,68) len=151  start=(426,81) end=(529,132)
+      e2: v2→v3  d=(-135,78) len=156  start=(529,149) end=(426,209)
+      e3: v2→v4  d=(100,108) len=147  start=(557,153) end=(633,235)
+      e4: v3→v5  d=(120,118) len=168  start=(423,231) end=(517,323)
+  -->
+
+  <!-- Edges first -->
+  <line x1="426" y1="81" x2="529" y2="132" stroke="#bbb" stroke-width="1" marker-end="url(#ae)"/>
+  <text class="esym" x="488" y="98">e₁</text>
+
+  <line x1="529" y1="149" x2="426" y2="209" stroke="#bbb" stroke-width="1" marker-end="url(#ae)"/>
+  <text class="esym" x="466" y="174">e₂</text>
+
+  <line x1="557" y1="153" x2="633" y2="235" stroke="#bbb" stroke-width="1" marker-end="url(#ae)"/>
+  <text class="esym" x="606" y="188">e₃</text>
+
+  <line x1="423" y1="231" x2="517" y2="323" stroke="#bbb" stroke-width="1" marker-end="url(#ae)"/>
+  <text class="esym" x="454" y="282">e₄</text>
+
+  <!-- Nodes on top -->
+  <circle cx="410" cy="72" r="18" fill="#7b1fa2" stroke="#333" stroke-width="0.75"/>
+  <text class="vsym" x="410" y="77" text-anchor="middle">v₁</text>
+
+  <circle cx="545" cy="140" r="18" fill="#d84315" stroke="#333" stroke-width="0.75"/>
+  <text class="vsym" x="545" y="145" text-anchor="middle">v₂</text>
+
+  <circle cx="410" cy="218" r="18" fill="#2e7d32" stroke="#333" stroke-width="0.75"/>
+  <text class="vsym" x="410" y="223" text-anchor="middle">v₃</text>
+
+  <circle cx="645" cy="248" r="18" fill="#1565c0" stroke="#333" stroke-width="0.75"/>
+  <text class="vsym" x="645" y="253" text-anchor="middle">v₄</text>
+
+  <circle cx="530" cy="336" r="18" fill="#ef6c00" stroke="#333" stroke-width="0.75"/>
+  <text class="vsym" x="530" y="341" text-anchor="middle">v₅</text>
+
+  <!-- ============ LEGEND ============ -->
+  <line x1="370" y1="370" x2="680" y2="370" stroke="#eee" stroke-width="0.5"/>
+
+  <!-- Node legend -->
+  <circle cx="378" cy="386" r="4" fill="#7b1fa2"/>
+  <text class="legend-sym" x="388" y="389">v₁</text>
+  <text class="legend-val" x="405" y="389">Operator</text>
+
+  <circle cx="468" cy="386" r="4" fill="#d84315"/>
+  <text class="legend-sym" x="478" y="389">v₂</text>
+  <text class="legend-val" x="495" y="389">ServicePoint</text>
+
+  <circle cx="378" cy="400" r="4" fill="#2e7d32"/>
+  <text class="legend-sym" x="388" y="403">v₃</text>
+  <text class="legend-val" x="405" y="403">Building</text>
+
+  <circle cx="468" cy="400" r="4" fill="#1565c0"/>
+  <text class="legend-sym" x="478" y="403">v₄</text>
+  <text class="legend-val" x="495" y="403">ServiceRoute</text>
+
+  <circle cx="598" cy="386" r="4" fill="#ef6c00"/>
+  <text class="legend-sym" x="608" y="389">v₅</text>
+  <text class="legend-val" x="625" y="389">RegulatoryZone</text>
+
+  <!-- Edge legend -->
+  <text class="legend-sym" x="598" y="403">e₁</text>
+  <text class="legend-val" x="615" y="403">SERVES</text>
+  <text class="legend-sym" x="378" y="414">e₂</text>
+  <text class="legend-val" x="395" y="414">LOCATED_AT</text>
+  <text class="legend-sym" x="478" y="414">e₃</text>
+  <text class="legend-val" x="495" y="414">ASSIGNED_TO</text>
+  <text class="legend-sym" x="598" y="414">e₄</text>
+  <text class="legend-val" x="615" y="414">WITHIN</text>
+</svg>

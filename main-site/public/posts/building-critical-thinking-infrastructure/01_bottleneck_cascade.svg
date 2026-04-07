@@ -1,0 +1,79 @@
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'Fira Code', 'Courier New', monospace; }
+    .title { font-size: 13px; fill: #222; font-weight: 600; }
+    .label { font-size: 10px; fill: #333; }
+    .sublabel { font-size: 9px; fill: #888; }
+    .accent { fill: #d84315; }
+    .lost { font-size: 9px; fill: #d84315; }
+    .box { stroke: #333; stroke-width: 1; rx: 3; }
+    .arrow { stroke: #333; stroke-width: 1.2; fill: none; marker-end: url(#ah); }
+    .squeeze { stroke: #d84315; stroke-width: 0.75; fill: none; stroke-dasharray: 3 2; }
+  </style>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,4 L0,8" fill="none" stroke="#333" stroke-width="1" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <text class="title" x="350" y="20" text-anchor="middle">The bottleneck cascade</text>
+
+  <!-- Left column: bottlenecks -->
+  <rect x="40" y="44" width="260" height="52" class="box" fill="#f5f5f5"/>
+  <text class="label" x="54" y="64" font-weight="600">1. Domain model is implicit</text>
+  <text class="sublabel" x="54" y="80">Reconstructed from scratch every project.</text>
+  <text class="sublabel" x="54" y="90">Lives in heads and spreadsheet columns.</text>
+
+  <line x1="170" y1="96" x2="170" y2="112" class="arrow"/>
+
+  <rect x="40" y="114" width="260" height="52" class="box" fill="#f5f5f5"/>
+  <text class="label" x="54" y="134" font-weight="600">2. Data preparation is bespoke</text>
+  <text class="sublabel" x="54" y="150">No shared model to structure it against.</text>
+  <text class="sublabel" x="54" y="160">N sources x M tools = multiplicative cost.</text>
+
+  <line x1="170" y1="166" x2="170" y2="182" class="arrow"/>
+
+  <rect x="40" y="184" width="260" height="52" class="box" fill="#f5f5f5"/>
+  <text class="label" x="54" y="204" font-weight="600">3. Simplest method wins</text>
+  <text class="sublabel" x="54" y="220">Better methods exist, are feasible,</text>
+  <text class="sublabel" x="54" y="230">but setup time no longer fits the schedule.</text>
+
+  <line x1="170" y1="236" x2="170" y2="252" class="arrow"/>
+
+  <rect x="40" y="254" width="260" height="52" class="box" fill="#f5f5f5"/>
+  <text class="label" x="54" y="274" font-weight="600">4. Methods don't connect</text>
+  <text class="sublabel" x="54" y="290">Each output manually reshaped</text>
+  <text class="sublabel" x="54" y="300">into the next input. Custom glue.</text>
+
+  <line x1="170" y1="306" x2="170" y2="332" class="arrow"/>
+
+  <rect x="40" y="334" width="260" height="72" class="box" fill="#fbe9e7" stroke="#d84315"/>
+  <text class="label accent" x="54" y="354" font-weight="600">Compound effect</text>
+  <text class="sublabel" x="54" y="370">2 iterations. 1 method. Shallow answers.</text>
+  <text class="sublabel" x="54" y="382">The important questions live several</text>
+  <text class="sublabel" x="54" y="392">iterations deep and are never reached.</text>
+
+  <!-- Right column: what's lost at each stage -->
+  <line x1="300" y1="70" x2="380" y2="70" class="squeeze"/>
+  <text class="lost" x="388" y="64">Reuse across projects: lost.</text>
+  <text class="sublabel" x="388" y="76">Same city, same roads, start over.</text>
+
+  <line x1="300" y1="140" x2="380" y2="140" class="squeeze"/>
+  <text class="lost" x="388" y="134">Weeks consumed.</text>
+  <text class="sublabel" x="388" y="146">Analysis budget collapses.</text>
+
+  <line x1="300" y1="210" x2="380" y2="210" class="squeeze"/>
+  <text class="lost" x="388" y="204">Better methods unused.</text>
+  <text class="sublabel" x="388" y="216">Multi-objective, sensitivity, scenarios</text>
+  <text class="sublabel" x="388" y="228">available but not applied.</text>
+
+  <line x1="300" y1="280" x2="380" y2="280" class="squeeze"/>
+  <text class="lost" x="388" y="274">Cross-method insight: lost.</text>
+  <text class="sublabel" x="388" y="286">Facility location never feeds</text>
+  <text class="sublabel" x="388" y="298">into fleet sizing feeds into cost.</text>
+
+  <line x1="300" y1="364" x2="380" y2="364" class="squeeze"/>
+  <text class="lost" x="388" y="358">Questions never discovered.</text>
+  <text class="sublabel" x="388" y="370">Competitor acquisition, regulatory</text>
+  <text class="sublabel" x="388" y="382">interaction, structural risks.</text>
+</svg>
