@@ -86,7 +86,7 @@ The economic consequence of this separation is that the second project in a geog
 
 *Hypothesis: when the bottleneck cascade is broken, the explore-decide cycle compresses from weeks to minutes. The quality of decisions becomes determined by the decision-maker's ability to ask good questions, which itself improves with each iteration.*
 
-![The facilitator concept](03_facilitator_concept.svg)
+![The facilitator concept](/posts/when-deliberation-meets-reality/04_compounding_inquiry_cycle.svg)
 
 With the spatial foundation pre-built and the domain ontology loaded, the workflow changes for the better. Each question traces a path through the architecture, and because the layers are already in place, that path takes minutes rather than weeks. As an example:
 
@@ -127,8 +127,8 @@ This is the compounding inquiry cycle described in the previous post. The value 
 
 *Hypothesis: once a deployment is up and running, the critical bottleneck in compressing ttQ is the translation between a decision-maker's natural language question and the system's formal query language. A human facilitator currently fills this role. An AI facilitator can compress it further.*
  
-![The facilitator concept](/posts/when-deliberation-meets-reality/04_compounding_inquiry_cycle.svg)
- 
+![The facilitator concept](03_facilitator_concept.svg)
+
 The example above assumed somebody was driving the system. In the commercial deployments that preceded this architecture, I served as the human facilitator (or an AI forward deployment engineer, by the latest obfuscation). The client would ask a question in natural language: "What happens if we lose that depot?" I would translate it into parameters and some custom code, run the scenario, present the results, and take the follow-up question. We could run five or ten iterations in a session. The previous workflow, where the client's team performed the same analysis internally, took about two weeks per iteration.
  
 The facilitator role is where the real compression happens. The client's question (ttQ) is instantaneous for them. They are the experts and decision-makers. Answers very quickly lead to higher-order questions. Observing this in practice is absolute magic, and the best feeling is that the conversations become so deep amongst the decision-makers, that they forget you are in the room. Right up until they ask something that you can't quickly run in the system. The delay is in translation: converting their question into something the system can execute. With a human facilitator who knows the system (and the system is set up as above), that translation can take seconds. Without one, it takes the client hours or days of data wrangling, if they attempt it at all.
@@ -147,7 +147,7 @@ Wheeler's vision is about societies seeing, reasoning, and choosing together. Th
 
 Consider a government making a supply chain decision under crisis pressure. The system lets them explore scenarios, compare trade-offs, and choose a course of action in minutes, possibly with just three people in a room. After the decision, the trace remains available: what was asked, what data was queried, what alternatives were considered, what was chosen and why. Regulators, affected communities, and accountability mechanisms can engage with that trace, asking questions like "why was the cheaper but riskier supplier chosen?" and receiving an answer grounded in the actual scenario comparison rather than a post-hoc narrative.
 
-![Inspectable traces bridge](/posts/when-deliberation-meets-reality/05_inspectable_traces_bridge.svg)
+![Connecting traces bridge](/posts/when-deliberation-meets-reality/05_inspectable_traces_bridge.svg)
 
 This is a different model of collective flourishing than distributed deliberation. It accepts that decisions may be fast and narrow, and asks only that those decisions leave behind reasoning the collective can inspect, challenge, and learn from.
 

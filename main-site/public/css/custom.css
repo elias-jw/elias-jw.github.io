@@ -107,20 +107,28 @@ img {
 }
 
 /* Footnote rendering: override terminal theme's pseudo-element list numbers
-   which break when <li> contains a block <p> element */
+   which break when <li> contains a block <p> element.
+   Using flex keeps the counter inline with the paragraph text. */
 .footnotes ol {
-    list-style: decimal;
-    padding-left: 1.5em;
-    counter-reset: none;
+    counter-reset: footnote-counter;
+    padding-left: 0;
 }
 
 .footnotes ol li {
-    display: list-item;
-    padding-left: 0.25em;
+    display: flex;
+    gap: 0.5em;
+    padding-left: 0;
+    counter-increment: footnote-counter;
 }
 
 .footnotes ol li::before {
-    content: none;
+    content: counter(footnote-counter) ".";
+    flex-shrink: 0;
+    min-width: 1.5em;
+}
+
+.footnotes ol li > p {
+    margin: 0;
 }
 
 /* Force link colors */
