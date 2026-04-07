@@ -6,8 +6,15 @@
     <description>Recent content on Elias J. Willemse</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No single model will save us</title>
+      <link>//localhost:1313/posts/no-single-model-will-save-us/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/no-single-model-will-save-us/</guid>
+      <description>&lt;p&gt;&lt;em&gt;A continuation of &lt;a href=&#34;https://elias-jw.github.io/posts/when-deliberation-meets-reality/&#34;&gt;When Deliberation Meets Reality&lt;/a&gt; and &lt;a href=&#34;https://elias-jw.github.io/posts/building-critical-thinking-infrastructure/&#34;&gt;Building Critical Thinking Infrastructure&lt;/a&gt;, which together argued that the missing precondition for collective flourishing is critical thinking infrastructure fast enough to survive contact with reality, and proposed a four-layer architecture (spatial knowledge graph, domain graph, solver integration, micro-tools) with a facilitator role that compresses ttQ and ttA inside the decision window. This post addresses where AI actually lives in that architecture, why no single model can take its place, and where the architecture goes next.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Building critical thinking infrastructure</title>
       <link>//localhost:1313/posts/building-critical-thinking-infrastructure/</link>

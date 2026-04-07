@@ -143,11 +143,11 @@ This is also where the inspectability argument from the previous post becomes ar
 
 *Hypothesis: the bridge from individual decision support to collective flourishing is the inspectable trace. Fast decisions made through grounded, traceable tools leave behind the evidence that the collective needs for accountability, learning, and course correction.*
 
+![Connecting traces bridge](/posts/when-deliberation-meets-reality/05_inspectable_traces_bridge.svg)
+
 Wheeler's vision is about societies seeing, reasoning, and choosing together. The architecture described here makes individual and small-group decisions fast, grounded, and inspectable, so that the collective can engage with the reasoning after the fact.
 
 Consider a government making a supply chain decision under crisis pressure. The system lets them explore scenarios, compare trade-offs, and choose a course of action in minutes, possibly with just three people in a room. After the decision, the trace remains available: what was asked, what data was queried, what alternatives were considered, what was chosen and why. Regulators, affected communities, and accountability mechanisms can engage with that trace, asking questions like "why was the cheaper but riskier supplier chosen?" and receiving an answer grounded in the actual scenario comparison rather than a post-hoc narrative.
-
-![Connecting traces bridge](/posts/when-deliberation-meets-reality/05_inspectable_traces_bridge.svg)
 
 This is a different model of collective flourishing than distributed deliberation. It accepts that decisions may be fast and narrow, and asks only that those decisions leave behind reasoning the collective can inspect, challenge, and learn from.
 
