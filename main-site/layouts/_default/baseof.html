@@ -60,9 +60,9 @@
           <header class="terminal-logo">
             <div class="logo terminal-prompt">
               {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-              {{ $.Scratch.Set "path" "" }}
-              <a href="{{ .Site.BaseURL }}" class="no-style {{ with .Site.Params.TitleCutting }}site-name{{ end }}">{{ .Site.Title }}</a>:~# 
-              {{ range $index, $element := split $url "/" }}{{ if ne $element "" }}{{ $.Scratch.Add "path" "/" }}{{ $.Scratch.Add "path" $element }}<a href='{{ $.Scratch.Get "path" }}'>{{ . }}</a>/{{ end }}{{ end }}</div></header>
+              {{ $parts := slice }}
+              {{ range split $url "/" }}{{ if ne . "" }}{{ $parts = $parts | append . }}{{ end }}{{ end }}
+              <a href="{{ .Site.BaseURL }}" class="no-style {{ with .Site.Params.TitleCutting }}site-name{{ end }}">{{ .Site.Title }}</a>:~#&#32;{{ range $i, $element := $parts }}{{ $href := printf "/%s" (delimit (first (add $i 1) $parts) "/") }}<a href='{{ $href }}'>{{ $element }}</a>/{{ end }}</div></header>
           <nav class="terminal-menu">
             <ul vocab="https://schema.org/" typeof="BreadcrumbList">
                 {{ range $index, $element := .Site.Params.navlinks }}
