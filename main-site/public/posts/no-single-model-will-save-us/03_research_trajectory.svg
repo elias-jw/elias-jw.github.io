@@ -1,0 +1,118 @@
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'Fira Code', 'Courier New', monospace; }
+    .title { font-size: 13px; fill: #222; font-weight: 600; }
+    .sub-title { font-size: 9px; fill: #888; }
+    .stage { font-size: 12px; fill: #222; font-weight: 600; }
+    .stage-status { font-size: 9px; fill: #d84315; font-style: italic; }
+    .row-label { font-size: 9px; fill: #888; }
+    .row-value { font-size: 10px; fill: #333; }
+    .new-label { font-size: 9px; fill: #d84315; font-weight: 600; }
+    .new-value { font-size: 10px; fill: #333; }
+    .col-box { fill: #fafafa; stroke: #333; stroke-width: 1; }
+    .col-box-blue { fill: #fafafa; stroke: #d84315; stroke-width: 1; stroke-dasharray: 3 2; }
+    .arrow-big { stroke: #333; stroke-width: 1.2; fill: none; marker-end: url(#atraj); }
+    .divider-h { stroke: #ccc; stroke-width: 0.5; }
+    .footer { font-size: 9px; fill: #d84315; font-style: italic; }
+    .footer-sub { font-size: 9px; fill: #888; }
+  </style>
+  <defs>
+    <marker id="atraj" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,4 L0,8" fill="none" stroke="#333" stroke-width="1" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <text class="title" x="350" y="22" text-anchor="middle">Research trajectory</text>
+  <text class="sub-title" x="350" y="36" text-anchor="middle">stable base layers, expanding scope, the third stage turns reflexive</text>
+
+  <!-- ============ v0 ============ -->
+  <rect x="30" y="58" width="200" height="320" rx="3" class="col-box"/>
+  <text class="stage" x="130" y="80" text-anchor="middle">v0: urban logistics</text>
+  <text class="stage-status" x="130" y="94" text-anchor="middle">partially tested, 2020+</text>
+  <line x1="50" y1="104" x2="210" y2="104" class="divider-h"/>
+
+  <text class="row-label" x="50" y="124">geography</text>
+  <text class="row-value" x="50" y="138">single city</text>
+
+  <text class="row-label" x="50" y="162">organisations</text>
+  <text class="row-value" x="50" y="176">single org</text>
+
+  <text class="row-label" x="50" y="200">facilitator</text>
+  <text class="row-value" x="50" y="214">human</text>
+
+  <text class="row-label" x="50" y="238">domain graph</text>
+  <text class="row-value" x="50" y="252">operational</text>
+  <text class="row-value" x="50" y="264">(movement)</text>
+
+  <text class="row-label" x="50" y="288">limitation</text>
+  <text class="row-value" x="50" y="302">scales with one</text>
+  <text class="row-value" x="50" y="314">facilitator's time</text>
+
+  <text class="row-label" x="50" y="346">validates</text>
+  <text class="row-value" x="50" y="360">spatial reuse,</text>
+  <text class="row-value" x="50" y="372">scenario compare</text>
+
+  <line x1="232" y1="218" x2="252" y2="218" class="arrow-big"/>
+
+  <!-- ============ v1 ============ -->
+  <rect x="254" y="58" width="200" height="320" rx="3" class="col-box"/>
+  <text class="stage" x="354" y="80" text-anchor="middle">v1: supply chains</text>
+  <text class="stage-status" x="354" y="94" text-anchor="middle">current research target</text>
+  <line x1="274" y1="104" x2="434" y2="104" class="divider-h"/>
+
+  <text class="row-label" x="274" y="124">geography</text>
+  <text class="row-value" x="274" y="138">global infrastructure</text>
+  <text class="new-label" x="274" y="150">+ ports, lanes,</text>
+  <text class="new-label" x="274" y="160">  chokepoints</text>
+
+  <text class="row-label" x="274" y="184">organisations</text>
+  <text class="row-value" x="274" y="198">multiple orgs</text>
+
+  <text class="row-label" x="274" y="222">facilitator</text>
+  <text class="new-value" x="274" y="236">AI translator</text>
+  <text class="new-label" x="274" y="248">ttQ → near zero</text>
+
+  <text class="row-label" x="274" y="272">domain graph</text>
+  <text class="row-value" x="274" y="286">+ production</text>
+  <text class="new-label" x="274" y="298">BoMs, procurement,</text>
+  <text class="new-label" x="274" y="308">market signals</text>
+
+  <text class="row-label" x="274" y="332">open questions</text>
+  <text class="row-value" x="274" y="346">data sharing,</text>
+  <text class="row-value" x="274" y="358">multi-scale time,</text>
+  <text class="row-value" x="274" y="370">question-behind</text>
+
+  <line x1="456" y1="218" x2="476" y2="218" class="arrow-big"/>
+
+  <!-- ============ v2 ============ -->
+  <rect x="478" y="58" width="200" height="320" rx="3" class="col-box-blue"/>
+  <text class="stage" x="578" y="80" text-anchor="middle" fill="#d84315">v2: reflexive</text>
+  <text class="stage-status" x="578" y="94" text-anchor="middle">blue sky</text>
+  <line x1="498" y1="104" x2="658" y2="104" class="divider-h"/>
+
+  <text class="row-label" x="498" y="124">all of v1, plus</text>
+
+  <text class="new-label" x="498" y="150">decision traces</text>
+  <text class="row-value" x="498" y="164">become a dataset</text>
+  <text class="row-value" x="498" y="176">of how experts</text>
+  <text class="row-value" x="498" y="188">actually decide</text>
+
+  <text class="new-label" x="498" y="214">model of process</text>
+  <text class="row-value" x="498" y="228">small LLM trained</text>
+  <text class="row-value" x="498" y="240">on facilitator</text>
+  <text class="row-value" x="498" y="252">traces</text>
+
+  <text class="new-label" x="498" y="278">blind-spot prompts</text>
+  <text class="row-value" x="498" y="292">"you have not</text>
+  <text class="row-value" x="498" y="304">asked about X"</text>
+
+  <text class="new-label" x="498" y="330">adversarial sims</text>
+  <text class="row-value" x="498" y="344">wargaming on the</text>
+  <text class="row-value" x="498" y="356">real infrastructure,</text>
+  <text class="row-value" x="498" y="368">not synthetic</text>
+
+  <!-- Footer -->
+  <line x1="30" y1="398" x2="678" y2="398" class="divider-h"/>
+  <text class="footer" x="30" y="416">stable across all three stages: spatial KG, domain ontology, formal contracts, the four-layer separation.</text>
+  <text class="footer-sub" x="30" y="432">what changes: scope of the graph, who or what fills the facilitator role, and whether the system models the decision process itself.</text>
+</svg>

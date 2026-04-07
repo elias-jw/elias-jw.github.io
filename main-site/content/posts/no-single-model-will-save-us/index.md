@@ -1,6 +1,6 @@
 +++
-title: "No single model will save us"
-date: 2026-04-07
+title = "No single model will save us"
+date = "2026-04-07"
 +++
 
 A continuation of [When Deliberation Meets Reality](https://elias-jw.github.io/posts/when-deliberation-meets-reality/) and [Building Critical Thinking Infrastructure](https://elias-jw.github.io/posts/building-critical-thinking-infrastructure/), which together argued that the missing precondition for collective flourishing is critical thinking infrastructure fast enough to survive contact with reality, and proposed a four-layer architecture (spatial knowledge graph, domain graph, solver integration, micro-tools) with a facilitator role that compresses ttQ and ttA inside the decision window. This post addresses where AI actually lives in that architecture, why no single model can take its place, and where the architecture goes next.
@@ -68,8 +68,6 @@ That is the connection to ARIA's Collective Flourishing programme. The architect
 The next post in this series turns to the institutional question this trajectory raises but does not answer: who builds and maintains the public substrate that the architecture depends on, and why it has to exist as public infrastructure rather than as anyone's product.
 
 # References
-
----
 
 [^nfl]: Wolpert, D.H. and Macready, W.G. (1997) 'No Free Lunch Theorems for Optimization', *IEEE Transactions on Evolutionary Computation*, 1(1), pp. 67–82. Available at: <https://doi.org/10.1109/4235.585893>.
     *Note:* For an accessible explanation of the theorem and a discussion of its implications for modern machine learning, see Ho, Y.C. and Pepyne, D.L. (2002) 'Simple Explanation of the No-Free-Lunch Theorem and Its Implications', *Journal of Optimization Theory and Applications*, 115(3), pp. 549–570. Available at: <https://doi.org/10.1023/A:1021251113462>.
