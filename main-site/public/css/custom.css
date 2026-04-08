@@ -3,6 +3,13 @@ img {
     border-radius: 0 !important;
 }
 
+/* Post content images fill the full column width */
+.post-content img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* About page hero section */
 .about-hero {
     width: 100%;

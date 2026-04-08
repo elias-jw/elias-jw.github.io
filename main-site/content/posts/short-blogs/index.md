@@ -211,5 +211,5 @@ A big risk as a first-time founder is preparing for imaginary fairy-tail battles
 
 ### Services vs products
 
-In services, the customer is always right. In services, the customer is always wrong.
+In services, the customer is always right. With products, the customer is usually wrong.
 
