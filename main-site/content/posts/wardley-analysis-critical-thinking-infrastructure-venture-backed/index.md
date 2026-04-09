@@ -1,6 +1,6 @@
 +++
-title = "Mapping the venture case: a Wardley analysis of the architecture"
-date = "2026-04-09"
+title = "Mapping the venture case: locating the moat, the open-source targets, and the build-buy line"
+date = "2026-04-08"
 draft = false
 description = "A technical companion to the essay series. A Wardley mapping exercise applied to the four-layer architecture, locating the moat, identifying the components that should be open-sourced, and naming the events that would change the map."
 +++

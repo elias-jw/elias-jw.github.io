@@ -1,6 +1,6 @@
 +++
 title = "Hypothesis register: collective flourishing under real-world constraints"
-date = "2026-04-08"
+date = "2026-04-01"
 draft = false
 description = "Fourteen hypotheses extracted from When Deliberation Meets Reality, with seven open questions for self-critique."
 +++

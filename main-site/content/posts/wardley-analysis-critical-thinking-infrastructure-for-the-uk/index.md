@@ -1,6 +1,6 @@
 +++
-title = "Mapping the UK public good case: a Wardley analysis of the architecture"
-date = "2026-04-09"
+title = "Mapping the UK public good case: components, evolution, and the public data commons"
+date = "2026-04-05"
 draft = false
 description = "A technical accompaniment to the essay series. Where the components of the platform sit on the evolution axis from genesis to commodity, what is moving, what is deliberately held in place, and what the UK public data and open source landscape make possible."
 +++

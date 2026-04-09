@@ -1,6 +1,6 @@
 +++
 title = "Building critical thinking infrastructure"
-date = "2026-04-03"
+date = "2026-03-21"
 draft = false
 description = "A constructive proposal for AI-augmented decision support on spatial knowledge graphs."
 +++

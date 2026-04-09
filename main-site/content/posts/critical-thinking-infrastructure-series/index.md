@@ -1,6 +1,7 @@
 +++
 title = "Critical thinking infrastructure: an essay series"
 date = "2026-04-09"
+weight = 1
 +++
 
 This is a series of essays on building infrastructure for better decision-making. The end-goal is to allow decision makers dealing with high-pressure and time-sensitive problems, to ask and get defensible answers in minutes, instead of weeks and months. 
@@ -14,8 +15,8 @@ The immediate context is logistics and supply chain planning, though the ideas r
 3. [No single model will save us](/posts/no-single-model-will-save-us/)
 4. [The social layer: Modelling how decision-makers think about problems](/posts/modelling-how-decision-makers-think-about-problems/)
 5. [Hypothesis register: collective flourishing under real-world constraints](/posts/critical-thinking-infrastructure-hypothesis-registry/)
-6. [Mapping the UK public good case: a Wardley analysis of the architecture](/posts/wardley-analysis-critical-thinking-infrastructure-for-the-uk/)
-7. [Mapping the venture case: a Wardley analysis of the architecture](/posts/wardley-analysis-critical-thinking-infrastructure-venture-backed/)
+6. [Mapping the UK public good case: components, evolution, and the public data commons](/posts/wardley-analysis-critical-thinking-infrastructure-for-the-uk/)
+7. [Mapping the venture case: locating the moat, the open-source targets, and the build-buy line](/posts/wardley-analysis-critical-thinking-infrastructure-venture-backed/)
 
 The underlying build is documented at [Critical thinking infrastructure](/builds/critical-thinking-infrastructure/).
 
@@ -61,7 +62,7 @@ A formalisation of the arguments made across the essay series into fourteen test
 
 ---
 
-**6. [Mapping the UK public good case: a Wardley analysis of the architecture](/posts/wardley-analysis-critical-thinking-infrastructure-for-the-uk/)** (Apr 2026)
+**6. [Mapping the UK public good case: components, evolution, and the public data commons](/posts/wardley-analysis-critical-thinking-infrastructure-for-the-uk/)** (Apr 2026)
 
 A Wardley mapping exercise that positions the fifteen components of the platform on the evolution axis from genesis to commodity, and reads the resulting landscape for a UK public infrastructure play. The map's load-bearing commodity anchor is the UK public data commons (Ordnance Survey, ONS, Land Registry, Companies House, NUAR, and the FAIR data work of the Geospatial Commission), and its deliberate inertia sits on the Rust graph engine, which is held in place because the architectural principles it enforces are antibodies against failure modes observed repeatedly in production logistics systems. The post names the three climatic forces acting on the landscape, the seven strategic plays available in response, and the events that would force a revision of the map. The argument: grounded, inspectable decision support for physical operations is an under-provided public good, and the UK has the public data and academic open-source anchors to build it without importing a commercial stack.
 
@@ -69,7 +70,7 @@ A Wardley mapping exercise that positions the fifteen components of the platform
 
 ---
 
-**7. [Mapping the venture case: a Wardley analysis of the architecture](/posts/wardley-analysis-critical-thinking-infrastructure-venture-backed/)** (Apr 2026)
+**7. [Mapping the venture case: locating the moat, the open-source targets, and the build-buy line](/posts/wardley-analysis-critical-thinking-infrastructure-venture-backed/)** (Apr 2026)
 
 The same architecture mapped from a venture-backed company perspective rather than a public infrastructure one. The exercise identifies where value is evolving on the stack, why the substrate layer (the graph engine, the domain ontology framework, the rehydration contracts) is underfunded relative to where capital will flow next, and which components should be open-sourced to accelerate the commodity tier rather than defended as proprietary. It names the moat, the build-buy-consume decisions that fall out of the geometry rather than out of preference, and the specific events that would force a revision of the map. Written as a technical piece in which the map does most of the argumentative work.
 

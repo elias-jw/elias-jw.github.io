@@ -1,6 +1,6 @@
 +++
 title = "When deliberation meets reality"
-date = "2026-03-31"
+date = "2026-03-17"
 description = "A response to ARIA's Collective Flourishing opportunity space. The missing precondition for collective flourishing is critical thinking infrastructure that operates fast enough to survive contact with reality."
 +++
 

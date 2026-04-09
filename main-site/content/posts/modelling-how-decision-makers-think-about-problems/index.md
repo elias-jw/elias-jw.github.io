@@ -1,6 +1,6 @@
 +++
 title = "The social layer: modelling how decision-makers think about problems"
-date = "2026-04-08"
+date = "2026-03-28"
 draft = false
 description = "Why decision support fails when it answers correctly in language the decision-maker does not use, and what an architecture that learns the framing from operational and public communication looks like."
 +++

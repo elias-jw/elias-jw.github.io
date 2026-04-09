@@ -1,6 +1,6 @@
 +++
 title = "No single model will save us"
-date = "2026-04-07"
+date = "2026-03-25"
 +++
 
 *A continuation of [When Deliberation Meets Reality](https://elias-jw.github.io/posts/when-deliberation-meets-reality/) and [Building Critical Thinking Infrastructure](https://elias-jw.github.io/posts/building-critical-thinking-infrastructure/), which together argued that the missing precondition for collective flourishing is critical thinking infrastructure fast enough to survive contact with reality. This post, Part 3 of the [Critical thinking infrastructure essay series](/posts/critical-thinking-infrastructure-series/), addresses where AI actually lives in that architecture, why no single model can take its place, and where the architecture goes next.*
