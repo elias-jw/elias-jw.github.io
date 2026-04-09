@@ -74,6 +74,13 @@
     
         
         <url>
+            <loc>//localhost:1313/builds/critical-thinking-infrastructure/</loc>
+            <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>//localhost:1313/posts/short-blogs/</loc>
             <lastmod>2025-06-02T00:00:00+00:00</lastmod>
         </url>
@@ -89,6 +96,27 @@
         
         <url>
             <loc>//localhost:1313/builds/</loc>
+            <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//localhost:1313/builds/mcarptif-solver/</loc>
+            <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//localhost:1313/builds/sgdata-platform/</loc>
+            <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//localhost:1313/builds/singapore-postcode-geocoder/</loc>
             <lastmod>2025-01-24T00:00:00+00:00</lastmod>
         </url>
         

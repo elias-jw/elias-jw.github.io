@@ -7,9 +7,34 @@ description = "Fourteen hypotheses extracted from When Deliberation Meets Realit
 
 *A technical companion to the [Critical thinking infrastructure essay series](/posts/critical-thinking-infrastructure-series/)*
 
+## Abstract
+
+A formalisation of the arguments made across the essay series into fourteen testable hypotheses, each written as a null hypothesis (the perceived status quo), an ARIA alternative, and the position this work takes, with a critical test that would falsify the claim. Seven open self-critical questions are listed alongside the fourteen hypotheses, covering the places where the platform's thesis is weakest and the evidence thinnest. The register exists so that the argument can be attacked on specific, named claims rather than on vibes, and so that the programme has a public ledger of what it is betting on and what would make it change its mind.
+
+## Introduction
+
 This document extracts formal hypotheses from the thought piece "When Deliberation Meets Reality." For each insight, three hypotheses are identified: H0 (the perceived status quo, what is currently assumed or practised), HA-ARIA (the alternative hypothesis implicit or explicit in ARIA's Collective Flourishing opportunity space), and HA-OURS (our alternative hypothesis). The purpose of this formalisation is to subject our own arguments to the same critical scrutiny we have applied to Wheeler's document, rather than allowing them to echo unchallenged between two interlocutors.
 
 **Notation:** H0 = null hypothesis (status quo assumption). HA = alternative hypothesis (proposed new understanding). Where ARIA and our positions align, they share a single HA. Where they diverge, both are listed separately.
+
+# Summary of hypothesis relationships
+
+| # | H0 (Status Quo) | HA-ARIA | HA-OURS | Relationship |
+|---|---|---|---|---|
+| H1 | Field is mature and explored | Field is under-explored | Adoption failure is under-explored | ARIA and Ours both reject H0 but disagree on what's missing |
+| H2 | Quality constrained by rigour | Better deliberation → better outcomes | Speed is the binding constraint | ARIA and Ours diverge on the bottleneck |
+| H3 | Simple stories = cognitive bias | Same as H0 (bias to overcome) | Simple stories = rational speed adaptation | ARIA aligns with H0; Ours reframes the cause |
+| H4 | Plan for averages, react to exceptions | Better foresight → proactive steering | Response speed > prediction accuracy for rare events | ARIA and Ours both reject H0 but diverge on the intervention |
+| H5 | Foundational tech is the bottleneck | Integration layer is under-explored | Integration has been explored without surviving real-world use | ARIA and Ours agree on the locus but disagree on the diagnosis |
+| H6 | Cooperation follows from good tools | Mechanism design enables coordination | Nash equilibrium is defection without enforcement | ARIA and Ours diverge on whether voluntary coordination is achievable |
+| H7 | Better information → better decisions | Deliberative scaffolding → better outcomes | Critical thinking infrastructure is the precondition | ARIA and Ours agree on the direction but disagree on the mechanism |
+| H8 | Environments are stable enough for deliberation | Time exists for collective reasoning | Analytical tempo ≠ operational tempo | Ours challenges ARIA's implicit assumption |
+| H9 | Speed-quality trade off linearly | (Not addressed) | In landscape-altering environments, slow decisions become wrong | Ours identifies a dynamic ARIA does not address |
+| H10 | Understanding → action (automatically) | Understanding and action in one programme | Different time signatures; solving one ≠ solving the other | Ours challenges the implicit coupling in ARIA's framing |
+| H11 | Single high-quality answer = progress | Six themes as independent capabilities | Compounding iteration cycle is the unit of progress | Ours challenges ARIA's implicit single-turn framing |
+| H12 | Fast decisions exclude the collective | Collective process ensures collective agency | Inspectable traces enable collective agency after fast decisions | ARIA and Ours both seek collective agency but diverge on mechanism |
+| H13 | Demands for more research = due diligence | (Not addressed) | Questions are weapons; tempo asymmetry enables adversarial delay | Ours identifies an adversarial dynamic neither H0 nor ARIA address |
+| H14 | Unreliable tools are rejected; rigour wins | (Not addressed) | LLMs prove speed wins over accuracy at scale; new benchmark is set | Ours uses LLM adoption as empirical evidence for the speed thesis |
 
 # H1. On whether the field is under-explored
 
@@ -216,29 +241,6 @@ The caution applies reflexively: LLMs building things faster, including the syst
 **Critical test:** Compare decision outcomes in domains where LLMs are adopted for consequential decisions (medical, legal, financial) against decisions made through traditional rigorous analysis. If LLM-assisted decisions show comparable or better outcomes despite lower per-answer accuracy, because the speed enables more iterations and faster course-correction, HA-OURS is strongly supported. If LLM-assisted decisions show systematically worse outcomes, the speed-over-accuracy preference is maladaptive and needs correction rather than accommodation. Also: examine whether commercial LLM training pipelines (RLHF reward models, A/B testing) have been explicitly optimised for ttA minimisation, and whether this was a deliberate design choice or an emergent property of user preference data.
 
 **Note:** No HA-ARIA is listed because the opportunity space document does not address the LLM speed benchmark or its implications for the tempo of collective reasoning.
-
-
-
-# Summary of hypothesis relationships
-
-| # | H0 (Status Quo) | HA-ARIA | HA-OURS | Relationship |
-|---|---|---|---|---|
-| H1 | Field is mature and explored | Field is under-explored | Adoption failure is under-explored | ARIA and Ours both reject H0 but disagree on what's missing |
-| H2 | Quality constrained by rigour | Better deliberation → better outcomes | Speed is the binding constraint | ARIA and Ours diverge on the bottleneck |
-| H3 | Simple stories = cognitive bias | Same as H0 (bias to overcome) | Simple stories = rational speed adaptation | ARIA aligns with H0; Ours reframes the cause |
-| H4 | Plan for averages, react to exceptions | Better foresight → proactive steering | Response speed > prediction accuracy for rare events | ARIA and Ours both reject H0 but diverge on the intervention |
-| H5 | Foundational tech is the bottleneck | Integration layer is under-explored | Integration has been explored without surviving real-world use | ARIA and Ours agree on the locus but disagree on the diagnosis |
-| H6 | Cooperation follows from good tools | Mechanism design enables coordination | Nash equilibrium is defection without enforcement | ARIA and Ours diverge on whether voluntary coordination is achievable |
-| H7 | Better information → better decisions | Deliberative scaffolding → better outcomes | Critical thinking infrastructure is the precondition | ARIA and Ours agree on the direction but disagree on the mechanism |
-| H8 | Environments are stable enough for deliberation | Time exists for collective reasoning | Analytical tempo ≠ operational tempo | Ours challenges ARIA's implicit assumption |
-| H9 | Speed-quality trade off linearly | (Not addressed) | In landscape-altering environments, slow decisions become wrong | Ours identifies a dynamic ARIA does not address |
-| H10 | Understanding → action (automatically) | Understanding and action in one programme | Different time signatures; solving one ≠ solving the other | Ours challenges the implicit coupling in ARIA's framing |
-| H11 | Single high-quality answer = progress | Six themes as independent capabilities | Compounding iteration cycle is the unit of progress | Ours challenges ARIA's implicit single-turn framing |
-| H12 | Fast decisions exclude the collective | Collective process ensures collective agency | Inspectable traces enable collective agency after fast decisions | ARIA and Ours both seek collective agency but diverge on mechanism |
-| H13 | Demands for more research = due diligence | (Not addressed) | Questions are weapons; tempo asymmetry enables adversarial delay | Ours identifies an adversarial dynamic neither H0 nor ARIA address |
-| H14 | Unreliable tools are rejected; rigour wins | (Not addressed) | LLMs prove speed wins over accuracy at scale; new benchmark is set | Ours uses LLM adoption as empirical evidence for the speed thesis |
-
-
 
 # Open questions for self-critique
 

@@ -7,6 +7,19 @@ description = "Why decision support fails when it answers correctly in language 
 
 *The fourth post in the [When deliberation meets reality](/posts/when-deliberation-meets-reality/) essay series. The [previous post](/posts/why-no-single-model-will-save-us/) argued that AI value comes from specialised models at specific points in a stable infrastructure, orchestrated by a general-purpose facilitator. This post examines the layer that has been hardest to formalise: how the facilitator learns the framings of the people a decision will reach, whether they are the few who make it or the many it will land on.*
 
+## Abstract
+
+Decision support fails when it answers correctly in language the decision-maker does not use. Drawing on Tversky and Kahneman's work on framing effects and on twenty years of naturalistic decision-making research, this post argues that the gap between a system's framing and a decision-maker's framing is as costly as the gap between the question and the answer, and that framing belongs upstream of presentation, close to query dispatch. It introduces a social layer that sits above the technical architecture and represents how decision-makers actually frame problems, including the distinction between stated and revealed preferences, so that the same underlying analysis can resolve into different presentations for different readers without re-running the work. The layer is what turns an analytically correct system into one whose answers land.
+
+Hypotheses introduced (one per section):
+
+1. [Decision support fails when it answers correctly in language the decision-maker does not use. The gap between the system's framing and the decision-maker's framing is as costly as the gap between the question and the answer.](#the-framing-gap)
+2. [Stakeholder framings are projections of a shared underlying graph. Making the projection explicit and learnable is more tractable than eliciting framings through structured exercises.](#framing-as-projection)
+3. [Values inferred from operational and public communication track decision-relevant priorities more reliably than values reported in structured elicitation exercises.](#revealed-values-and-stated-values)
+4. [If a decision-maker's framing is modelled, framing failures become a distinct and measurable category of error, separable from analytical failures in the trace.](#framing-failure-as-a-failure-mode)
+5. [When a small number of decision-makers decide on behalf of a much larger affected population, the collective's framings can still be modelled from public communication and used to present the decision back in terms the collective understands.](#from-inside-the-room-to-the-collective-outside-it)
+6. [Making different stakeholders' framings of the same situation explicit and inspectable contributes to collective understanding independently of any consensus mechanism.](#multi-stakeholder-coordination)
+
 ## The framing gap
 
 *Hypothesis: decision support fails when it answers correctly in language the decision-maker does not use. The gap between the system's framing and the decision-maker's framing is as costly as the gap between the question and the answer.*
@@ -92,8 +105,6 @@ The second is whether framing-adapted presentation changes decision quality, or 
 The third is whether framings extracted from public discourse and used to communicate decisions back to an affected collective actually improve collective understanding, as opposed to merely improving reception. Understanding and reception can dissociate in the same way that decision quality and decision-maker satisfaction can dissociate, and for the same underlying reason. The test has to measure whether the affected population's assessment of the decision's trade-offs becomes more accurate after framing-adapted communication, not whether the communication generates less complaint.
 
 The second and third questions are the harder ones and the more important. They are also where the work on the social layer becomes a research question about whether modelling cognition contributes to collective intelligence or amounts to a sophisticated form of telling people what they want to hear. The architecture is built to make that distinction visible in the trace. Whether the distinction holds up under empirical pressure is an open question, and it belongs in the [hypothesis register](/builds/lga-architecture/hypothesis-register/) alongside the others.
-
-# Notes and references
 
 [^framing_effects]: Tversky, A. & Kahneman, D. (1981). [The Framing of Decisions and the Psychology of Choice](https://doi.org/10.1126/science.7455683). *Science*, 211(4481), 453-458. The original demonstration that logically equivalent presentations of the same choice produce systematically different decisions. For evidence that framing effects persist among domain experts under operational conditions, see McNeil, B.J., Pauker, S.G., Sox, H.C. & Tversky, A. (1982). [On the Elicitation of Preferences for Alternative Therapies](https://doi.org/10.1056/NEJM198205273062103). *New England Journal of Medicine*, 306(21), 1259-1262.
 

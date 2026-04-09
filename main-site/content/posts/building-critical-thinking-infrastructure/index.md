@@ -7,6 +7,21 @@ description = "A constructive proposal for AI-augmented decision support on spat
 
 *A companion to [When Deliberation Meets Reality](/posts/when-deliberation-meets-reality/), which argued that the missing precondition for collective flourishing is critical thinking infrastructure that operates fast enough to survive contact with reality. This post, and Part 2 of the [Critical thinking infrastructure essay series](/posts/critical-thinking-infrastructure-series/),  describes what that infrastructure looks like.*
 
+## Abstract
+
+A constructive proposal for what decision-support infrastructure has to look like if it is to compress time-to-question and time-to-answer enough to fit rigorous analysis inside the decision window. The post introduces a four-layer architecture (spatial knowledge graph, domain graph, solver integration, micro-tools) governed by nine principles, including the separation of stable spatial knowledge from volatile project data, the prohibition on logic inside data objects, and the treatment of materialisation as an economic decision rather than a structural one. The architecture draws on six years of commercial deployment in logistics planning and is presented as an honest ledger of what is tested, what is designed, and what remains an open research question.
+
+Hypotheses introduced (one per section):
+
+1. [The cost of asking a strategic question about a physical system is dominated by a cascade of bottlenecks that compound on each other, starting with the absence of a shared domain model and ending with the questions that are never discovered.](#where-the-time-actually-goes)
+2. [The bottleneck cascade can be broken by formalising the domain model, pre-building the stable spatial foundation, and designing the analytical layer for composability across methods. Each intervention addresses a different bottleneck, and they reinforce each other.](#the-architectural-response)
+3. [When the bottleneck cascade is broken, the explore-decide cycle compresses from weeks to minutes. The quality of decisions becomes determined by the decision-maker's ability to ask good questions, which itself improves with each iteration.](#what-this-means-for-question-answer-speed)
+4. [Once a deployment is up and running, the critical bottleneck in compressing ttQ is the translation between a decision-maker's natural language question and the system's formal query language. A human facilitator currently fills this role. An AI facilitator can compress it further.](#the-facilitator-from-human-to-ai)
+5. [The bridge from individual decision support to collective flourishing is the inspectable trace. Fast decisions made through grounded, traceable tools leave behind the evidence that the collective needs for accountability, learning, and course correction.](#connecting-back-from-individual-decisions-to-collective-flourishing)
+6. [The honest assessment of any research programme is the ratio of tested claims to untested ones.](#what-remains-to-be-built-and-what-remains-to-be-proven)
+
+## Introduction
+
 The [previous post](/posts/when-deliberation-meets-reality/) proposed a hypothesis: that analytically superior methods are universally abandoned under pressure, despite their rigour, because they are too slow to fit inside the window where decisions actually get made. If that hypothesis holds, then the binding constraint on decision quality is time rather than analytical sophistication, specifically the time it takes to formulate a question (ttQ) and receive a useful answer (ttA). When those times are large, decision-makers default to gut feel regardless of what tools are available. When they are small enough to permit rapid iteration, decisions improve because each answer opens a better question than the last.
 
 ![Decision question-answer loop](/posts/when-deliberation-meets-reality/01_decision_question_answer_loop.svg)
@@ -158,7 +173,7 @@ The next posts in this series extend the argument: why no single model will save
 
 ## What remains to be built, and what remains to be proven
  
-*Hypothesis: the honest assessment of any research programme is the ratio of tested claims to untested ones. Here is the ledger.*
+*Hypothesis: the honest assessment of any research programme is the ratio of tested claims to untested ones.*
  
 **Tested through commercial deployment (2020 onwards):**
 - The explore-decide cycle produces measurably better plans than the traditional workflow. Clients who used a bespoke version of the system with a human facilitator explored more scenarios and produced tighter bids.
@@ -180,9 +195,6 @@ These deployments ran on bespoke, project-specific implementations rather than t
 - The speed benchmark against ungrounded AI. Can grounded, knowledge-graph-backed answers match the speed of raw LLM responses while maintaining traceability? If they are slightly slower, does the traceability make up the difference, or does speed always win?
  
 The last question is the most consequential and the most uncomfortable. The previous post argued that speed is the binding constraint. If that is true, then any system that adds grounding at the cost of speed will lose to one that does not. The bet is that grounding and speed are not fundamentally in tension: that a well-designed knowledge graph with an effective AI facilitator can deliver both. That bet needs to be tested, not assumed.
-
-
-# References
 
 [^1]: The domain ontology is a declarative configuration file loaded at runtime. The engine is domain-agnostic: it operates on generic node and edge primitives. A Singapore logistics deployment loads one ontology; a UK waste management deployment loads another; a supply chain deployment loads a third. The engine code does not change. For the foundational treatment of ontologies as system components, see Guarino, N. (1998) 'Formal ontology and information systems', in Guarino, N. (ed.) *Formal Ontology in Information Systems: Proceedings of FOIS'98, Trento, Italy, 6–8 June 1998*. Frontiers in Artificial Intelligence and Applications. Amsterdam: IOS Press, pp. 3–15. Available at: [https://www.loa.istc.cnr.it/old/Papers/FOIS98.pdf](https://www.loa.istc.cnr.it/old/Papers/FOIS98.pdf) (Accessed: 7 April 2026).
 *Note:* For a recent application of ontology-driven knowledge graphs to supply chain risk management, see Kosasih, E.E., Margaroli, F., Gelli, S., Aziz, A., Wildgoose, N. and Brintrup, A. (2024) 'Towards knowledge graph reasoning for supply chain risk management using graph neural networks', *International Journal of Production Research*, 62(15), pp. 5596–5612. Available at: [https://doi.org/10.1080/00207543.2022.2100841](https://doi.org/10.1080/00207543.2022.2100841).

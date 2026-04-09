@@ -6,6 +6,23 @@ description = "A response to ARIA's Collective Flourishing opportunity space. Th
 
 *A response to ARIA's Collective Flourishing opportunity space and Part 1 of the [Critical thinking infrastructure essay series](/posts/critical-thinking-infrastructure-series/).*
 
+## Abstract
+
+Collective decision-making methods have been extensively studied for decades, from multi-criteria analysis to deliberative democracy platforms, yet they are almost universally abandoned under real operational pressure in favour of gut feel and spreadsheets. This post argues that the field is not under-explored; the under-explored question is why analytically superior methods fail when the stakes are real. The binding constraint on decision quality is not rigour but speed: the time it takes to ask a question and get a defensible answer. The missing precondition for collective flourishing is critical thinking infrastructure that operates fast enough to survive contact with reality, and leaves inspectable traces the collective can learn from.
+
+Hypotheses introduced (one per section):
+
+1. [The quality of a decision is determined by the number of question-answer iterations before it, not the brilliance of any single answer.](#how-decisions-actually-work)
+2. [Collective decision-making methods are not under-explored. The under-explored question is why they are universally abandoned under pressure.](#the-field-is-not-under-explored-the-question-is-why-nothing-works)
+3. [The binding constraint on decision quality is not analytical rigour but decision speed.](#the-speed-contradiction)
+4. [The preference for simple stories is a rational adaptation to time pressure, not a cognitive bias.*](#simple-stories-win-because-they-are-fast-not-because-people-are-stupid)
+5. [In environments where decisions alter the landscape, slow decisions are not merely late. They are wrong.](#in-landscape-altering-environments-slow-decisions-become-wrong-decisions)
+6. [Collective coordination without enforcement is systematically exploitable through tempo asymmetry.](#collective-progress-is-vulnerable-to-sabotage-and-climate-proves-it)
+7. [The fundamental unit of progress in collective reasoning is the question-answer iteration. Value compounds with iteration speed.](#the-missing-iteration-loop)
+8. [Fast decisions made through inspectable tools enable collective learning. Gut-instinct decisions do not.](#the-bridge-fast-grounded-decisions-enable-collective-learning-gut-instinct-does-not)
+
+## Introduction
+
 [ARIA's Collective Flourishing programme](https://aria.org.uk/opportunity-spaces/collective-flourishing/), led by Dr Nicole Wheeler, asks an important question: what if we could build the tools that allow societies to move from reactively correcting the past to consciously creating the future? The [opportunity space document](https://www.aria.org.uk/media/qvhfnuta/aria-collective-flourishing-opportunity-space_accessible.pdf) identifies a real problem, that our tools for navigating complexity have not kept pace with the world, and proposes "deliberative scaffolding" as the solution: tools and protocols that help societies see, reason, and choose together.
 
 I agree with the diagnosis. As a first draft, I feel there are critical aspects not yet addressed: the role of decision speed (chronically underestimated) and the viability of collective deliberation under real-world pressure (often overestimated). And then the scientific question underneath both: why analytically superior methods are universally abandoned when they matter most. To be fair, this is incredibly difficult to study scientifically. It has to be tested in high-pressure environments with real stakes, which is not a setup that lends itself to controlled experiments. What follows is a constructive critique, developed alongside my own work on spatial knowledge graphs and AI-augmented decision support for supply chain systems.
@@ -146,8 +163,6 @@ The missing precondition for collective flourishing is critical thinking infrast
 Understanding without action is enlightenment. Action without understanding is recklessness. Understanding that arrives after the action window has closed is irrelevant. The challenge is compressing rigorous, iterative understanding into the action window, and doing it in a way that leaves a trace the rest of us can learn from.
 
 Wheeler's deliberative scaffolding vision is incomplete. The scaffolding needs a foundation, and that foundation is the ability to reason rigorously at the speed the world demands.
-
-# References
 
 [^1]: Fitza, M.A. (2014) 'The use of variance decomposition in the investigation of CEO effects: how large must the CEO effect be to rule out chance?', *Strategic Management Journal*, 35(12), pp. 1839–1852. Available at: [https://doi.org/10.1002/smj.2192](https://doi.org/10.1002/smj.2192).
 *Note:* Quigley, T.J. and Graffin, S.D. (2017) 'Reaffirming the CEO effect is significant and much larger than chance: a comment on Fitza (2014)', *Strategic Management Journal*, 38(3), pp. 793–801, available at [https://doi.org/10.1002/smj.2503](https://doi.org/10.1002/smj.2503), offered a rebuttal arguing the effect is significant; Fitza, M.A. (2017) 'How much do CEOs really matter? Reaffirming that the CEO effect is mostly due to chance', *Strategic Management Journal*, 38(3), pp. 802–811, available at [https://doi.org/10.1002/smj.2597](https://doi.org/10.1002/smj.2597), responded with a counter-rebuttal. The debate continues, but both sides agree that industry and macroeconomic factors explain the majority of variance in firm performance. See also Keller, T., Glaum, M., Bausch, A. and Bunz, T. (2023) 'The "CEO in context" technique revisited: a replication and extension of Hambrick and Quigley (2014)', *Strategic Management Journal*, 44(4), pp. 1111–1138. Available at: [https://doi.org/10.1002/smj.3469](https://doi.org/10.1002/smj.3469).

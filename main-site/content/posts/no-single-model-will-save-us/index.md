@@ -5,6 +5,18 @@ date = "2026-04-07"
 
 *A continuation of [When Deliberation Meets Reality](https://elias-jw.github.io/posts/when-deliberation-meets-reality/) and [Building Critical Thinking Infrastructure](https://elias-jw.github.io/posts/building-critical-thinking-infrastructure/), which together argued that the missing precondition for collective flourishing is critical thinking infrastructure fast enough to survive contact with reality. This post, Part 3 of the [Critical thinking infrastructure essay series](/posts/critical-thinking-infrastructure-series/), addresses where AI actually lives in that architecture, why no single model can take its place, and where the architecture goes next.*
 
+## Abstract
+
+The instinct in 2026 is to reach for one large language model and ask it to do everything. This post argues, from Wolpert and Macready's no free lunch theorems and from seventy years of overpromise and correction in computational optimisation, that no single model outperforms all others across all problem instances, and that the right response is to invest in a stable substrate with pluggable specialised models rather than to chase a god-model. It then works through where AI actually lives in the four-layer architecture: extraction and entity resolution at the spatial layer, graph neural networks and causal models at the domain layer, classical mathematical solvers at the compute layer, and a general-purpose LLM as the facilitator that translates questions into compositions of the above. The platform is the infrastructure; the models are replaceable.
+
+Hypotheses introduced (one per section):
+
+1. [No single model or technology outperforms all others across all problem instances.](#no-free-lunch)
+2. [The value of AI in decision support comes from specialised models operating at specific points in a stable infrastructure, orchestrated by a general-purpose facilitator. The infrastructure is the platform; the models are pluggable.](#where-ai-lives-in-this-architecture)
+3. [The architecture evolves through three stages, each extending the scope of the system while preserving the stable base layers. The third stage is where the system begins to model decision-making itself.](#the-research-trajectory-from-logistics-to-collective-intelligence)
+
+## Introduction
+
 The [previous post](https://elias-jw.github.io/posts/building-critical-thinking-infrastructure/) proposed a four-layer architecture (spatial knowledge graph, domain graph, solver integration, micro-tools) with a facilitator role that compresses ttQ and ttA inside the decision window. It closed by flagging that the facilitator role, currently performed by a human translating decision-makers' questions into queries against the graph, is the next place where compression has to happen. It also flagged a separate concern that needed its own treatment: why no single model will save us. This post takes up both threads, because they turn out to be the same. The facilitator question and the god-model question are answered together by working out which model belongs at which point in the architecture, and why the architecture itself is the thing that has to remain stable while the models attached to it change.
 
 ## No free lunch
@@ -66,8 +78,6 @@ The step from v1 to v2 is the point at which the system stops being a decision s
 That is the connection to ARIA's Collective Flourishing programme. The architecture is infrastructure for studying collective flourishing empirically, using supply chains as the laboratory and decision traces as the data.
 
 The next post in this series turns to the institutional question this trajectory raises but does not answer: who builds and maintains the public substrate that the architecture depends on, and why it has to exist as public infrastructure rather than as anyone's product.
-
-# References
 
 [^nfl]: Wolpert, D.H. and Macready, W.G. (1997) 'No Free Lunch Theorems for Optimization', *IEEE Transactions on Evolutionary Computation*, 1(1), pp. 67–82. Available at: <https://doi.org/10.1109/4235.585893>.
     *Note:* For an accessible explanation of the theorem and a discussion of its implications for modern machine learning, see Ho, Y.C. and Pepyne, D.L. (2002) 'Simple Explanation of the No-Free-Lunch Theorem and Its Implications', *Journal of Optimization Theory and Applications*, 115(3), pp. 549–570. Available at: <https://doi.org/10.1023/A:1021251113462>.

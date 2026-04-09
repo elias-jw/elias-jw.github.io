@@ -104,6 +104,18 @@
         </div>
         
         <p><em>A companion to <a href="/posts/when-deliberation-meets-reality/">When Deliberation Meets Reality</a>, which argued that the missing precondition for collective flourishing is critical thinking infrastructure that operates fast enough to survive contact with reality. This post, and Part 2 of the <a href="/posts/critical-thinking-infrastructure-series/">Critical thinking infrastructure essay series</a>,  describes what that infrastructure looks like.</em></p>
+<h2 id="abstract">Abstract</h2>
+<p>A constructive proposal for what decision-support infrastructure has to look like if it is to compress time-to-question and time-to-answer enough to fit rigorous analysis inside the decision window. The post introduces a four-layer architecture (spatial knowledge graph, domain graph, solver integration, micro-tools) governed by nine principles, including the separation of stable spatial knowledge from volatile project data, the prohibition on logic inside data objects, and the treatment of materialisation as an economic decision rather than a structural one. The architecture draws on six years of commercial deployment in logistics planning and is presented as an honest ledger of what is tested, what is designed, and what remains an open research question.</p>
+<p>Hypotheses introduced (one per section):</p>
+<ol>
+<li><a href="#where-the-time-actually-goes">The cost of asking a strategic question about a physical system is dominated by a cascade of bottlenecks that compound on each other, starting with the absence of a shared domain model and ending with the questions that are never discovered.</a></li>
+<li><a href="#the-architectural-response">The bottleneck cascade can be broken by formalising the domain model, pre-building the stable spatial foundation, and designing the analytical layer for composability across methods. Each intervention addresses a different bottleneck, and they reinforce each other.</a></li>
+<li><a href="#what-this-means-for-question-answer-speed">When the bottleneck cascade is broken, the explore-decide cycle compresses from weeks to minutes. The quality of decisions becomes determined by the decision-maker&rsquo;s ability to ask good questions, which itself improves with each iteration.</a></li>
+<li><a href="#the-facilitator-from-human-to-ai">Once a deployment is up and running, the critical bottleneck in compressing ttQ is the translation between a decision-maker&rsquo;s natural language question and the system&rsquo;s formal query language. A human facilitator currently fills this role. An AI facilitator can compress it further.</a></li>
+<li><a href="#connecting-back-from-individual-decisions-to-collective-flourishing">The bridge from individual decision support to collective flourishing is the inspectable trace. Fast decisions made through grounded, traceable tools leave behind the evidence that the collective needs for accountability, learning, and course correction.</a></li>
+<li><a href="#what-remains-to-be-built-and-what-remains-to-be-proven">The honest assessment of any research programme is the ratio of tested claims to untested ones.</a></li>
+</ol>
+<h2 id="introduction">Introduction</h2>
 <p>The <a href="/posts/when-deliberation-meets-reality/">previous post</a> proposed a hypothesis: that analytically superior methods are universally abandoned under pressure, despite their rigour, because they are too slow to fit inside the window where decisions actually get made. If that hypothesis holds, then the binding constraint on decision quality is time rather than analytical sophistication, specifically the time it takes to formulate a question (ttQ) and receive a useful answer (ttA). When those times are large, decision-makers default to gut feel regardless of what tools are available. When they are small enough to permit rapid iteration, decisions improve because each answer opens a better question than the last.</p>
 <p><img src="/posts/when-deliberation-meets-reality/01_decision_question_answer_loop.svg" alt="Decision question-answer loop"></p>
 <p>To supplement the argument, this post presents a constructive proposal. What would a system look like that actually compresses ttQ and ttA to the point where rigorous analysis fits inside the decision window?</p>
@@ -190,7 +202,7 @@ In our example, we ran through three iterations in twelve minutes, each building
 <p>Whether this works is an empirical question. The hypothesis register that accompanies this series of essay identifies fourteen testable claims, seven open questions for self-critique, and explicit conditions under which the thesis would be falsified<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>.</p>
 <p>The next posts in this series extend the argument: why no single model will save us, and what it takes to turn this from a platform into public infrastructure.</p>
 <h2 id="what-remains-to-be-built-and-what-remains-to-be-proven">What remains to be built, and what remains to be proven</h2>
-<p><em>Hypothesis: the honest assessment of any research programme is the ratio of tested claims to untested ones. Here is the ledger.</em></p>
+<p><em>Hypothesis: the honest assessment of any research programme is the ratio of tested claims to untested ones.</em></p>
 <p><strong>Tested through commercial deployment (2020 onwards):</strong></p>
 <ul>
 <li>The explore-decide cycle produces measurably better plans than the traditional workflow. Clients who used a bespoke version of the system with a human facilitator explored more scenarios and produced tighter bids.</li>
@@ -213,7 +225,6 @@ In our example, we ran through three iterations in twelve minutes, each building
 <li>The speed benchmark against ungrounded AI. Can grounded, knowledge-graph-backed answers match the speed of raw LLM responses while maintaining traceability? If they are slightly slower, does the traceability make up the difference, or does speed always win?</li>
 </ul>
 <p>The last question is the most consequential and the most uncomfortable. The previous post argued that speed is the binding constraint. If that is true, then any system that adds grounding at the cost of speed will lose to one that does not. The bet is that grounding and speed are not fundamentally in tension: that a well-designed knowledge graph with an effective AI facilitator can deliver both. That bet needs to be tested, not assumed.</p>
-<h1 id="references">References</h1>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>

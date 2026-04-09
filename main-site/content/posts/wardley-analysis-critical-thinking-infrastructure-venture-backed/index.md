@@ -7,7 +7,13 @@ description = "A technical companion to the essay series. A Wardley mapping exer
 
 *A technical accompaniment to the [Deliberation Meets Reality](/posts/when-deliberation-meets-reality/) series, in which we analyse and position the platform as a commercially viable and venture backed initiative.*
 
-The preceding posts built an argument for critical thinking infrastructure fast enough to survive contact with reality, and they described the architecture that could deliver it. This post treats the same architecture as a commercial proposition and applies Simon Wardley's mapping method[^wardley] to work out where the venture case actually lives. It is written as a technical piece rather than as a narrative essay, and the map itself does most of the argumentative work.*
+## Abstract
+
+The same architecture mapped from a venture-backed company perspective rather than a public infrastructure one. The exercise identifies where value is evolving on the stack, why the substrate layer (the graph engine, the domain ontology framework, the rehydration contracts) is underfunded relative to where capital will flow next, and which components should be open-sourced to accelerate the commodity tier rather than defended as proprietary. It names the moat, the build-buy-consume decisions that fall out of the geometry rather than out of preference, and the specific events that would force a revision of the map. Written as a technical piece in which the map does most of the argumentative work.
+
+## Introduction
+
+The preceding posts built an argument for critical thinking infrastructure fast enough to survive contact with reality, and they described the architecture that could deliver it. This post treats the same architecture as a commercial proposition and applies Simon Wardley's mapping method[^wardley] to work out where the venture case actually lives. It is written as a technical piece rather than as a narrative essay, and the map itself does most of the argumentative work.
 
 ## Why apply a Wardley map
 
@@ -130,8 +136,6 @@ The events that would revise the map are specific enough to be watched for. A st
 ## Closing
 
 The exercise has done what it was supposed to do, which is to make the venture case legible in terms that can be defended with geometry rather than narrative. The moat is the spatial knowledge graph as an amortisable substrate. The research bet that has to mature for the commercial case to work is the AI facilitator. The commodity layer below the moat is a tailwind rather than a threat, and the selective open-source strategy is the lever that converts the tailwind into structural advantage. The regulatory environment is a real force rather than a hoped-for one, and it provides the buyer alignment that the speed argument alone would not. None of this guarantees that the venture case works. What it is, is a map that names the places where the case would break and the events that would change the map, which is a more honest output than a strategy deck would be at the same stage, because it is structured to be revised when the territory moves rather than defended when the territory has already moved underneath it. The map belongs to the same family of artefacts as the hypothesis register: it is a live document whose value depends on how often it is updated.
-
-# References
 
 [^wardley]: Wardley, S. (2016) *Wardley Maps: Topographical Intelligence in Business*. Available as a collection on Medium at [https://medium.com/wardleymaps](https://medium.com/wardleymaps) (Accessed: 9 April 2026). The full mapping method, including the evolution axis definitions, the gameplay catalogue, the climatic patterns framework, and the peace-war-wonder cycle, is developed across the collected essays. For the connection between Wardley mapping and the question-answer iteration thesis that runs through this series, see also Girba, T. and Wardley, S. (2024) *Rewilding Software Engineering*. Available at: [https://medium.com/feenk/rewilding-software-engineering-25ba0e141e69](https://medium.com/feenk/rewilding-software-engineering-25ba0e141e69) (Accessed: 9 April 2026).
 

@@ -1,3 +1,14 @@
+/* Fix footnote numbering: theme uses counters() (plural) which concatenates
+   parent ol counters with dot separators (e.g. 8.1). Override to counter()
+   (singular) so the footnotes list counts independently. */
+.footnotes ol {
+    counter-reset: item;
+}
+.footnotes ol li::before {
+    content: counter(item) ". ";
+    counter-increment: item;
+}
+
 /* Global image styles */
 img {
     border-radius: 0 !important;
