@@ -1,0 +1,54 @@
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'Fira Code', 'Courier New', monospace; }
+    .title { font-size: 13px; fill: #222; font-weight: 600; }
+    .sub-title { font-size: 9px; fill: #888; }
+    .layer-name { font-size: 11px; fill: #222; font-weight: 600; }
+    .layer-sub { font-size: 9px; fill: #888; }
+    .rate { font-size: 9px; fill: #d84315; font-style: italic; }
+    .layer-box { fill: #fafafa; stroke: #333; stroke-width: 1; }
+    .stable-box { fill: #fff; stroke: #333; stroke-width: 1; }
+    .divider { stroke: #ccc; stroke-width: 0.75; stroke-dasharray: 2 2; }
+    .caption { font-size: 9px; fill: #d84315; font-style: italic; }
+    .axis-label { font-size: 9px; fill: #888; }
+    .tick { stroke: #aaa; stroke-width: 0.75; }
+  </style>
+
+  <text class="title" x="350" y="22" text-anchor="middle">P2. each layer has its own rate of change</text>
+  <text class="sub-title" x="350" y="36" text-anchor="middle">expensive work done once at the bottom; cheap work varies freely at the top</text>
+
+  <!-- rate-of-change axis (right side) -->
+  <text class="axis-label" x="672" y="82" text-anchor="end">fast</text>
+  <text class="axis-label" x="672" y="332" text-anchor="end">slow</text>
+  <line x1="650" y1="88" x2="650" y2="322" class="tick"/>
+  <line x1="646" y1="88" x2="654" y2="88" class="tick"/>
+  <line x1="646" y1="322" x2="654" y2="322" class="tick"/>
+
+  <!-- Layer 4: micro-tools -->
+  <rect x="60" y="70" width="560" height="50" rx="4" class="layer-box"/>
+  <text class="layer-name" x="76" y="90">micro-tools</text>
+  <text class="layer-sub" x="76" y="104">per session: ingest, filter, overlay, render</text>
+  <text class="rate" x="604" y="104" text-anchor="end">minutes</text>
+
+  <!-- Layer 3: compute adapters -->
+  <rect x="60" y="132" width="560" height="50" rx="4" class="layer-box"/>
+  <text class="layer-name" x="76" y="152">compute adapters</text>
+  <text class="layer-sub" x="76" y="166">per project: solvers, inference, entity resolution</text>
+  <text class="rate" x="604" y="166" text-anchor="end">weeks</text>
+
+  <!-- Layer 2: domain graph + ontology -->
+  <rect x="60" y="194" width="560" height="50" rx="4" class="layer-box"/>
+  <text class="layer-name" x="76" y="214">domain graph + ontology</text>
+  <text class="layer-sub" x="76" y="228">operational problem, client data, decision variables</text>
+  <text class="rate" x="604" y="228" text-anchor="end">months</text>
+
+  <!-- Layer 1: spatial knowledge graph -->
+  <rect x="60" y="256" width="560" height="60" rx="4" class="stable-box"/>
+  <text class="layer-name" x="76" y="278">spatial knowledge graph</text>
+  <text class="layer-sub" x="76" y="292">roads, buildings, boundaries, points of interest</text>
+  <text class="layer-sub" x="76" y="304">shared across every project in a geography</text>
+  <text class="rate" x="604" y="292" text-anchor="end">years</text>
+
+  <line x1="40" y1="336" x2="660" y2="336" class="divider"/>
+  <text class="caption" x="40" y="354">mixing stable and volatile in one layer multiplies future work. second project costs a fraction of the first.</text>
+</svg>

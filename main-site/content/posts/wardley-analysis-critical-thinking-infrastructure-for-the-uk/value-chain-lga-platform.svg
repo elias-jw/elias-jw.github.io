@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1020" width="1200" height="1020" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>Value chain and four-layer architecture of the LGA platform</title>
+  <desc>A vertical value chain diagram showing the six bands of the Logistics Planning Decision Support Platform from the user need down to commodity foundations. Each component is coloured by sourcing strategy: purple custom build, teal open source and UK academic, amber commercial product, gray UK public data and utility. The diagram makes explicit that the stable foundation rests on UK public data and UK academic open source, while the differentiating work sits in the custom middle.</desc>
+
+  <defs>
+    <marker id="vc-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#888780"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="1020" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="60" y="48" font-size="22" font-weight="600" fill="#2C2C2A">Value chain and four-layer architecture</text>
+  <text x="60" y="72" font-size="13" fill="#5F5E5A">Top-down dependencies. Colour = sourcing strategy. The stable foundation is almost entirely UK public data and UK academic open source.</text>
+
+  <!-- Band labels (right side) -->
+  <g font-size="11" fill="#888780" font-style="italic" text-anchor="end">
+    <text x="1150" y="132">User need</text>
+    <text x="1150" y="220">Access layer</text>
+    <text x="1150" y="318">Composition layer</text>
+    <text x="1150" y="430">Domain graph layer</text>
+    <text x="1150" y="590">Engine layer</text>
+    <text x="1150" y="740">Compute layer</text>
+    <text x="1150" y="910">Foundation layer</text>
+  </g>
+
+  <!-- ========== Band 0: User need ========== -->
+  <g>
+    <rect x="440" y="100" width="320" height="64" rx="8" fill="#FAECE7" stroke="#712B13" stroke-width="1.5"/>
+    <text x="600" y="128" text-anchor="middle" font-size="15" font-weight="600" fill="#4A1B0C">User need</text>
+    <text x="600" y="146" text-anchor="middle" font-size="11" fill="#712B13">Fast, grounded, inspectable answers</text>
+    <text x="600" y="160" text-anchor="middle" font-size="11" fill="#712B13">within the decision validity window</text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="60" y1="190" x2="1140" y2="190" stroke="#ede9dc" stroke-width="1"/>
+
+  <!-- Connectors from user need to access layer -->
+  <line x1="520" y1="164" x2="360" y2="220" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+  <line x1="680" y1="164" x2="840" y2="220" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+
+  <!-- ========== Band 1: Access layer (genesis) ========== -->
+  <g>
+    <rect x="200" y="228" width="320" height="72" rx="8" fill="#EEEDFE" stroke="#3C3489" stroke-width="1.5"/>
+    <text x="360" y="254" text-anchor="middle" font-size="14" font-weight="600" fill="#26215C">AI facilitator</text>
+    <text x="360" y="272" text-anchor="middle" font-size="11" fill="#3C3489">Natural language → graph queries</text>
+    <text x="360" y="288" text-anchor="middle" font-size="10" font-style="italic" fill="#534AB7">Genesis · custom build · UK academic partnership target</text>
+  </g>
+
+  <g>
+    <rect x="680" y="228" width="320" height="72" rx="8" fill="#EEEDFE" stroke="#3C3489" stroke-width="1.5"/>
+    <text x="840" y="254" text-anchor="middle" font-size="14" font-weight="600" fill="#26215C">Inspectable traces</text>
+    <text x="840" y="272" text-anchor="middle" font-size="11" fill="#3C3489">Structural consequence of P5, P7</text>
+    <text x="840" y="288" text-anchor="middle" font-size="10" font-style="italic" fill="#534AB7">Genesis (as civic practice) · enables collective accountability</text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="60" y1="326" x2="1140" y2="326" stroke="#ede9dc" stroke-width="1"/>
+
+  <!-- Connectors to composition -->
+  <line x1="360" y1="300" x2="600" y2="360" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+  <line x1="840" y1="300" x2="600" y2="360" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+
+  <!-- ========== Band 2: Composition layer (custom) ========== -->
+  <g>
+    <rect x="360" y="368" width="480" height="62" rx="8" fill="#EEEDFE" stroke="#3C3489" stroke-width="1.5"/>
+    <text x="600" y="394" text-anchor="middle" font-size="14" font-weight="600" fill="#26215C">Micro-tools layer (P9)</text>
+    <text x="600" y="412" text-anchor="middle" font-size="11" fill="#3C3489">Composable, read-only: ingest · explore · compare · render</text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="60" y1="458" x2="1140" y2="458" stroke="#ede9dc" stroke-width="1"/>
+
+  <!-- Connectors to domain graph layer -->
+  <line x1="450" y1="430" x2="240" y2="498" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+  <line x1="600" y1="430" x2="600" y2="498" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+  <line x1="750" y1="430" x2="960" y2="498" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+
+  <!-- ========== Band 3: Domain graph layer (custom) ========== -->
+  <g>
+    <rect x="100" y="506" width="280" height="72" rx="8" fill="#EEEDFE" stroke="#3C3489" stroke-width="1.5"/>
+    <text x="240" y="532" text-anchor="middle" font-size="14" font-weight="600" fill="#26215C">Domain ontology framework</text>
+    <text x="240" y="550" text-anchor="middle" font-size="11" fill="#3C3489">Declarative, runtime-loaded (P4)</text>
+    <text x="240" y="566" text-anchor="middle" font-size="10" font-style="italic" fill="#534AB7">Custom · different per deployment</text>
+  </g>
+
+  <g>
+    <rect x="460" y="506" width="280" height="72" rx="8" fill="#EEEDFE" stroke="#3C3489" stroke-width="1.5"/>
+    <text x="600" y="532" text-anchor="middle" font-size="14" font-weight="600" fill="#26215C">Spatial knowledge graph</text>
+    <text x="600" y="550" text-anchor="middle" font-size="11" fill="#3C3489">Per-geography, shared across projects</text>
+    <text x="600" y="566" text-anchor="middle" font-size="10" font-style="italic" fill="#534AB7">Custom integration of commodity inputs</text>
+  </g>
+
+  <g>
+    <rect x="820" y="506" width="280" height="72" rx="8" fill="#EEEDFE" stroke="#3C3489" stroke-width="1.5"/>
+    <text x="960" y="532" text-anchor="middle" font-size="14" font-weight="600" fill="#26215C">Rehydration contracts</text>
+    <text x="960" y="550" text-anchor="middle" font-size="11" fill="#3C3489">Solver adapters: extract-compute-rehydrate (P6, P7)</text>
+    <text x="960" y="566" text-anchor="middle" font-size="10" font-style="italic" fill="#534AB7">Custom · makes solvers swappable</text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="60" y1="606" x2="1140" y2="606" stroke="#ede9dc" stroke-width="1"/>
+
+  <!-- Connectors from domain graph layer to engine -->
+  <line x1="240" y1="578" x2="540" y2="640" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+  <line x1="600" y1="578" x2="600" y2="640" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+  <line x1="960" y1="578" x2="660" y2="640" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+
+  <!-- ========== Band 4: Engine layer (custom, with inertia) ========== -->
+  <g>
+    <rect x="360" y="648" width="480" height="78" rx="8" fill="#EEEDFE" stroke="#3C3489" stroke-width="2"/>
+    <text x="600" y="676" text-anchor="middle" font-size="14" font-weight="600" fill="#26215C">Graph engine — Rust · ECS · immutable · bitemporal</text>
+    <text x="600" y="694" text-anchor="middle" font-size="11" fill="#3C3489">Makes P3 (ECS), P5 (temporal lineage), P7 (contracts) structural, not disciplinary</text>
+    <!-- × inertia marker -->
+    <g stroke="#A32D2D" stroke-width="2.5" stroke-linecap="round">
+      <line x1="790" y1="694" x2="806" y2="710"/>
+      <line x1="806" y1="694" x2="790" y2="710"/>
+    </g>
+    <text x="815" y="708" font-size="10" font-weight="500" fill="#A32D2D">deliberate inertia</text>
+    <text x="600" y="716" text-anchor="middle" font-size="10" font-style="italic" fill="#712B13">Resists the mainstream pull to Neo4j / Kuzu. Trade is named and documented.</text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="60" y1="754" x2="1140" y2="754" stroke="#ede9dc" stroke-width="1"/>
+
+  <!-- Connectors from engine to compute layer -->
+  <line x1="420" y1="726" x2="180" y2="788" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+  <line x1="520" y1="726" x2="440" y2="788" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+  <line x1="680" y1="726" x2="720" y2="788" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+  <line x1="780" y1="726" x2="980" y2="788" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+
+  <!-- ========== Band 5: Compute layer (product, open source, UK academic) ========== -->
+  <g>
+    <rect x="60" y="796" width="240" height="78" rx="8" fill="#FAEEDA" stroke="#633806" stroke-width="1.5"/>
+    <text x="180" y="822" text-anchor="middle" font-size="13" font-weight="600" fill="#412402">LLMs</text>
+    <text x="180" y="838" text-anchor="middle" font-size="10" fill="#854F0B">Frontier: Claude, GPT, Gemini</text>
+    <text x="180" y="852" text-anchor="middle" font-size="10" fill="#854F0B">Open-weight: Llama, Mistral, Qwen</text>
+    <text x="180" y="866" text-anchor="middle" font-size="10" font-style="italic" fill="#633806">Product · consumed, pluggable</text>
+  </g>
+
+  <g>
+    <rect x="320" y="796" width="240" height="78" rx="8" fill="#E1F5EE" stroke="#085041" stroke-width="1.5"/>
+    <text x="440" y="822" text-anchor="middle" font-size="13" font-weight="600" fill="#04342C">Entity resolution / geocoding</text>
+    <text x="440" y="838" text-anchor="middle" font-size="10" fill="#0F6E56">UK: UPRN · Royal Mail PAF · VOA</text>
+    <text x="440" y="852" text-anchor="middle" font-size="10" fill="#0F6E56">Companies House registered offices</text>
+    <text x="440" y="866" text-anchor="middle" font-size="10" font-style="italic" fill="#085041">Open source + custom UK integration</text>
+  </g>
+
+  <g>
+    <rect x="580" y="796" width="280" height="78" rx="8" fill="#E1F5EE" stroke="#085041" stroke-width="2"/>
+    <text x="720" y="822" text-anchor="middle" font-size="13" font-weight="600" fill="#04342C">Open source solvers</text>
+    <text x="720" y="840" text-anchor="middle" font-size="11" font-weight="500" fill="#0F6E56">HiGHS (University of Edinburgh)</text>
+    <text x="720" y="854" text-anchor="middle" font-size="10" fill="#0F6E56">Google OR-Tools · CP-SAT · VRP</text>
+    <text x="720" y="868" text-anchor="middle" font-size="10" font-style="italic" fill="#085041">Default solver tier · UK academic anchor</text>
+  </g>
+
+  <g opacity="0.55">
+    <rect x="880" y="796" width="240" height="78" rx="8" fill="#FAEEDA" stroke="#633806" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <text x="1000" y="822" text-anchor="middle" font-size="13" font-weight="600" fill="#412402">Graph databases</text>
+    <text x="1000" y="838" text-anchor="middle" font-size="10" fill="#854F0B">Neo4j · Kuzu · Memgraph</text>
+    <text x="1000" y="866" text-anchor="middle" font-size="10" font-style="italic" fill="#633806">Alternative · not chosen</text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="60" y1="902" x2="1140" y2="902" stroke="#ede9dc" stroke-width="1"/>
+
+  <!-- Connectors from compute to foundation -->
+  <line x1="180" y1="874" x2="360" y2="936" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+  <line x1="440" y1="874" x2="600" y2="936" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+  <line x1="720" y1="874" x2="840" y2="936" stroke="#bdbbb2" stroke-width="1" marker-end="url(#vc-arrow)"/>
+
+  <!-- ========== Band 6: Foundation layer (commodity) ========== -->
+  <g>
+    <rect x="220" y="944" width="240" height="58" rx="8" fill="#F1EFE8" stroke="#2C2C2A" stroke-width="1.5"/>
+    <text x="340" y="968" text-anchor="middle" font-size="13" font-weight="600" fill="#2C2C2A">H3 spatial index</text>
+    <text x="340" y="986" text-anchor="middle" font-size="10" fill="#5F5E5A">Hierarchical hexagons · h3o Rust crate</text>
+  </g>
+
+  <g>
+    <rect x="480" y="930" width="320" height="84" rx="8" fill="#F1EFE8" stroke="#2C2C2A" stroke-width="2"/>
+    <text x="640" y="954" text-anchor="middle" font-size="14" font-weight="700" fill="#2C2C2A">UK public data</text>
+    <text x="640" y="972" text-anchor="middle" font-size="10" fill="#444441">Ordnance Survey · ONS · Land Registry</text>
+    <text x="640" y="986" text-anchor="middle" font-size="10" fill="#444441">VOA · Companies House · DEFRA · DfT</text>
+    <text x="640" y="1002" text-anchor="middle" font-size="10" font-style="italic" fill="#2C2C2A">Load-bearing commodity anchor · OGL terms</text>
+  </g>
+
+  <g>
+    <rect x="820" y="944" width="240" height="58" rx="8" fill="#F1EFE8" stroke="#2C2C2A" stroke-width="1.5"/>
+    <text x="940" y="968" text-anchor="middle" font-size="13" font-weight="600" fill="#2C2C2A">Cloud compute</text>
+    <text x="940" y="986" text-anchor="middle" font-size="10" fill="#5F5E5A">UK sovereign: Crown Hosting · Azure UK · AWS EU</text>
+  </g>
+
+  <!-- Legend (bottom-left) -->
+  <g transform="translate(60, 100)">
+    <rect x="0" y="0" width="132" height="152" rx="6" fill="#ffffff" stroke="#d3d1c7" stroke-width="1"/>
+    <text x="10" y="20" font-size="12" font-weight="600" fill="#2C2C2A">Sourcing</text>
+    <rect x="10" y="32" width="14" height="14" rx="3" fill="#EEEDFE" stroke="#3C3489" stroke-width="1.2"/>
+    <text x="30" y="44" font-size="10" fill="#444441">Custom build</text>
+    <rect x="10" y="54" width="14" height="14" rx="3" fill="#E1F5EE" stroke="#085041" stroke-width="1.2"/>
+    <text x="30" y="66" font-size="10" fill="#444441">Open source /</text>
+    <text x="30" y="78" font-size="10" fill="#444441">UK academic</text>
+    <rect x="10" y="88" width="14" height="14" rx="3" fill="#FAEEDA" stroke="#633806" stroke-width="1.2"/>
+    <text x="30" y="100" font-size="10" fill="#444441">Commercial product</text>
+    <rect x="10" y="110" width="14" height="14" rx="3" fill="#F1EFE8" stroke="#2C2C2A" stroke-width="1.2"/>
+    <text x="30" y="122" font-size="10" fill="#444441">UK public /</text>
+    <text x="30" y="134" font-size="10" fill="#444441">utility</text>
+  </g>
+</svg>

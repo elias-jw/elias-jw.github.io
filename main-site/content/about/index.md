@@ -38,6 +38,4 @@ I'm always interested in hearing about new opportunities, collaborations, or a c
 * *LinkedIn*: [linkedin.com/in/eliasjw](https://www.linkedin.com/in/eliasjw/)
 * *Location*: London, UK
 
----
-
 [^1]: The Dutch name **Willemse** is pronounced roughly as VIL-uhm-suh /ˈvɪləmsə/. The "W" sounds like an English "v" (voiced labiodental approximant), the "i" is short, and the final "e" is a soft schwa /ə/, like the "a" in "about."

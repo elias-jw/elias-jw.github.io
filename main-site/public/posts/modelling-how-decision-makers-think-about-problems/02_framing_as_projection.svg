@@ -1,0 +1,103 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'Fira Code', 'Courier New', monospace; }
+    .title { font-size: 13px; fill: #222; font-weight: 600; }
+    .sub-title { font-size: 9px; fill: #888; }
+    .lens-name { font-size: 11px; fill: #222; font-weight: 600; }
+    .lens-frame { font-size: 9px; fill: #d84315; font-style: italic; }
+    .metric { font-size: 9px; fill: #333; }
+    .graph-label { font-size: 10px; fill: #222; font-weight: 600; }
+    .graph-sub { font-size: 9px; fill: #888; }
+    .node-label { font-size: 8px; fill: #555; }
+    .lens-box { fill: #fafafa; stroke: #333; stroke-width: 1; }
+    .graph-box { fill: #fff; stroke: #333; stroke-width: 1; }
+    .divider { stroke: #ccc; stroke-width: 0.75; stroke-dasharray: 2 2; }
+    .caption { font-size: 9px; fill: #d84315; font-style: italic; }
+    .proj { stroke: #888; stroke-width: 0.75; fill: none; stroke-dasharray: 2 2; }
+    .edge { stroke: #888; stroke-width: 0.6; fill: none; }
+    .node { fill: #fff; stroke: #555; stroke-width: 0.75; }
+  </style>
+
+  <text class="title" x="350" y="22" text-anchor="middle">Four projections of one graph</text>
+  <text class="sub-title" x="350" y="36" text-anchor="middle">a manufacturer weighing whether to reshore part of production</text>
+
+  <!-- ===== Four lens boxes (top row) ===== -->
+  <!-- Operations -->
+  <rect x="35" y="58" width="150" height="106" rx="4" class="lens-box"/>
+  <text class="lens-name" x="110" y="76" text-anchor="middle">operations</text>
+  <text class="lens-frame" x="110" y="90" text-anchor="middle">"resilience and flow"</text>
+  <line x1="45" y1="100" x2="175" y2="100" class="divider"/>
+  <text class="metric" x="55" y="118">› lead time (days)</text>
+  <text class="metric" x="55" y="134">› capacity headroom</text>
+  <text class="metric" x="55" y="150">› buffer stock weeks</text>
+
+  <!-- Finance -->
+  <rect x="200" y="58" width="150" height="106" rx="4" class="lens-box"/>
+  <text class="lens-name" x="275" y="76" text-anchor="middle">finance</text>
+  <text class="lens-frame" x="275" y="90" text-anchor="middle">"cost and capital"</text>
+  <line x1="210" y1="100" x2="340" y2="100" class="divider"/>
+  <text class="metric" x="220" y="118">› landed cost / unit</text>
+  <text class="metric" x="220" y="134">› working capital</text>
+  <text class="metric" x="220" y="150">› capex exposure</text>
+
+  <!-- Sustainability -->
+  <rect x="365" y="58" width="150" height="106" rx="4" class="lens-box"/>
+  <text class="lens-name" x="440" y="76" text-anchor="middle">sustainability</text>
+  <text class="lens-frame" x="440" y="90" text-anchor="middle">"footprint and disclosure"</text>
+  <line x1="375" y1="100" x2="505" y2="100" class="divider"/>
+  <text class="metric" x="385" y="118">› Scope 3 emissions</text>
+  <text class="metric" x="385" y="134">› labour disclosures</text>
+  <text class="metric" x="385" y="150">› audit coverage</text>
+
+  <!-- Procurement -->
+  <rect x="530" y="58" width="150" height="106" rx="4" class="lens-box"/>
+  <text class="lens-name" x="605" y="76" text-anchor="middle">procurement</text>
+  <text class="lens-frame" x="605" y="90" text-anchor="middle">"concentration and risk"</text>
+  <line x1="540" y1="100" x2="670" y2="100" class="divider"/>
+  <text class="metric" x="550" y="118">› supplier count</text>
+  <text class="metric" x="550" y="134">› single-source share</text>
+  <text class="metric" x="550" y="150">› tier-2 visibility</text>
+
+  <!-- ===== Projection lines from graph to each lens ===== -->
+  <path d="M350,260 C220,220 150,190 110,164" class="proj"/>
+  <path d="M350,260 C310,220 290,190 275,164" class="proj"/>
+  <path d="M350,260 C390,220 410,190 440,164" class="proj"/>
+  <path d="M350,260 C480,220 550,190 605,164" class="proj"/>
+
+  <!-- ===== Underlying graph (bottom centre) ===== -->
+  <rect x="200" y="245" width="300" height="115" rx="4" class="graph-box"/>
+  <text class="graph-label" x="350" y="263" text-anchor="middle">underlying graph</text>
+  <text class="graph-sub" x="350" y="276" text-anchor="middle">facilities, suppliers, flows, contracts, sites</text>
+
+  <!-- Mini graph illustration -->
+  <g transform="translate(218, 286)">
+    <!-- Edges -->
+    <line x1="20" y1="20" x2="70" y2="10" class="edge"/>
+    <line x1="20" y1="20" x2="60" y2="45" class="edge"/>
+    <line x1="70" y1="10" x2="120" y2="20" class="edge"/>
+    <line x1="70" y1="10" x2="115" y2="50" class="edge"/>
+    <line x1="60" y1="45" x2="115" y2="50" class="edge"/>
+    <line x1="120" y1="20" x2="170" y2="15" class="edge"/>
+    <line x1="120" y1="20" x2="180" y2="45" class="edge"/>
+    <line x1="115" y1="50" x2="180" y2="45" class="edge"/>
+    <line x1="170" y1="15" x2="225" y2="25" class="edge"/>
+    <line x1="180" y1="45" x2="230" y2="55" class="edge"/>
+    <line x1="225" y1="25" x2="260" y2="40" class="edge"/>
+    <line x1="230" y1="55" x2="260" y2="40" class="edge"/>
+    <!-- Nodes -->
+    <circle cx="20" cy="20" r="3" class="node"/>
+    <circle cx="70" cy="10" r="3" class="node"/>
+    <circle cx="60" cy="45" r="3" class="node"/>
+    <circle cx="120" cy="20" r="3" class="node"/>
+    <circle cx="115" cy="50" r="3" class="node"/>
+    <circle cx="170" cy="15" r="3" class="node"/>
+    <circle cx="180" cy="45" r="3" class="node"/>
+    <circle cx="225" cy="25" r="3" class="node"/>
+    <circle cx="230" cy="55" r="3" class="node"/>
+    <circle cx="260" cy="40" r="3" class="node"/>
+  </g>
+
+  <!-- Footer caption -->
+  <line x1="40" y1="372" x2="660" y2="372" class="divider"/>
+  <text class="caption" x="40" y="390">each reading is a projection of the same graph through a different priority ordering and vocabulary.</text>
+</svg>

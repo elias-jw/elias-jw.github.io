@@ -1,0 +1,80 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'Fira Code', 'Courier New', monospace; }
+    .title { font-size: 13px; fill: #222; font-weight: 600; }
+    .sub-title { font-size: 9px; fill: #888; }
+    .lane-name { font-size: 11px; fill: #222; font-weight: 600; }
+    .lane-sub { font-size: 9px; fill: #888; }
+    .step { font-size: 10px; fill: #333; }
+    .step-label { font-size: 8px; fill: #888; }
+    .accent { fill: #d84315; font-weight: 600; }
+    .lane-box { fill: #fafafa; stroke: #333; stroke-width: 1; }
+    .step-box { fill: #fff; stroke: #666; stroke-width: 0.75; }
+    .step-fail { fill: #fff; stroke: #d84315; stroke-width: 1; }
+    .divider { stroke: #ccc; stroke-width: 0.75; stroke-dasharray: 2 2; }
+    .caption { font-size: 9px; fill: #d84315; font-style: italic; }
+    .arrow { stroke: #555; stroke-width: 1; fill: none; marker-end: url(#a4); }
+    .signature { font-size: 9px; fill: #d84315; font-style: italic; }
+  </style>
+  <defs>
+    <marker id="a4" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,4 L0,8" fill="none" stroke="#555" stroke-width="1" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <text class="title" x="350" y="22" text-anchor="middle">Two failure modes, two signatures in the trace</text>
+  <text class="sub-title" x="350" y="36" text-anchor="middle">analytical and framing failures look different once the trace records them</text>
+
+  <!-- ============ LANE 1: analytical failure ============ -->
+  <rect x="40" y="58" width="620" height="130" rx="4" class="lane-box"/>
+  <text class="lane-name" x="54" y="78">analytical failure</text>
+  <text class="lane-sub" x="54" y="91">the underlying number was wrong</text>
+
+  <!-- Steps -->
+  <rect x="180" y="106" width="100" height="36" rx="3" class="step-fail"/>
+  <text class="step-label" x="230" y="120" text-anchor="middle">graph state</text>
+  <text class="step accent" x="230" y="134" text-anchor="middle">wrong number</text>
+
+  <line x1="280" y1="124" x2="306" y2="124" class="arrow"/>
+
+  <rect x="308" y="106" width="100" height="36" rx="3" class="step-box"/>
+  <text class="step-label" x="358" y="120" text-anchor="middle">recommendation</text>
+  <text class="step" x="358" y="134" text-anchor="middle">option B</text>
+
+  <line x1="408" y1="124" x2="434" y2="124" class="arrow"/>
+
+  <rect x="436" y="106" width="100" height="36" rx="3" class="step-fail"/>
+  <text class="step-label" x="486" y="120" text-anchor="middle">outcome</text>
+  <text class="step accent" x="486" y="134" text-anchor="middle">refuted later</text>
+
+  <text class="signature" x="358" y="170" text-anchor="middle">signature: a wrong number sits in the graph</text>
+
+  <!-- ============ LANE 2: framing failure ============ -->
+  <rect x="40" y="204" width="620" height="130" rx="4" class="lane-box"/>
+  <text class="lane-name" x="54" y="224">framing failure</text>
+  <text class="lane-sub" x="54" y="237">the number was right but the presentation missed the reader's frame</text>
+
+  <!-- Steps -->
+  <rect x="180" y="252" width="100" height="36" rx="3" class="step-box"/>
+  <text class="step-label" x="230" y="266" text-anchor="middle">graph state</text>
+  <text class="step" x="230" y="280" text-anchor="middle">correct number</text>
+
+  <line x1="280" y1="270" x2="306" y2="270" class="arrow"/>
+
+  <rect x="308" y="252" width="100" height="36" rx="3" class="step-fail"/>
+  <text class="step-label" x="358" y="266" text-anchor="middle">presentation</text>
+  <text class="step accent" x="358" y="280" text-anchor="middle">cost-led</text>
+
+  <line x1="408" y1="270" x2="434" y2="270" class="arrow"/>
+
+  <rect x="436" y="252" width="100" height="36" rx="3" class="step-fail"/>
+  <text class="step-label" x="486" y="266" text-anchor="middle">outcome</text>
+  <text class="step accent" x="486" y="280" text-anchor="middle">dismissed</text>
+
+  <text class="signature" x="358" y="316" text-anchor="middle">signature: a correct number the reader dismissed</text>
+
+  <!-- Footer caption -->
+  <line x1="40" y1="354" x2="660" y2="354" class="divider"/>
+  <text class="caption" x="40" y="372">both become measurable once the trace records the recommendation and the response to it.</text>
+  <text class="lane-sub" x="40" y="390">a closed loop survey-based value elicitation does not offer.</text>
+</svg>

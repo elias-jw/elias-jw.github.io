@@ -1,0 +1,84 @@
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'Fira Code', 'Courier New', monospace; }
+    .title { font-size: 13px; fill: #222; font-weight: 600; }
+    .sub-title { font-size: 9px; fill: #888; }
+    .pos-title { font-size: 11px; fill: #222; font-weight: 600; }
+    .pos-sub { font-size: 9px; fill: #888; }
+    .example-label { font-size: 8px; fill: #888; font-style: italic; }
+    .example { font-size: 9px; fill: #333; }
+    .box { fill: #fff; stroke: #333; stroke-width: 1; }
+    .divider { stroke: #ccc; stroke-width: 0.75; stroke-dasharray: 2 2; }
+    .spectrum { stroke: #aaa; stroke-width: 0.75; stroke-dasharray: 3 3; }
+    .axis-label { font-size: 9px; fill: #888; }
+    .promote { stroke: #d84315; stroke-width: 1.2; fill: none; marker-end: url(#a8p); }
+    .demote  { stroke: #d84315; stroke-width: 1.2; fill: none; stroke-dasharray: 3 2; marker-end: url(#a8d); }
+    .move-label { font-size: 9px; fill: #d84315; font-style: italic; }
+    .caption { font-size: 9px; fill: #d84315; font-style: italic; }
+  </style>
+  <defs>
+    <marker id="a8p" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,4 L0,8" fill="none" stroke="#d84315" stroke-width="1" stroke-linejoin="round"/>
+    </marker>
+    <marker id="a8d" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,4 L0,8" fill="none" stroke="#d84315" stroke-width="1" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <text class="title" x="350" y="22" text-anchor="middle">P8. placement is economic, not structural</text>
+  <text class="sub-title" x="350" y="36" text-anchor="middle">reuse multiplied by compute cost decides the position. promotion and demotion are both cheap.</text>
+
+  <!-- ========== Promote arrows (above the boxes) ========== -->
+  <path d="M200,150 C230,80 250,80 280,150" class="promote"/>
+  <text class="move-label" x="240" y="72" text-anchor="middle">promote</text>
+  <text class="sub-title" x="240" y="84" text-anchor="middle">reuse observed</text>
+
+  <path d="M420,150 C450,80 470,80 500,150" class="promote"/>
+  <text class="move-label" x="460" y="72" text-anchor="middle">promote</text>
+  <text class="sub-title" x="460" y="84" text-anchor="middle">reuse is universal</text>
+
+  <!-- ========== Three position boxes ========== -->
+  <!-- Box 1: micro-tool -->
+  <rect x="60" y="110" width="140" height="110" rx="3" class="box"/>
+  <text class="pos-title" x="130" y="132" text-anchor="middle">micro-tool</text>
+  <text class="pos-sub" x="130" y="146" text-anchor="middle">read-only, per-session</text>
+  <line x1="72" y1="156" x2="188" y2="156" class="divider"/>
+  <text class="example-label" x="130" y="172" text-anchor="middle">example</text>
+  <text class="example" x="130" y="190" text-anchor="middle">a one-off</text>
+  <text class="example" x="130" y="204" text-anchor="middle">scenario sketch</text>
+
+  <!-- Box 2: named overlay -->
+  <rect x="280" y="110" width="140" height="110" rx="3" class="box"/>
+  <text class="pos-title" x="350" y="132" text-anchor="middle">named overlay</text>
+  <text class="pos-sub" x="350" y="146" text-anchor="middle">adapter + contract</text>
+  <line x1="292" y1="156" x2="408" y2="156" class="divider"/>
+  <text class="example-label" x="350" y="172" text-anchor="middle">example</text>
+  <text class="example" x="350" y="190" text-anchor="middle">tender bid VRP,</text>
+  <text class="example" x="350" y="204" text-anchor="middle">reused all quarter</text>
+
+  <!-- Box 3: base graph component -->
+  <rect x="500" y="110" width="160" height="110" rx="3" class="box"/>
+  <text class="pos-title" x="580" y="132" text-anchor="middle">base graph component</text>
+  <text class="pos-sub" x="580" y="146" text-anchor="middle">build-time, universal</text>
+  <line x1="512" y1="156" x2="648" y2="156" class="divider"/>
+  <text class="example-label" x="580" y="172" text-anchor="middle">example</text>
+  <text class="example" x="580" y="190" text-anchor="middle">H3 indexing,</text>
+  <text class="example" x="580" y="204" text-anchor="middle">entity resolution</text>
+
+  <!-- ========== Demote arrows (below the boxes) ========== -->
+  <path d="M500,185 C470,260 450,260 420,185" class="demote"/>
+  <text class="move-label" x="460" y="278" text-anchor="middle">demote</text>
+  <text class="sub-title" x="460" y="290" text-anchor="middle">reuse evaporated</text>
+
+  <path d="M280,185 C250,260 230,260 200,185" class="demote"/>
+  <text class="move-label" x="240" y="278" text-anchor="middle">demote</text>
+  <text class="sub-title" x="240" y="290" text-anchor="middle">state never queried</text>
+
+  <!-- ========== Spectrum axis underneath ========== -->
+  <line x1="60" y1="318" x2="660" y2="318" class="spectrum"/>
+  <text class="axis-label" x="60" y="334">ephemeral</text>
+  <text class="axis-label" x="660" y="334" text-anchor="end">infrastructure</text>
+
+  <line x1="40" y1="350" x2="660" y2="350" class="divider"/>
+  <text class="caption" x="40" y="368">all layers read and write through the same graph primitives, so movement along the spectrum is a contract change rather than a rewrite.</text>
+</svg>

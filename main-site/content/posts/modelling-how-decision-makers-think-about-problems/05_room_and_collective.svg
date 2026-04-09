@@ -1,0 +1,121 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'Fira Code', 'Courier New', monospace; }
+    .title { font-size: 13px; fill: #222; font-weight: 600; }
+    .sub-title { font-size: 9px; fill: #888; }
+    .box-name { font-size: 11px; fill: #222; font-weight: 600; }
+    .box-sub { font-size: 9px; fill: #888; }
+    .flow-label { font-size: 10px; fill: #d84315; font-weight: 600; }
+    .flow-label-out { font-size: 10px; fill: #333; font-weight: 600; }
+    .flow-sub { font-size: 9px; fill: #888; }
+    .src-pill { fill: #fff; stroke: #aaa; stroke-width: 0.6; }
+    .src { font-size: 8px; fill: #888; }
+    .room-box { fill: #fafafa; stroke: #333; stroke-width: 1; }
+    .collective-box { fill: #fff; stroke: #d84315; stroke-width: 1; stroke-dasharray: 4 3; }
+    .divider { stroke: #ccc; stroke-width: 0.75; stroke-dasharray: 2 2; }
+    .caption { font-size: 9px; fill: #d84315; font-style: italic; }
+    .arrow-in { stroke: #d84315; stroke-width: 1.4; fill: none; marker-end: url(#a5in); }
+    .arrow-out { stroke: #333; stroke-width: 1.4; fill: none; marker-end: url(#a5out); }
+    .person { fill: #555; }
+    .crowd { fill: #aaa; }
+  </style>
+  <defs>
+    <marker id="a5in" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="8" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,4 L0,8" fill="none" stroke="#d84315" stroke-width="1.2" stroke-linejoin="round"/>
+    </marker>
+    <marker id="a5out" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="8" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,4 L0,8" fill="none" stroke="#333" stroke-width="1.2" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <text class="title" x="350" y="22" text-anchor="middle">Inside the room, and the collective outside it</text>
+  <text class="sub-title" x="350" y="36" text-anchor="middle">a few decide; the consequences reach many. the social layer runs in both directions, against the same collective.</text>
+
+  <!-- ===== Decision room (left) ===== -->
+  <rect x="60" y="80" width="180" height="200" rx="4" class="room-box"/>
+  <text class="box-name" x="150" y="100" text-anchor="middle">decision room</text>
+  <text class="box-sub" x="150" y="114" text-anchor="middle">the few who decide</text>
+
+  <!-- Three figures in the room -->
+  <g class="person">
+    <circle cx="110" cy="180" r="6"/>
+    <rect x="104" y="187" width="12" height="18" rx="2"/>
+    <circle cx="150" cy="180" r="6"/>
+    <rect x="144" y="187" width="12" height="18" rx="2"/>
+    <circle cx="190" cy="180" r="6"/>
+    <rect x="184" y="187" width="12" height="18" rx="2"/>
+  </g>
+
+  <text class="box-sub" x="150" y="240" text-anchor="middle">board, exec team,</text>
+  <text class="box-sub" x="150" y="254" text-anchor="middle">procurement committee</text>
+
+  <!-- ===== Affected collective (right) ===== -->
+  <rect x="420" y="80" width="220" height="200" rx="4" class="collective-box"/>
+  <text class="box-name" x="530" y="100" text-anchor="middle">affected collective</text>
+  <text class="box-sub" x="530" y="114" text-anchor="middle">workers, suppliers, communities, public</text>
+
+  <!-- Tidy grid of small figures -->
+  <g class="crowd">
+    <!-- Row 1 -->
+    <circle cx="445" cy="142" r="3.5"/>
+    <circle cx="475" cy="142" r="3.5"/>
+    <circle cx="505" cy="142" r="3.5"/>
+    <circle cx="535" cy="142" r="3.5"/>
+    <circle cx="565" cy="142" r="3.5"/>
+    <circle cx="595" cy="142" r="3.5"/>
+    <circle cx="625" cy="142" r="3.5"/>
+    <!-- Row 2 -->
+    <circle cx="445" cy="170" r="3.5"/>
+    <circle cx="475" cy="170" r="3.5"/>
+    <circle cx="505" cy="170" r="3.5"/>
+    <circle cx="535" cy="170" r="3.5"/>
+    <circle cx="565" cy="170" r="3.5"/>
+    <circle cx="595" cy="170" r="3.5"/>
+    <circle cx="625" cy="170" r="3.5"/>
+    <!-- Row 3 -->
+    <circle cx="445" cy="198" r="3.5"/>
+    <circle cx="475" cy="198" r="3.5"/>
+    <circle cx="505" cy="198" r="3.5"/>
+    <circle cx="535" cy="198" r="3.5"/>
+    <circle cx="565" cy="198" r="3.5"/>
+    <circle cx="595" cy="198" r="3.5"/>
+    <circle cx="625" cy="198" r="3.5"/>
+    <!-- Row 4 -->
+    <circle cx="445" cy="226" r="3.5"/>
+    <circle cx="475" cy="226" r="3.5"/>
+    <circle cx="505" cy="226" r="3.5"/>
+    <circle cx="535" cy="226" r="3.5"/>
+    <circle cx="565" cy="226" r="3.5"/>
+    <circle cx="595" cy="226" r="3.5"/>
+    <circle cx="625" cy="226" r="3.5"/>
+  </g>
+
+  <text class="box-sub" x="530" y="258" text-anchor="middle">the same group, modelled</text>
+  <text class="box-sub" x="530" y="270" text-anchor="middle">from public communication</text>
+
+  <!-- ===== Two arrows between, both touching the same collective ===== -->
+  <!-- Extract (orange, collective → room): top arrow -->
+  <line x1="418" y1="155" x2="244" y2="155" class="arrow-in"/>
+  <text class="flow-label" x="330" y="146" text-anchor="middle">extract framings</text>
+  <text class="flow-sub" x="330" y="172" text-anchor="middle">from public discourse</text>
+
+  <!-- Communicate (black, room → collective): bottom arrow -->
+  <line x1="242" y1="220" x2="416" y2="220" class="arrow-out"/>
+  <text class="flow-label-out" x="330" y="211" text-anchor="middle">communicate back</text>
+  <text class="flow-sub" x="330" y="237" text-anchor="middle">in the collective's frame</text>
+
+  <!-- Source pills under the collective -->
+  <rect x="430" y="296" width="50" height="14" rx="2" class="src-pill"/>
+  <text class="src" x="455" y="306" text-anchor="middle">social</text>
+  <rect x="484" y="296" width="50" height="14" rx="2" class="src-pill"/>
+  <text class="src" x="509" y="306" text-anchor="middle">forums</text>
+  <rect x="538" y="296" width="44" height="14" rx="2" class="src-pill"/>
+  <text class="src" x="560" y="306" text-anchor="middle">press</text>
+  <rect x="586" y="296" width="44" height="14" rx="2" class="src-pill"/>
+  <text class="src" x="608" y="306" text-anchor="middle">local</text>
+
+  <!-- Footer caption -->
+  <line x1="40" y1="332" x2="660" y2="332" class="divider"/>
+  <text class="caption" x="40" y="352">extraction enables anticipation during the decision; communication enables honest framing afterwards.</text>
+  <text class="box-sub" x="40" y="370">both directions address the same collective. the model of the audience should be inspectable by the audience itself.</text>
+</svg>

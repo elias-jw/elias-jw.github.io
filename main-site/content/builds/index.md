@@ -3,7 +3,7 @@ title = "Builds"
 date = "2025-01-24"
 +++
 
-Welcome to my builds section. This is where I document and showcase various projects (mostly pet projects) I'm working on or have completed.
+Welcome to my builds section. This is where I document and showcase various projects I'm working on or have completed.
 
 <div class="about-image">
     <img src="/images/da_vinci_fractal_by_steto123_dfb82kc.png" alt="Da vinci fractal" style="width: 80%; height: auto; display: block; margin: 0 auto;">
@@ -14,29 +14,22 @@ Welcome to my builds section. This is where I document and showcase various proj
 
 # Current Projects
 
-## Singapore postcode geocoder
+## [Critical thinking infrastructure](/builds/critical-thinking-infrastructure/)
 
-A [simple app](https://sg-postcode-geocoding.streamlit.app/) that adds lat-long coordinates to a data file which has Singapore postcodes in it. Any column can contain postcode info, and it can be part of a longer string. The app finds the best column to use, automatically extracts the postcodes, and then adds the lat-long coordinates.
+An infrastructure platform for logistics planning built around one idea: compress the explore-decide loop. Ask a question, get an answer, ask a better one, all within a single working session. It separates stable spatial knowledge (road networks, facilities, geographies) from volatile project data, and routes planning questions through solvers, LLMs, and spatial engines via a clean ontology layer.
 
-<div class="about-image">
-    <img src="/images/sg-postcode-geocoding-streamlit-screenshot.jpg" alt="Da vinci fractal" style="width: 100%; height: auto; display: block; margin: 0 auto;">
-</div>
-<span style="color: #666; font-size: 0.8em; text-align: center; display: block;"><a href="https://sg-postcode-geocoding.streamlit.app/">Singapore postcode geocoder</a>
-</span>
-</br><br>
+The ideas behind it are developed across a [series of seven essays](/posts/critical-thinking-infrastructure-series/), from motivation through architecture, economics, and the human layer.
 
-It's an exercise that I've had to repeat very often when assisting clients with logistics-based planning and analysis. For logistics, you need to know where stuff is located. 
-Often, this data, specifically the geographical coordinates, is not captured, but there are some address info. 
-There are various ways and services to go from address info to coordinates, but they tend to be quite slow, some are expensive, and they usually work one address or location at a time (not fun if you are dealing with thousands). 
-Given that Singapore is really-really-really good at making their data available (check out [data.gov.sg](https://data.gov.sg/)), it's possible to custom-build something that does this.
-And after getting the lon-lat coordinates, you can apply some pretty cool models, and you can create some pretty maps.
+## [SGData Platform](/builds/sgdata-platform/)
 
-The app is available at https://sg-postcode-geocoding.streamlit.app/ and the source code at https://github.com/second-order-ai/singapore-postcode-geocoding. The app code is [here](https://github.com/second-order-ai/singapore-postcode-geocoding/tree/main/src/singapore_postcode_geocoding/app) in the repo. 
+A [Kedro](https://kedro.org/)-based data platform that sources, processes, and links Singapore geospatial and government data from five sources: the [data.gov.sg](https://data.gov.sg/) open data portal (5,000+ datasets), Foursquare Open Source Places (435K POIs), OpenStreetMap, Overture Maps, and Microsoft Global ML Building Footprints. The pipeline converges everything into a unified spatial-relationship layer spanning 511 datasets and 24,000+ pairwise overlap records.
 
 # Past Builds
 
-Documentation of completed projects and what I learned from them.
+## [Singapore Postcode Geocoder](/builds/singapore-postcode-geocoder/)
 
----
+A [Streamlit app](https://sg-postcode-geocoding.streamlit.app/) that adds lat-long coordinates to a data file containing Singapore postcodes. It automatically finds the right column, extracts postcodes, and returns coordinates. Useful for logistics planning and mapping.
 
-_This page is under construction. More content coming soon.
+## [MCARPTIF Solver and GUIs](/builds/mcarptif-solver/)
+
+Heuristic solvers and GUIs for city-wide waste and recycling collection problems (Mixed Capacitated Arc Routing Problem under Time restrictions with Intermediate Facilities). The work was adapted into a commercial service and later extended with an agentic LLM-driven planning approach.

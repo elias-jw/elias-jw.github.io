@@ -1,0 +1,76 @@
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'Fira Code', 'Courier New', monospace; }
+    .title { font-size: 13px; fill: #222; font-weight: 600; }
+    .sub-title { font-size: 9px; fill: #888; }
+    .stage-title { font-size: 10px; fill: #222; font-weight: 600; }
+    .stage-sub { font-size: 9px; fill: #888; }
+    .note { font-size: 9px; fill: #333; }
+    .contract-item { font-size: 9px; fill: #d84315; }
+    .box { fill: #fff; stroke: #333; stroke-width: 1; }
+    .contract-box { fill: #fff; stroke: #d84315; stroke-width: 1; }
+    .graph-box { fill: #fafafa; stroke: #333; stroke-width: 1; }
+    .divider { stroke: #ccc; stroke-width: 0.75; stroke-dasharray: 2 2; }
+    .arrow { stroke: #555; stroke-width: 1; fill: none; marker-end: url(#a7); }
+    .arrow-acc { stroke: #d84315; stroke-width: 1; fill: none; marker-end: url(#a7a); }
+    .caption { font-size: 9px; fill: #d84315; font-style: italic; }
+    .path-label { font-size: 9px; fill: #888; font-style: italic; }
+  </style>
+  <defs>
+    <marker id="a7" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,4 L0,8" fill="none" stroke="#555" stroke-width="1" stroke-linejoin="round"/>
+    </marker>
+    <marker id="a7a" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,4 L0,8" fill="none" stroke="#d84315" stroke-width="1" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <text class="title" x="350" y="22" text-anchor="middle">P7. compute output is free; structural output needs a contract</text>
+  <text class="sub-title" x="350" y="36" text-anchor="middle">exploratory runs stay ephemeral. only contracted output enters shared state.</text>
+
+  <!-- Compute process (shared source) -->
+  <rect x="40" y="140" width="120" height="60" rx="3" class="box"/>
+  <text class="stage-title" x="100" y="162" text-anchor="middle">compute process</text>
+  <text class="stage-sub" x="100" y="176" text-anchor="middle">solver / inference</text>
+  <text class="stage-sub" x="100" y="190" text-anchor="middle">sandboxed (P6)</text>
+
+  <!-- ============ path A: ephemeral ============ -->
+  <text class="path-label" x="180" y="94">path A, ephemeral</text>
+  <path d="M160,152 C200,110 240,100 288,100" class="arrow"/>
+
+  <rect x="290" y="82" width="140" height="46" rx="3" class="box"/>
+  <text class="stage-title" x="360" y="100" text-anchor="middle">compute output</text>
+  <text class="stage-sub" x="360" y="114" text-anchor="middle">raw result, in memory</text>
+
+  <line x1="430" y1="105" x2="466" y2="105" class="arrow"/>
+
+  <rect x="468" y="82" width="140" height="46" rx="3" class="box"/>
+  <text class="stage-title" x="538" y="100" text-anchor="middle">micro-tool (P9)</text>
+  <text class="stage-sub" x="538" y="114" text-anchor="middle">render, discard, move on</text>
+
+  <!-- ============ path B: contracted ============ -->
+  <text class="path-label" x="180" y="236">path B, contracted</text>
+  <path d="M160,190 C200,232 240,244 288,244" class="arrow-acc"/>
+
+  <rect x="290" y="222" width="160" height="86" rx="3" class="contract-box"/>
+  <text class="stage-title" x="370" y="240" text-anchor="middle">rehydration contract</text>
+  <line x1="300" y1="248" x2="440" y2="248" class="divider"/>
+  <text class="contract-item" x="304" y="262">• input preconditions</text>
+  <text class="contract-item" x="304" y="276">• output specification</text>
+  <text class="contract-item" x="304" y="290">• ontology conformance</text>
+  <text class="contract-item" x="304" y="304">• idempotency + scope</text>
+
+  <line x1="450" y1="265" x2="486" y2="265" class="arrow-acc"/>
+
+  <rect x="488" y="222" width="160" height="86" rx="3" class="graph-box"/>
+  <text class="stage-title" x="568" y="244" text-anchor="middle">graph (shared state)</text>
+  <text class="stage-sub" x="568" y="258" text-anchor="middle">base or scenario overlay</text>
+  <circle cx="528" cy="280" r="4" fill="#333"/>
+  <circle cx="568" cy="286" r="4" fill="#333"/>
+  <circle cx="608" cy="278" r="4" fill="#333"/>
+  <line x1="528" y1="280" x2="568" y2="286" stroke="#666" stroke-width="0.75"/>
+  <line x1="568" y1="286" x2="608" y2="278" stroke="#666" stroke-width="0.75"/>
+
+  <line x1="40" y1="340" x2="660" y2="340" class="divider"/>
+  <text class="caption" x="40" y="358">the contract is what earns a process write access. its absence is what keeps micro-tools micro.</text>
+</svg>

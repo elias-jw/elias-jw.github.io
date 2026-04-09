@@ -113,29 +113,25 @@ img {
     }
 }
 
-/* Footnote rendering: override terminal theme's pseudo-element list numbers
-   which break when <li> contains a block <p> element.
-   Using flex keeps the counter inline with the paragraph text. */
-.footnotes ol {
-    counter-reset: footnote-counter;
-    padding-left: 0;
-}
-
+/* Footnote rendering fix.
+   The theme renders ol li numbers via position:absolute ::before pseudo-elements.
+   When <li> contains a block <p>, the absolute number floats above the text.
+   Fix: make the <p> inside footnote <li> display inline so the absolute
+   number sits beside it, and add left padding to clear the number. */
 .footnotes ol li {
-    display: flex;
-    gap: 0.5em;
-    padding-left: 0;
-    counter-increment: footnote-counter;
+    position: relative;
+    display: block;
+    padding-left: 2em;
 }
 
 .footnotes ol li::before {
-    content: counter(footnote-counter) ".";
-    flex-shrink: 0;
-    min-width: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .footnotes ol li > p {
-    margin: 0;
+    display: inline;
 }
 
 /* Force link colors */

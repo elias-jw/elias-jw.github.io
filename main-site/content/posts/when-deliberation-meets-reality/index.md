@@ -4,7 +4,7 @@ date = "2026-03-31"
 description = "A response to ARIA's Collective Flourishing opportunity space. The missing precondition for collective flourishing is critical thinking infrastructure that operates fast enough to survive contact with reality."
 +++
 
-*A response to ARIA's Collective Flourishing opportunity space*
+*A response to ARIA's Collective Flourishing opportunity space and Part 1 of the [Critical thinking infrastructure essay series](/posts/critical-thinking-infrastructure-series/).*
 
 [ARIA's Collective Flourishing programme](https://aria.org.uk/opportunity-spaces/collective-flourishing/), led by Dr Nicole Wheeler, asks an important question: what if we could build the tools that allow societies to move from reactively correcting the past to consciously creating the future? The [opportunity space document](https://www.aria.org.uk/media/qvhfnuta/aria-collective-flourishing-opportunity-space_accessible.pdf) identifies a real problem, that our tools for navigating complexity have not kept pace with the world, and proposes "deliberative scaffolding" as the solution: tools and protocols that help societies see, reason, and choose together.
 
@@ -183,3 +183,4 @@ Wheeler's deliberative scaffolding vision is incomplete. The scaffolding needs a
 *Note:* Provides for fines of up to 5% of worldwide turnover for non-compliance with supply chain due diligence obligations. The existence of this legislation is itself evidence that voluntary collective coordination failed, consistent with Olson (1965).
 
 [^12]: Girba, T. and Wardley, S. (n.d.) *On rewilding software engineering*. The question-answer iteration concept draws on their observation that when time-to-answer is large, organisational energy is consumed by finding answers rather than finding questions, and that the questions are where the value compounds. See, e.g., Girba, T. (2024) 'Rewilding software engineering', *feenk blog*. Available at: [https://blog.feenk.com/](https://blog.feenk.com/) (Accessed: 7 April 2026).
+
