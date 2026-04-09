@@ -2,3 +2,6 @@
 .specstory/
 # SpecStory explanation file
 .specstory/.what-is-this.md
+
+# Hugo build output
+main-site/public/
